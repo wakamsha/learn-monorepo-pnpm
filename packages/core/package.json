@@ -1,0 +1,19 @@
+{
+  "name": "@learn-monorepo-pnpm/core",
+  "version": "1.0.0",
+  "license": "UNLICENSED",
+  "scripts": {
+    "typegen:scss": "typed-scss-modules src"
+  },
+  "dependencies": {
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "18.0.27",
+    "@types/react-dom": "18.0.10",
+    "sass": "1.58.0",
+    "ts-xor": "1.0.8",
+    "typed-scss-modules": "7.0.2"
+  }
+}

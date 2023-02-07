@@ -1,0 +1,19 @@
+{
+  "ignorePaths": ["**/node_modules/**"],
+  "words": [
+    "corepack",
+    "typegen",
+    "pnpm",
+    "stylelint",
+    "wakamsha",
+    "Segoe",
+    "Roboto",
+    "Cantarell",
+    "Fira",
+    "Neue",
+    "Menlo",
+    "Lucida",
+    "palt",
+    "Bitstream"
+  ]
+}

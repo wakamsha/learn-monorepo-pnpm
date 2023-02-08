@@ -38,13 +38,14 @@ pnpm install
 アプリケーションとしてビルド・起動するパッケージは以下の通り:
 
 - `@learn-monorepo-pnpm/app`
+- `@learn-monorepo-pnpm/catalog`
 
 上記以外は API や共通ライブラリの実装となっており、単独で利用することはありません。
 
 ### Run
 
 ```bash
-pnpm (app) start
+pnpm (app|catalog) start
 # e.g. pnpm app start
 ```
 
@@ -57,10 +58,11 @@ pnpm (app) start
 アプリケーションとしてビルドするパッケージは以下の通り:
 
 - `@learn-monorepo-pnpm/app`
+- `@learn-monorepo-pnpm/catalog`
 
 ### Build
 
 ```bash
-pnpm (app) build
+pnpm (app|catalog) build
 # e.g. pnpm app build
 ```

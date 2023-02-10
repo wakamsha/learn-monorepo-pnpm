@@ -6,11 +6,11 @@
 
 公式ドキュメントでは言及されていないものの、以下の手順を実施することで pnpm による当該プロジェクトの monorepo 構成であっても Storybook v6.5 を動作させることが可能となります。
 
-## Storybook の基本セットアップ
+## Storybook の基本セットアップ（Vite）
+
+Storybook の標準ビルダーは webpack ですが、Vite の選択も可能です。webpack と比較するとピーキーなのは否めませんが、こちらに移行することでより高速な開発体験を得られます。
 
 ### 関連モジュールをインストール
-
-Storybook を起動するのに最低限必要なモジュールをインストールします。
 
 ```bash
 pnpm add -D \
@@ -18,11 +18,19 @@ pnpm add -D \
   babel-loader \
   react react-dom \
   @storybook/react \
-  @storybook/{builder,manager}-webpack5 \
-  @storybook/addon-{essentials,interactions,links}
+  @storybook/builder-vite \
+  @storybook/channel-{postmessage,websocket} \
+  @storybook/client-api \
+  @storybook/preview-web \
+  @storybook/addons \
+  @storybook/addon-{actions,backgrounds,docs,essentials,interactions,links,measure,outline} \
+  vite \
+  @vitejs/plugin-react
 ```
 
-npm, yarn では hoisting によって `react`, `react-dom` が暗黙的にインストールされますが、 pnpm は明示的にインストールする必要があります。アドオンは `addon-essentials` が必須なのはもちろん、 `addon-interactions`, `addon-links` も実質デファクトスタンダードなので併せてインストールします。
+React を Vite でビルドするため、 `vite` と `@vitejs/plugin-react` も併せてインストールします。
+
+また、npm, yarn との大きな違いは react, react-dom を明示的にインストールする必要がある点です。npm, yarn であれば全ての依存モジュールが node_modules ディレクトリ配下にフラットに展開されるため、暗黙的にインストールされるこれら 2 つのモジュールは何もせずともよしなに参照してくれます。しかし pnpm はフラットに展開しないため、これら 2 つのモジュールも明示的にインストールせねばなりません。
 
 ### 設定ファイルを作成
 
@@ -49,12 +57,12 @@ module.exports = {
   addons: ['@storybook/addon-links', '@storybook/addon-essentials', '@storybook/addon-interactions'],
   framework: '@storybook/react',
   core: {
-    builder: 'webpack5',
+    builder: '@storybook/builder-vite',
   },
-  docs: {
-    autodocs: true,
+  features: {
+    storyStoreV7: true,
   },
-  webpackFinal: async (config) => {
+  async viteFinal(config) {
     // 各サブパッケージ配下のコードにある path alias を Storybook に認識させる。
     config.resolve.alias = {
       ...config.resolve.alias,
@@ -64,6 +72,10 @@ module.exports = {
   },
 };
 ```
+
+code splitting に対応するために `storyStoreV7` フラグを有効化します。これをしないと起動時に `Couldn't find any stories in your Storybook.` というエラーになって stories の読み込みに失敗してしまうため、この設定は必須です。
+
+- 参考文献: [Webpack](https://storybook.js.org/docs/react/builders/webpack#code-splitting)
 
 #### `.storybook/preview.js`
 
@@ -81,52 +93,21 @@ export const parameters = {
 
 上記は Storybook CLI で自動生成されるコードと全く同じです。ひとまずこれで OK。
 
+#### `.storybook/preview-head.html`
+
+```html
+<script>
+  window.global = window;
+</script>
+```
+
+webpack のときは不要ですが Vite でビルドする際はこれが必要となります。
+
+- 参考文献: [Interactions-addon relies on polyfilled `global` (via jest-mock) · Issue #17516 · storybookjs/storybook](https://github.com/storybookjs/storybook/issues/17516)
+
 ## CSS Modules ( Sass ) に対応させる
 
-Storybook はデフォルトでは CSS Modules および Sass を認識しないため、これに対応させる必要があります。
-
-### 関連モジュールをインストール
-
-```bash
-yarn add -D css-loader sass sass-loader style-loader
-```
-
-### `.storybook/main.js` を編集
-
-CSS Modules と Sass 記法を読み込めるように `.storybook/main.js` を編集します。
-
-```js
-const { resolve } = require('path');
-
-module.exports = {
-  // ...
-  webpackFinal: async (config) => {
-    // 各サブパッケージ配下のコードにある path alias を Storybook に認識させる。
-    config.resolve.alias = {
-      ...config.resolve.alias,
-      '@learn-monorepo-pnpm/core': resolve(__dirname, '../../../packages/core/src'),
-    };
-    // 各サブパッケージ配下のコードにある CSS Modules (Sass) を Storybook に認識させる。
-    config.module.rules.push({
-      test: /\.scss$/,
-      use: [
-        'style-loader',
-        {
-          loader: 'css-loader',
-          options: {
-            modules: {
-              auto: true,
-            },
-          },
-        },
-        'sass-loader',
-      ],
-      include: resolve(__dirname, '../../../'),
-    });
-    return config;
-  },
-};
-```
+Vite は webpack と違ってデフォルトで CSS Modules ( Sass ) をサポートしているため、追加の対応は不要です。
 
 ## npm scripts を定義
 

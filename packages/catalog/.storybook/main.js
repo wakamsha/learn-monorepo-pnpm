@@ -7,6 +7,10 @@ module.exports = {
       titlePrefix: 'app1',
     },
     {
+      directory: '../../app2/src',
+      titlePrefix: 'app2',
+    },
+    {
       directory: '../../core/src',
       titlePrefix: 'core',
     },

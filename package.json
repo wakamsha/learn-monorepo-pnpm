@@ -11,7 +11,7 @@
   },
   "packageManager": "pnpm@7.26.3",
   "scripts": {
-    "app": "    pnpm -F \"@learn-monorepo-pnpm/app\"",
+    "app1": "   pnpm -F \"@learn-monorepo-pnpm/app1\"",
     "catalog": "pnpm -F \"@learn-monorepo-pnpm/catalog\"",
     "core": "   pnpm -F \"@learn-monorepo-pnpm/core\"",
     "postinstall": "husky install"

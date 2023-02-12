@@ -37,7 +37,7 @@ pnpm install
 
 アプリケーションとしてビルド・起動するパッケージは以下の通り:
 
-- `@learn-monorepo-pnpm/app`
+- `@learn-monorepo-pnpm/app1`
 - `@learn-monorepo-pnpm/catalog`
 
 上記以外は API や共通ライブラリの実装となっており、単独で利用することはありません。
@@ -57,7 +57,7 @@ pnpm (app|catalog) start
 
 アプリケーションとしてビルドするパッケージは以下の通り:
 
-- `@learn-monorepo-pnpm/app`
+- `@learn-monorepo-pnpm/app1`
 - `@learn-monorepo-pnpm/catalog`
 
 ### Build

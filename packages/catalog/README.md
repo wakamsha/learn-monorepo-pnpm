@@ -13,7 +13,13 @@
 Storybook を起動するのに最低限必要なモジュールをインストールします。
 
 ```bash
-pnpm add -D @babel/core babel-loader react react-dom @storybook/react @storybook/{builder,manager}-webpack5 @storybook/addon-{essentials,interactions,links}
+pnpm add -D \
+  @babel/core \
+  babel-loader \
+  react react-dom \
+  @storybook/react \
+  @storybook/{builder,manager}-webpack5 \
+  @storybook/addon-{essentials,interactions,links}
 ```
 
 npm, yarn では hoisting によって `react`, `react-dom` が暗黙的にインストールされますが、 pnpm は明示的にインストールする必要があります。アドオンは `addon-essentials` が必須なのはもちろん、 `addon-interactions`, `addon-links` も実質デファクトスタンダードなので併せてインストールします。
@@ -23,8 +29,18 @@ npm, yarn では hoisting によって `react`, `react-dom` が暗黙的にイ�
 #### `.storybook/main.js`
 
 ```js
+const { resolve } = require('path');
+
 module.exports = {
   stories: [
+    {
+      directory: '../../app1/src',
+      titlePrefix: 'app1',
+    },
+    {
+      directory: '../../app2/src',
+      titlePrefix: 'app2',
+    },
     {
       directory: '../../core/src',
       titlePrefix: 'core',
@@ -34,6 +50,17 @@ module.exports = {
   framework: '@storybook/react',
   core: {
     builder: 'webpack5',
+  },
+  docs: {
+    autodocs: true,
+  },
+  webpackFinal: async (config) => {
+    // 各サブパッケージ配下のコードにある path alias を Storybook に認識させる。
+    config.resolve.alias = {
+      ...config.resolve.alias,
+      '@learn-monorepo-pnpm/core': resolve(__dirname, '../../core/src'),
+    };
+    return config;
   },
 };
 ```
@@ -72,18 +99,14 @@ CSS Modules と Sass 記法を読み込めるように `.storybook/main.js` を�
 const { resolve } = require('path');
 
 module.exports = {
-  stories: [
-    {
-      directory: '../../core/src',
-      titlePrefix: 'core',
-    },
-  ],
-  addons: ['@storybook/addon-links', '@storybook/addon-essentials', '@storybook/addon-interactions'],
-  framework: '@storybook/react',
-  core: {
-    builder: 'webpack5',
-  },
+  // ...
   webpackFinal: async (config) => {
+    // 各サブパッケージ配下のコードにある path alias を Storybook に認識させる。
+    config.resolve.alias = {
+      ...config.resolve.alias,
+      '@learn-monorepo-pnpm/core': resolve(__dirname, '../../core/src'),
+    };
+    // 各サブパッケージ配下のコードにある CSS Modules (Sass) を Storybook に認識させる。
     config.module.rules.push({
       test: /\.scss$/,
       use: [
@@ -116,7 +139,7 @@ module.exports = {
 }
 ```
 
-環境によっては Storybook を起動しようとすると `error:0308010C:digital envelope routines::unsupported` というエラーが発生して起動に失敗することがあります。その場合は npm scripts を以下のように修正します。
+Node.js のバージョンなど環境によっては `error:0308010C:digital envelope routines::unsupported` というエラーが発生してビルドに失敗することがあります。その場合は `openssl-legacy-provider` オプションを使用することで回避します。npm scripts を以下のように修正します。
 
 ```diff
 - "start": "start-storybook -p 6006",

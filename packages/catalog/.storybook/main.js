@@ -3,8 +3,12 @@ const { resolve } = require('path');
 module.exports = {
   stories: [
     {
-      directory: '../../app/src',
-      titlePrefix: 'app',
+      directory: '../../app1/src',
+      titlePrefix: 'app1',
+    },
+    {
+      directory: '../../app2/src',
+      titlePrefix: 'app2',
     },
     {
       directory: '../../core/src',

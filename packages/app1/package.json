@@ -1,12 +1,12 @@
 {
-  "name": "@learn-monorepo-pnpm/app",
+  "name": "@learn-monorepo-pnpm/app1",
   "version": "1.0.0",
   "license": "UNLICENSED",
   "scripts": {
     "type-check": "tsc --noEmit",
     "typegen:scss": "typed-scss-modules src",
     "reset": "rm -rf ./.next && rm -rf ./out",
-    "dev": "next dev",
+    "dev": "next dev -p 3000",
     "start": "pnpm reset && run-p \"type-check --watch\" \"typegen:scss -w\" \"dev\"",
     "build": "pnpm reset && next build && next export"
   },

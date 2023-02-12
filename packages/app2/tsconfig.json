@@ -1,0 +1,23 @@
+{
+  "extends": "../../tsconfig",
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "@learn-monorepo-pnpm/core/*": ["../core/src/*"]
+    },
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "allowJs": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "incremental": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "jsx": "preserve"
+  },
+  "include": ["./src/**/*.ts", "./src/**/*.tsx", ".next/types/**/*.ts", "../core/src/*.d.ts"],
+  "exclude": ["node_modules"]
+}

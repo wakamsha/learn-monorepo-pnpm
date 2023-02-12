@@ -54,7 +54,30 @@ importers:
       stylelint-config-standard-scss: 6.1.0_w5gtdy6oq4ictd5o4eu6befejy
       typescript: 4.9.5
 
-  packages/app:
+  packages/app1:
+    specifiers:
+      '@learn-monorepo-pnpm/core': 1.0.0
+      '@types/node': 18.13.0
+      '@types/react': 18.0.27
+      '@types/react-dom': 18.0.10
+      next: 13.1.6
+      react: 18.2.0
+      react-dom: 18.2.0
+      sass: 1.58.0
+      typed-scss-modules: 7.0.2
+    dependencies:
+      '@learn-monorepo-pnpm/core': link:../core
+      next: 13.1.6_5mhhrw5dq6gnbuirj2awdzvyuu
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
+    devDependencies:
+      '@types/node': 18.13.0
+      '@types/react': 18.0.27
+      '@types/react-dom': 18.0.10
+      sass: 1.58.0
+      typed-scss-modules: 7.0.2_sass@1.58.0
+
+  packages/app2:
     specifiers:
       '@learn-monorepo-pnpm/core': 1.0.0
       '@types/node': 18.13.0

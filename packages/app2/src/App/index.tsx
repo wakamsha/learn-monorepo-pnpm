@@ -1,8 +1,8 @@
-import { LabeledSlider } from '@learn-monorepo-pnpm/core/components/inputs/LabeledSlider';
 import { useMemo, useState } from 'react';
+import { LabeledSlider } from '@learn-monorepo-pnpm/core/components/inputs/LabeledSlider';
 import styles from './index.module.scss';
 
-export const Home = () => {
+export const App = () => {
   const [weight, setWeight] = useState(60);
   const [height, setHeight] = useState(170);
   const calcBMI = useMemo(() => {

@@ -7,6 +7,6 @@
       "@learn-monorepo-pnpm/core/*": ["../core/src/*"]
     }
   },
-  "include": ["./src/*", "../core/src/*.d.ts", "vite.config.ts", "src/App/index.tsx"],
+  "include": ["./src/*", "../core/src/*.d.ts", "vite.config.ts"],
   "exclude": ["node_modules"]
 }

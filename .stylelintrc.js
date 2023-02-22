@@ -1,13 +1,11 @@
 module.exports = {
   extends: [
-    'stylelint-config-prettier',
-    'stylelint-config-recess-order',
     'stylelint-config-recommended',
+    'stylelint-config-standard',
+    'stylelint-config-recess-order',
     'stylelint-config-standard-scss',
-    'stylelint-config-prettier-scss',
   ],
-  ignoreFiles: ['**/node_modules/**'],
-  ignoreFiles: ['**/*.ts{,x}'],
+  ignoreFiles: ['**/node_modules/**', '**/*.ts{,x}'],
   rules: {
     'property-no-vendor-prefix': null,
     'function-no-unknown': null,

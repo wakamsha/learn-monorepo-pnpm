@@ -8,13 +8,11 @@ module.exports = {
   ignoreFiles: ['**/node_modules/**', '**/*.ts{,x}'],
   rules: {
     'property-no-vendor-prefix': null,
-    'function-no-unknown': null,
     'selector-pseudo-class-no-unknown': [
       true,
       {
         ignorePseudoClasses: ['global'],
       },
     ],
-    'at-rule-no-unknown': [true, { ignoreAtRules: ['use', 'include', 'mixin', 'function', 'return', 'extend'] }],
   },
 };

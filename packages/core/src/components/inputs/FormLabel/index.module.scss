@@ -21,6 +21,7 @@
 
   > svg {
     fill: $font-size-neutral;
+
     @include m.square($icon-size-regular);
   }
 }

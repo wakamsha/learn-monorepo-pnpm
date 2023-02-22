@@ -6,6 +6,7 @@ module.exports = {
     'plugin:@typescript-eslint/recommended-requiring-type-checking',
     'plugin:import/errors',
     'plugin:react/recommended',
+    'plugin:@next/next/recommended',
     'prettier',
   ],
   env: {
@@ -26,6 +27,7 @@ module.exports = {
   plugins: ['react', 'react-hooks'],
   rules: {
     // Enable
+    '@next/next/no-html-link-for-pages': ['error', ['packages/app1/src/pages/']],
     '@typescript-eslint/ban-types': ['error'],
     '@typescript-eslint/consistent-type-definitions': ['warn', 'type'],
     '@typescript-eslint/consistent-type-imports': [

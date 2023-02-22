@@ -1,5 +1,5 @@
-import { useMemo, useState } from 'react';
 import { LabeledSlider } from '@learn-monorepo-pnpm/core/components/inputs/LabeledSlider';
+import { useMemo, useState } from 'react';
 import styles from './index.module.scss';
 
 export const App = () => {

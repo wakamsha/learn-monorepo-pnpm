@@ -1,4 +1,6 @@
 module.exports = {
+  staticDirs: [resolve(__dirname, '../static/')],
+
   stories: [
     {
       directory: '../../app1/src',

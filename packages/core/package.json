@@ -17,6 +17,9 @@
     "typescript": "5.0.4"
   },
   "peerDependencies": {
+    "@storybook/csf": "0.0.2-next.10",
+    "@storybook/react": "6.5.16",
+    "msw": "1.1.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "typescript": "5.0.4"

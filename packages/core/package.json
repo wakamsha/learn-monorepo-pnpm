@@ -5,8 +5,12 @@
   "scripts": {
     "typegen:scss": "typed-scss-modules src"
   },
+  "dependencies": {
+    "msw": "1.1.0"
+  },
   "devDependencies": {
     "@learn-monorepo-pnpm/tsconfig": "workspace:1.0.0",
+    "@storybook/react": "7.0.4",
     "@types/react": "18.0.35",
     "@types/react-dom": "18.0.11",
     "react": "18.2.0",
@@ -17,9 +21,6 @@
     "typescript": "5.0.4"
   },
   "peerDependencies": {
-    "@storybook/csf": "0.0.2-next.10",
-    "@storybook/react": "6.5.16",
-    "msw": "1.1.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "typescript": "5.0.4"

@@ -1,4 +1,4 @@
-import { request } from '@learn-monorepo-pnpm/core/utils/Api';
+import { request } from '@learn-monorepo-pnpm/core/src/utils/Api';
 import { useEffect, useState } from 'react';
 
 export const Users = () => {

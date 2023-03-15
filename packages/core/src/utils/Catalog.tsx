@@ -1,9 +1,15 @@
-import { type Args, type DecoratorFunction } from '@storybook/csf';
-import { type ReactFramework } from '@storybook/react';
-import { rest, type RequestHandler } from 'msw';
+import { type Decorator } from '@storybook/react';
+import { rest, setupWorker, type RequestHandler } from 'msw';
 import { useEffect } from 'react';
 
-type MSWRest = typeof rest;
+const worker = setupWorker();
+
+/**
+ * MSW を起動します。
+ */
+export function startMsw() {
+  worker.start({ onUnhandledRequest: 'bypass' });
+}
 
 /**
  * MSW を使って API 通信をモックするデコレーター。
@@ -29,11 +35,9 @@ type MSWRest = typeof rest;
  * } as StorybookMeta;
  * ```
  */
-export const mswDecorator = (mock: (rest: MSWRest) => RequestHandler[]): DecoratorFunction<ReactFramework, Args> => {
+export function mswDecorator(mock: (rst: typeof rest) => RequestHandler[]): Decorator {
   const Wrapper = ({ children }: { children: JSX.Element }) => {
     useEffect(() => {
-      const { worker } = (catalog as any).msw;
-
       worker.use(...mock(rest));
 
       return () => {
@@ -49,4 +53,4 @@ export const mswDecorator = (mock: (rest: MSWRest) => RequestHandler[]): Decorat
       <Story />
     </Wrapper>
   );
-};
+}

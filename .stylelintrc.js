@@ -5,7 +5,7 @@ module.exports = {
     'stylelint-config-recess-order',
     'stylelint-config-standard-scss',
   ],
-  ignoreFiles: ['**/node_modules/**', '**/*.ts{,x}'],
+  ignoreFiles: ['**/node_modules/**', '**/*.ts{,x}', '**/.storybook/*.ts'],
   rules: {
     'property-no-vendor-prefix': null,
     'selector-pseudo-class-no-unknown': [

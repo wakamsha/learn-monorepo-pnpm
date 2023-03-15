@@ -1,3 +1,5 @@
+const { resolve } = require('path');
+
 module.exports = {
   staticDirs: [resolve(__dirname, '../static/')],
 

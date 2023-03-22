@@ -21,7 +21,7 @@ module.exports = {
     },
     ecmaVersion: 12,
     sourceType: 'module',
-    project: ['tsconfig.json', './packages/**/tsconfig.json'],
+    project: ['./**/tsconfig.json'],
   },
   ignorePatterns: ['.eslintrc.*'],
   plugins: ['react', 'react-hooks'],

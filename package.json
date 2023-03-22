@@ -11,10 +11,11 @@
   },
   "packageManager": "pnpm@7.26.3",
   "scripts": {
-    "app1": "   pnpm -F \"@learn-monorepo-pnpm/app1\"",
-    "app2": "   pnpm -F \"@learn-monorepo-pnpm/app2\"",
-    "catalog": "pnpm -F \"@learn-monorepo-pnpm/catalog\"",
-    "core": "   pnpm -F \"@learn-monorepo-pnpm/core\"",
+    "app1": "    pnpm -F \"@learn-monorepo-pnpm/app1\"",
+    "app2": "    pnpm -F \"@learn-monorepo-pnpm/app2\"",
+    "catalog": " pnpm -F \"@learn-monorepo-pnpm/catalog\"",
+    "core": "    pnpm -F \"@learn-monorepo-pnpm/core\"",
+    "tsconfig": "pnpm -F \"@learn-monorepo-pnpm/tsconfig\"",
     "lint": "  prettier -c ./packages/**/*.{js,ts,tsx,scss}; stylelint ./packages/**/*.scss;       eslint ./packages/**/*.{js,ts,tsx}",
     "format": "prettier -w ./packages/**/*.{js,ts,tsx,scss}; stylelint ./packages/**/*.scss --fix; eslint ./packages/**/*.{js,ts,tsx} --fix",
     "prepare": "husky install"

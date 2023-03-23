@@ -12,7 +12,7 @@ export default defineConfig({
   plugins: [react()],
   resolve: {
     alias: {
-      '@learn-monorepo-pnpm/core': resolve(__dirname, '../core/src'),
+      '@learn-monorepo-pnpm/core': resolve(__dirname, '../../packages/core/src'),
     },
   },
 });

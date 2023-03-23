@@ -16,8 +16,8 @@
     "catalog": " pnpm -F \"@learn-monorepo-pnpm/catalog\"",
     "core": "    pnpm -F \"@learn-monorepo-pnpm/core\"",
     "tsconfig": "pnpm -F \"@learn-monorepo-pnpm/tsconfig\"",
-    "lint": "  prettier -c ./packages/**/*.{js,ts,tsx,scss}; stylelint ./packages/**/*.scss;       eslint ./packages/**/*.{js,ts,tsx}",
-    "format": "prettier -w ./packages/**/*.{js,ts,tsx,scss}; stylelint ./packages/**/*.scss --fix; eslint ./packages/**/*.{js,ts,tsx} --fix",
+    "lint": "  prettier -c ./{apps,packages}/**/*.{js,ts,tsx,scss}; stylelint ./{apps,packages}/**/*.scss;       eslint ./{apps,packages}/**/*.{js,ts,tsx}",
+    "format": "prettier -w ./{apps,packages}/**/*.{js,ts,tsx,scss}; stylelint ./{apps,packages}/**/*.scss --fix; eslint ./{apps,packages}/**/*.{js,ts,tsx} --fix",
     "prepare": "husky install"
   },
   "devDependencies": {
@@ -35,7 +35,6 @@
     "eslint-plugin-react-hooks": "4.6.0",
     "husky": "8.0.3",
     "lint-staged": "13.1.1",
-    "npm-run-all": "4.1.5",
     "prettier": "2.8.3",
     "prettier-plugin-organize-imports": "3.2.2",
     "stylelint": "15.1.0",
@@ -46,12 +45,12 @@
     "typescript": "4.9.5"
   },
   "lint-staged": {
-    "packages/**/*.ts{,x}": [
+    "{apps,packages}/**/*.ts{,x}": [
       "cspell",
       "prettier -c",
       "eslint -c .eslintrc.js"
     ],
-    "packages/**/src/**/*.scss": [
+    "{apps,packages}/**/src/**/*.scss": [
       "prettier -c",
       "stylelint --cache"
     ]

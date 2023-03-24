@@ -6,7 +6,8 @@
     "type-check": "tsc --noEmit",
     "typegen:scss": "typed-scss-modules src",
     "dev": "vite serve",
-    "start": "run-p \"type-check --watch\" \"typegen:scss -w\" \"dev\""
+    "start": "run-p \"type-check --watch\" \"typegen:scss -w\" \"dev\"",
+    "build": "pnpm typegen:scss && vite build"
   },
   "dependencies": {
     "@learn-monorepo-pnpm/core": "workspace:1.0.0",

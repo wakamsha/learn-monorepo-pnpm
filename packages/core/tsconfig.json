@@ -1,5 +1,5 @@
 {
-  "extends": "../../tsconfig",
+  "extends": "@learn-monorepo-pnpm/tsconfig/tsconfig.base",
   "compilerOptions": {
     "baseUrl": "./",
     "paths": {}

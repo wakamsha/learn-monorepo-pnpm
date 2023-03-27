@@ -1,9 +1,9 @@
 {
-  "extends": "../../tsconfig",
+  "extends": "@learn-monorepo-pnpm/tsconfig/tsconfig.base",
   "compilerOptions": {
     "baseUrl": "./",
     "paths": {
-      "@learn-monorepo-pnpm/core/*": ["../core/src/*"]
+      "@learn-monorepo-pnpm/core/*": ["../../packages/core/src/*"]
     },
     "plugins": [
       {
@@ -11,13 +11,11 @@
       }
     ],
     "allowJs": true,
-    "forceConsistentCasingInFileNames": true,
-    "noEmit": true,
     "incremental": true,
     "esModuleInterop": true,
     "resolveJsonModule": true,
     "jsx": "preserve"
   },
-  "include": ["./src/**/*.ts", "./src/**/*.tsx", ".next/types/**/*.ts", "../core/src/*.d.ts"],
+  "include": ["./src/**/*.ts", "./src/**/*.tsx", ".next/types/**/*.ts", "../../packages/core/src/*.d.ts"],
   "exclude": ["node_modules"]
 }

@@ -11,7 +11,7 @@ module.exports = {
       titlePrefix: 'app2',
     },
     {
-      directory: '../../core/src',
+      directory: '../../../packages/core/src',
       titlePrefix: 'core',
     },
   ],
@@ -27,7 +27,7 @@ module.exports = {
     // 各サブパッケージ配下のコードにある path alias を Storybook に認識させる。
     config.resolve.alias = {
       ...config.resolve.alias,
-      '@learn-monorepo-pnpm/core': resolve(__dirname, '../../core/src'),
+      '@learn-monorepo-pnpm/core': resolve(__dirname, '../../../packages/core/src'),
     };
     // 各サブパッケージ配下のコードにある CSS Modules (Sass) を Storybook に認識させる。
     config.module.rules.push({
@@ -44,7 +44,7 @@ module.exports = {
         },
         'sass-loader',
       ],
-      include: resolve(__dirname, '../../'),
+      include: resolve(__dirname, '../../../'),
     });
     return config;
   },

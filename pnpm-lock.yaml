@@ -17,8 +17,13 @@ importers:
       eslint-plugin-react: 7.32.2
       eslint-plugin-react-hooks: 4.6.0
       husky: 8.0.3
+<<<<<<< HEAD
       lint-staged: 13.2.1
       prettier: 2.8.7
+=======
+      lint-staged: 13.1.1
+      prettier: 2.8.3
+>>>>>>> 2298fb2 (monorepo 構成をより厳密なものにする (#5))
       prettier-plugin-organize-imports: 3.2.2
       stylelint: 15.4.0
       stylelint-config-recess-order: 4.0.0
@@ -40,6 +45,7 @@ importers:
       eslint-plugin-react: 7.32.2_eslint@8.38.0
       eslint-plugin-react-hooks: 4.6.0_eslint@8.38.0
       husky: 8.0.3
+<<<<<<< HEAD
       lint-staged: 13.2.1
       prettier: 2.8.7
       prettier-plugin-organize-imports: 3.2.2_qs7p46od4w5ca3rvorft3675lm
@@ -49,11 +55,23 @@ importers:
       stylelint-config-standard: 32.0.0_stylelint@15.4.0
       stylelint-config-standard-scss: 8.0.0_tph4hkwzrsfj3ry7iisngq3nvi
       typescript: 5.0.4
+=======
+      lint-staged: 13.1.1
+      prettier: 2.8.3
+      prettier-plugin-organize-imports: 3.2.2_ioxdq35luteszuxmt2jhnqjeca
+      stylelint: 15.1.0
+      stylelint-config-recess-order: 4.0.0_stylelint@15.1.0
+      stylelint-config-recommended: 10.0.1_stylelint@15.1.0
+      stylelint-config-standard: 30.0.1_stylelint@15.1.0
+      stylelint-config-standard-scss: 7.0.1_6kmz6pqyyc6yqevihcpt7hoegq
+      typescript: 4.9.5
+>>>>>>> 2298fb2 (monorepo 構成をより厳密なものにする (#5))
 
   apps/app1:
     specifiers:
       '@learn-monorepo-pnpm/core': workspace:1.0.0
       '@learn-monorepo-pnpm/tsconfig': workspace:1.0.0
+<<<<<<< HEAD
       '@types/node': 18.15.11
       '@types/react': 18.0.35
       '@types/react-dom': 18.0.11
@@ -67,10 +85,26 @@ importers:
     dependencies:
       '@learn-monorepo-pnpm/core': link:../../packages/core
       next: 13.3.0_krg7tz6h6n3fx3eq7tclunioeu
+=======
+      '@types/node': 18.13.0
+      '@types/react': 18.0.27
+      '@types/react-dom': 18.0.10
+      next: 13.1.6
+      npm-run-all: 4.1.5
+      react: 18.2.0
+      react-dom: 18.2.0
+      sass: 1.58.0
+      typed-scss-modules: 7.1.0
+      typescript: 4.9.5
+    dependencies:
+      '@learn-monorepo-pnpm/core': link:../../packages/core
+      next: 13.1.6_5mhhrw5dq6gnbuirj2awdzvyuu
+>>>>>>> 2298fb2 (monorepo 構成をより厳密なものにする (#5))
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
     devDependencies:
       '@learn-monorepo-pnpm/tsconfig': link:../../packages/tsconfig
+<<<<<<< HEAD
       '@types/node': 18.15.11
       '@types/react': 18.0.35
       '@types/react-dom': 18.0.11
@@ -78,28 +112,51 @@ importers:
       sass: 1.62.0
       typed-scss-modules: 7.1.0_sass@1.62.0
       typescript: 5.0.4
+=======
+      '@types/node': 18.13.0
+      '@types/react': 18.0.27
+      '@types/react-dom': 18.0.10
+      npm-run-all: 4.1.5
+      sass: 1.58.0
+      typed-scss-modules: 7.1.0_sass@1.58.0
+      typescript: 4.9.5
+>>>>>>> 2298fb2 (monorepo 構成をより厳密なものにする (#5))
 
   apps/app2:
     specifiers:
       '@learn-monorepo-pnpm/core': workspace:1.0.0
       '@learn-monorepo-pnpm/tsconfig': workspace:1.0.0
+<<<<<<< HEAD
       '@types/node': 18.15.11
       '@types/react': 18.0.35
       '@types/react-dom': 18.0.11
+=======
+      '@types/node': 18.13.0
+      '@types/react': 18.0.27
+      '@types/react-dom': 18.0.10
+>>>>>>> 2298fb2 (monorepo 構成をより厳密なものにする (#5))
       '@vitejs/plugin-react': 3.1.0
       npm-run-all: 4.1.5
       react: 18.2.0
       react-dom: 18.2.0
+<<<<<<< HEAD
       sass: 1.62.0
       typed-scss-modules: 7.1.0
       typescript: 5.0.4
       vite: 4.2.1
+=======
+      sass: 1.58.0
+      typed-scss-modules: 7.1.0
+      typescript: 4.9.5
+      vite: 4.1.1
+>>>>>>> 2298fb2 (monorepo 構成をより厳密なものにする (#5))
     dependencies:
       '@learn-monorepo-pnpm/core': link:../../packages/core
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
     devDependencies:
       '@learn-monorepo-pnpm/tsconfig': link:../../packages/tsconfig
+<<<<<<< HEAD
       '@types/node': 18.15.11
       '@types/react': 18.0.35
       '@types/react-dom': 18.0.11
@@ -109,6 +166,17 @@ importers:
       typed-scss-modules: 7.1.0_sass@1.62.0
       typescript: 5.0.4
       vite: 4.2.1_g772r5w5ng27elj5pzc7q7vnhy
+=======
+      '@types/node': 18.13.0
+      '@types/react': 18.0.27
+      '@types/react-dom': 18.0.10
+      '@vitejs/plugin-react': 3.1.0_vite@4.1.1
+      npm-run-all: 4.1.5
+      sass: 1.58.0
+      typed-scss-modules: 7.1.0_sass@1.58.0
+      typescript: 4.9.5
+      vite: 4.1.1_gyrp4zacqcjjrmgvdzgac5epyy
+>>>>>>> 2298fb2 (monorepo 構成をより厳密なものにする (#5))
 
   apps/catalog:
     specifiers:
@@ -121,6 +189,7 @@ importers:
       react-dom: 18.2.0
       storybook: 7.0.4
     devDependencies:
+<<<<<<< HEAD
       '@storybook/addon-essentials': 7.0.4_biqbaboplfbrettd7655fr4n2y
       '@storybook/addon-interactions': 7.0.4_biqbaboplfbrettd7655fr4n2y
       '@storybook/addon-links': 7.0.4_biqbaboplfbrettd7655fr4n2y
@@ -129,10 +198,27 @@ importers:
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
       storybook: 7.0.4
+=======
+      '@babel/core': 7.20.12
+      '@storybook/addon-essentials': 6.5.16_a3xbfthmamfaqvomusohxsetti
+      '@storybook/addon-interactions': 6.5.16_zdfmf3kv7eecifu6pmfv4p4pf4
+      '@storybook/addon-links': 6.5.16_biqbaboplfbrettd7655fr4n2y
+      '@storybook/builder-webpack5': 6.5.16_ygqkwb4gg3aean7xjfdauovyqq
+      '@storybook/manager-webpack5': 6.5.16_ygqkwb4gg3aean7xjfdauovyqq
+      '@storybook/react': 6.5.16_dyefdi4m5prsj2jzuua6oyowx4
+      babel-loader: 9.1.2_la66t7xldg4uecmyawueag5wkm
+      css-loader: 6.7.3_webpack@5.75.0
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
+      sass: 1.58.0
+      sass-loader: 13.2.0_sass@1.58.0+webpack@5.75.0
+      style-loader: 3.3.1_webpack@5.75.0
+>>>>>>> 2298fb2 (monorepo 構成をより厳密なものにする (#5))
 
   packages/core:
     specifiers:
       '@learn-monorepo-pnpm/tsconfig': workspace:1.0.0
+<<<<<<< HEAD
       '@types/react': 18.0.35
       '@types/react-dom': 18.0.11
       react: 18.2.0
@@ -151,6 +237,26 @@ importers:
       ts-xor: 1.1.0
       typed-scss-modules: 7.1.0_sass@1.62.0
       typescript: 5.0.4
+=======
+      '@types/react': 18.0.27
+      '@types/react-dom': 18.0.10
+      react: 18.2.0
+      react-dom: 18.2.0
+      sass: 1.58.0
+      ts-xor: 1.0.8
+      typed-scss-modules: 7.1.0
+      typescript: 4.9.5
+    devDependencies:
+      '@learn-monorepo-pnpm/tsconfig': link:../tsconfig
+      '@types/react': 18.0.27
+      '@types/react-dom': 18.0.10
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
+      sass: 1.58.0
+      ts-xor: 1.0.8
+      typed-scss-modules: 7.1.0_sass@1.58.0
+      typescript: 4.9.5
+>>>>>>> 2298fb2 (monorepo 構成をより厳密なものにする (#5))
 
   packages/tsconfig:
     specifiers: {}
@@ -699,7 +805,22 @@ packages:
       '@babel/plugin-syntax-numeric-separator': 7.10.4_@babel+core@7.21.4
     dev: true
 
+<<<<<<< HEAD
   /@babel/plugin-proposal-object-rest-spread/7.20.7_@babel+core@7.21.4:
+=======
+  /@babel/plugin-proposal-object-rest-spread/7.12.1_@babel+core@7.12.9:
+    resolution: {integrity: sha512-s6SowJIjzlhx8o7lsFx5zmY4At6CTtDvgNQDdPzkBQucle58A6b/TTeEBYtyDgmcXjUTM+vE8YOGHZzzbc/ioA==}
+    peerDependencies:
+      '@babel/core': ^7.0.0-0
+    dependencies:
+      '@babel/core': 7.12.9
+      '@babel/helper-plugin-utils': 7.20.2
+      '@babel/plugin-syntax-object-rest-spread': 7.8.3_@babel+core@7.12.9
+      '@babel/plugin-transform-parameters': 7.20.7_@babel+core@7.12.9
+    dev: true
+
+  /@babel/plugin-proposal-object-rest-spread/7.20.7_@babel+core@7.20.12:
+>>>>>>> 2298fb2 (monorepo 構成をより厳密なものにする (#5))
     resolution: {integrity: sha512-d2S98yCiLxDVmBmE8UjGcfPvNEUbA1U5q5WxaWFUGRzJSVAZqm5W6MbPct0jxnegUZ0niLeNX+IOzEs7wYg9Dg==}
     engines: {node: '>=6.9.0'}
     peerDependencies:
@@ -1768,6 +1889,18 @@ packages:
     resolution: {integrity: sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==}
     dev: true
 
+<<<<<<< HEAD
+=======
+  /@cnakazawa/watch/1.0.4:
+    resolution: {integrity: sha512-v9kIhKwjeZThiWrLmj0y17CWoyddASLj9O2yvbZkbvw/N3rWOYy9zkV66ursAoVr0mV15bL8g0c4QZUE6cdDoQ==}
+    engines: {node: '>=0.1.95'}
+    hasBin: true
+    dependencies:
+      exec-sh: 0.3.6
+      minimist: 1.2.8
+    dev: true
+
+>>>>>>> 2298fb2 (monorepo 構成をより厳密なものにする (#5))
   /@colors/colors/1.5.0:
     resolution: {integrity: sha512-ooWCrlZP11i8GImSjTHYHLkvFDP48nS4+204nGb1RiX/WXYHmJA2III9/e2DWVabCESdW7hBAEzHRqUn9OUVvQ==}
     engines: {node: '>=0.1.90'}
@@ -1783,13 +1916,18 @@ packages:
       '@cspell/dict-aws': 3.0.0
       '@cspell/dict-bash': 4.1.1
       '@cspell/dict-companies': 3.0.9
+<<<<<<< HEAD
       '@cspell/dict-cpp': 5.0.2
+=======
+      '@cspell/dict-cpp': 4.0.3
+>>>>>>> 2298fb2 (monorepo 構成をより厳密なものにする (#5))
       '@cspell/dict-cryptocurrencies': 3.0.1
       '@cspell/dict-csharp': 4.0.2
       '@cspell/dict-css': 4.0.5
       '@cspell/dict-dart': 2.0.2
       '@cspell/dict-django': 4.0.2
       '@cspell/dict-docker': 1.1.6
+<<<<<<< HEAD
       '@cspell/dict-dotnet': 5.0.0
       '@cspell/dict-elixir': 4.0.2
       '@cspell/dict-en-common-misspellings': 1.0.2
@@ -1801,16 +1939,33 @@ packages:
       '@cspell/dict-gaming-terms': 1.0.4
       '@cspell/dict-git': 2.0.0
       '@cspell/dict-golang': 6.0.1
+=======
+      '@cspell/dict-dotnet': 4.0.2
+      '@cspell/dict-elixir': 4.0.2
+      '@cspell/dict-en-gb': 1.1.33
+      '@cspell/dict-en_us': 4.3.1
+      '@cspell/dict-filetypes': 3.0.0
+      '@cspell/dict-fonts': 3.0.1
+      '@cspell/dict-fullstack': 3.1.4
+      '@cspell/dict-gaming-terms': 1.0.4
+      '@cspell/dict-git': 2.0.0
+      '@cspell/dict-golang': 5.0.2
+>>>>>>> 2298fb2 (monorepo 構成をより厳密なものにする (#5))
       '@cspell/dict-haskell': 4.0.1
       '@cspell/dict-html': 4.0.3
       '@cspell/dict-html-symbol-entities': 4.0.0
       '@cspell/dict-java': 5.0.5
       '@cspell/dict-k8s': 1.0.1
+<<<<<<< HEAD
       '@cspell/dict-latex': 4.0.0
+=======
+      '@cspell/dict-latex': 3.1.0
+>>>>>>> 2298fb2 (monorepo 構成をより厳密なものにする (#5))
       '@cspell/dict-lorem-ipsum': 3.0.0
       '@cspell/dict-lua': 4.0.1
       '@cspell/dict-node': 4.0.2
       '@cspell/dict-npm': 5.0.5
+<<<<<<< HEAD
       '@cspell/dict-php': 4.0.1
       '@cspell/dict-powershell': 5.0.1
       '@cspell/dict-public-licenses': 2.0.2
@@ -1819,6 +1974,16 @@ packages:
       '@cspell/dict-ruby': 5.0.0
       '@cspell/dict-rust': 4.0.1
       '@cspell/dict-scala': 5.0.0
+=======
+      '@cspell/dict-php': 3.0.4
+      '@cspell/dict-powershell': 4.0.2
+      '@cspell/dict-public-licenses': 2.0.2
+      '@cspell/dict-python': 4.0.2
+      '@cspell/dict-r': 2.0.1
+      '@cspell/dict-ruby': 4.0.2
+      '@cspell/dict-rust': 4.0.1
+      '@cspell/dict-scala': 4.0.1
+>>>>>>> 2298fb2 (monorepo 構成をより厳密なものにする (#5))
       '@cspell/dict-software-terms': 3.1.6
       '@cspell/dict-sql': 2.1.0
       '@cspell/dict-svelte': 1.0.2
@@ -1858,8 +2023,13 @@ packages:
     resolution: {integrity: sha512-wSkVIJjk33Sm3LhieNv9TsSvUSeP0R/h8xx06NqbMYF43w9J8hZiMHlbB3FzaSOHRpXT5eBIJBVTeFbceZdiqg==}
     dev: true
 
+<<<<<<< HEAD
   /@cspell/dict-cpp/5.0.2:
     resolution: {integrity: sha512-Q0ZjfhrHHfm0Y1/7LMCq3Fne/bhiBeBogUw4TV1wX/1tg3m+5BtaW/7GiOzRk+rFsblVj3RFam59VJKMT3vSoQ==}
+=======
+  /@cspell/dict-cpp/4.0.3:
+    resolution: {integrity: sha512-gbXY9cUgRpb5mpw19VBy+YNUqNMlT5Dj70d8V1yIFbqPVHxccmxwdU4rlNaRyYrC41kDZwxmG7QQwcng6FdGcg==}
+>>>>>>> 2298fb2 (monorepo 構成をより厳密なものにする (#5))
     dev: true
 
   /@cspell/dict-cryptocurrencies/3.0.1:
@@ -1886,36 +2056,58 @@ packages:
     resolution: {integrity: sha512-zCCiRTZ6EOQpBnSOm0/3rnKW1kCcAUDUA7SxJG3SuH6iZvKi3I8FEg8+O83WQUeXg0SyPNerD9F40JLnnJjJig==}
     dev: true
 
+<<<<<<< HEAD
   /@cspell/dict-dotnet/5.0.0:
     resolution: {integrity: sha512-EOwGd533v47aP5QYV8GlSSKkmM9Eq8P3G/eBzSpH3Nl2+IneDOYOBLEUraHuiCtnOkNsz0xtZHArYhAB2bHWAw==}
+=======
+  /@cspell/dict-dotnet/4.0.2:
+    resolution: {integrity: sha512-Cu+Ob142tBQ2cYrpK/d3tjm/FvNXQXwdUShRIPKx03HbtUk9BoTdeFY5bX+Zz7GeV66OJCMrmpFANrtKpB8NTg==}
+>>>>>>> 2298fb2 (monorepo 構成をより厳密なものにする (#5))
     dev: true
 
   /@cspell/dict-elixir/4.0.2:
     resolution: {integrity: sha512-/YeHlpZ1pE9VAyxp3V0xyUPapNyC61WwFuw2RByeoMqqYaIfS3Hw+JxtimOsAKVhUvgUH58zyKl5K5Q6FqgCpw==}
+<<<<<<< HEAD
     dev: true
 
   /@cspell/dict-en-common-misspellings/1.0.2:
     resolution: {integrity: sha512-jg7ZQZpZH7+aAxNBlcAG4tGhYF6Ksy+QS5Df73Oo+XyckBjC9QS+PrRwLTeYoFIgXy5j3ICParK5r3MSSoL4gw==}
+=======
+>>>>>>> 2298fb2 (monorepo 構成をより厳密なものにする (#5))
     dev: true
 
   /@cspell/dict-en-gb/1.1.33:
     resolution: {integrity: sha512-tKSSUf9BJEV+GJQAYGw5e+ouhEe2ZXE620S7BLKe3ZmpnjlNG9JqlnaBhkIMxKnNFkLY2BP/EARzw31AZnOv4g==}
     dev: true
 
+<<<<<<< HEAD
   /@cspell/dict-en_us/4.3.2:
     resolution: {integrity: sha512-o8xtHDLPNzW6hK5b1TaDTWt25vVi9lWlL6/dZ9YoS+ZMj+Dy/yuXatqfOgeGyU3a9+2gxC0kbr4oufMUQXI2mQ==}
+=======
+  /@cspell/dict-en_us/4.3.1:
+    resolution: {integrity: sha512-akfx/Q+4J3rfawtGaqe1Yp+fNyCGJCKmTQT14LXxGLN7DEjGvOFzlYoS+DdD3aDwAJih79bEFGiG+Lqs0zOauA==}
+>>>>>>> 2298fb2 (monorepo 構成をより厳密なものにする (#5))
     dev: true
 
   /@cspell/dict-filetypes/3.0.0:
     resolution: {integrity: sha512-Fiyp0z5uWaK0d2TfR9GMUGDKmUMAsOhGD5A0kHoqnNGswL2iw0KB0mFBONEquxU65fEnQv4R+jdM2d9oucujuA==}
     dev: true
 
+<<<<<<< HEAD
   /@cspell/dict-fonts/3.0.2:
     resolution: {integrity: sha512-Z5QdbgEI7DV+KPXrAeDA6dDm/vTzyaW53SGlKqz6PI5VhkOjgkBXv3YtZjnxMZ4dY2ZIqq+RUK6qa9Pi8rQdGQ==}
     dev: true
 
   /@cspell/dict-fullstack/3.1.5:
     resolution: {integrity: sha512-6ppvo1dkXUZ3fbYn/wwzERxCa76RtDDl5Afzv2lijLoijGGUw5yYdLBKJnx8PJBGNLh829X352ftE7BElG4leA==}
+=======
+  /@cspell/dict-fonts/3.0.1:
+    resolution: {integrity: sha512-o2zVFKT3KcIBo88xlWhG4yOD0XQDjP7guc7C30ZZcSN8YCwaNc1nGoxU3QRea8iKcwk3cXH0G53nrQur7g9DjQ==}
+    dev: true
+
+  /@cspell/dict-fullstack/3.1.4:
+    resolution: {integrity: sha512-OnCIn3GgAhdhsU6xMYes7/WXnbV6R/5k/zRAu/d+WZP4Ltf48z7oFfNFjHXH6b8ZwnMhpekLAnCeIfT5dcxRqw==}
+>>>>>>> 2298fb2 (monorepo 構成をより厳密なものにする (#5))
     dev: true
 
   /@cspell/dict-gaming-terms/1.0.4:
@@ -1926,8 +2118,13 @@ packages:
     resolution: {integrity: sha512-n1AxyX5Kgxij/sZFkxFJlzn3K9y/sCcgVPg/vz4WNJ4K9YeTsUmyGLA2OQI7d10GJeiuAo2AP1iZf2A8j9aj2w==}
     dev: true
 
+<<<<<<< HEAD
   /@cspell/dict-golang/6.0.1:
     resolution: {integrity: sha512-Z19FN6wgg2M/A+3i1O8qhrGaxUUGOW8S2ySN0g7vp4HTHeFmockEPwYx7gArfssNIruw60JorZv+iLJ6ilTeow==}
+=======
+  /@cspell/dict-golang/5.0.2:
+    resolution: {integrity: sha512-TNOQzsiLv4I56w5188OnJW+2ttjekoBl8IyPpI25GeV3dky4d+TX5pujayvcKQ+SM8vV8u2lpQpvyr4YePhiQg==}
+>>>>>>> 2298fb2 (monorepo 構成をより厳密なものにする (#5))
     dev: true
 
   /@cspell/dict-haskell/4.0.1:
@@ -1974,8 +2171,13 @@ packages:
     resolution: {integrity: sha512-XaQ/JkSyq2c07MfRG54DjLi2CV+HHwS99DDCAao9Fq2JfkWroTQsUeek7wYZXJATrJVOULoV3HKih12x905AtQ==}
     dev: true
 
+<<<<<<< HEAD
   /@cspell/dict-powershell/5.0.1:
     resolution: {integrity: sha512-lLl+syWFgfv2xdsoxHfPIB2FGkn//XahCIKcRaf52AOlm1/aXeaJN579B9HCpvM7wawHzMqJ33VJuL/vb6Lc4g==}
+=======
+  /@cspell/dict-powershell/4.0.2:
+    resolution: {integrity: sha512-3Wk2Z0fxpewML0zq4a9W5IsPZ0YwvzA8c6ykFdwQ0xcBQc/xRfdb9Z5drYXf9bobck1+MacGrprSeQXrmeByNQ==}
+>>>>>>> 2298fb2 (monorepo 構成をより厳密なものにする (#5))
     dev: true
 
   /@cspell/dict-public-licenses/2.0.2:
@@ -1990,16 +2192,26 @@ packages:
     resolution: {integrity: sha512-KCmKaeYMLm2Ip79mlYPc8p+B2uzwBp4KMkzeLd5E6jUlCL93Y5Nvq68wV5fRLDRTf7N1LvofkVFWfDcednFOgA==}
     dev: true
 
+<<<<<<< HEAD
   /@cspell/dict-ruby/5.0.0:
     resolution: {integrity: sha512-ssb96QxLZ76yPqFrikWxItnCbUKhYXJ2owkoIYzUGNFl2CHSoHCb5a6Zetum9mQ/oUA3gNeUhd28ZUlXs0la2A==}
+=======
+  /@cspell/dict-ruby/4.0.2:
+    resolution: {integrity: sha512-fCoQHvLhTAetzXCUZMpyoCUPFMiyLHuECIPOiuYW6TGnP2eGV9y4j2J8HAOVtkyxOKUoyK+zZgtrma64yTUMkg==}
+>>>>>>> 2298fb2 (monorepo 構成をより厳密なものにする (#5))
     dev: true
 
   /@cspell/dict-rust/4.0.1:
     resolution: {integrity: sha512-xJSSzHDK2z6lSVaOmMxl3PTOtfoffaxMo7fTcbZUF+SCJzfKbO6vnN9TCGX2sx1RHFDz66Js6goz6SAZQdOwaw==}
     dev: true
 
+<<<<<<< HEAD
   /@cspell/dict-scala/5.0.0:
     resolution: {integrity: sha512-ph0twaRoV+ylui022clEO1dZ35QbeEQaKTaV2sPOsdwIokABPIiK09oWwGK9qg7jRGQwVaRPEq0Vp+IG1GpqSQ==}
+=======
+  /@cspell/dict-scala/4.0.1:
+    resolution: {integrity: sha512-UvdQpAugrCqRC+2wfqJ4FFKpJr+spLrrrAmqdWEgAyZNMz8ib9FkO+yoIQnNFeodzI9xVPN9Hror+MjXbb2soQ==}
+>>>>>>> 2298fb2 (monorepo 構成をより厳密なものにする (#5))
     dev: true
 
   /@cspell/dict-software-terms/3.1.6:
@@ -2038,12 +2250,18 @@ packages:
     engines: {node: '>=14.6'}
     dev: true
 
+<<<<<<< HEAD
   /@csstools/css-parser-algorithms/2.1.1_gdfqdfecdiaxr4x3xd7wxrvuhq:
     resolution: {integrity: sha512-viRnRh02AgO4mwIQb2xQNJju0i+Fh9roNgmbR5xEuG7J3TGgxjnE95HnBLgsFJOJOksvcfxOUCgODcft6Y07cA==}
+=======
+  /@csstools/css-parser-algorithms/2.0.1_5vzy4lghjvuzkedkkk4tqwjftm:
+    resolution: {integrity: sha512-B9/8PmOtU6nBiibJg0glnNktQDZ3rZnGn/7UmDfrm2vMtrdlXO3p7ErE95N0up80IRk9YEtB5jyj/TmQ1WH3dw==}
+>>>>>>> 2298fb2 (monorepo 構成をより厳密なものにする (#5))
     engines: {node: ^14 || ^16 || >=18}
     peerDependencies:
       '@csstools/css-tokenizer': ^2.1.1
     dependencies:
+<<<<<<< HEAD
       '@csstools/css-tokenizer': 2.1.1
     dev: true
 
@@ -2054,13 +2272,30 @@ packages:
 
   /@csstools/media-query-list-parser/2.0.4_rffw2jz5u7v47thsjhdr4x67vi:
     resolution: {integrity: sha512-GyYot6jHgcSDZZ+tLSnrzkR7aJhF2ZW6d+CXH66mjy5WpAQhZD4HDke2OQ36SivGRWlZJpAz7TzbW6OKlEpxAA==}
+=======
+      '@csstools/css-tokenizer': 2.1.0
+    dev: true
+
+  /@csstools/css-tokenizer/2.1.0:
+    resolution: {integrity: sha512-dtqFyoJBHUxGi9zPZdpCKP1xk8tq6KPHJ/NY4qWXiYo6IcSGwzk3L8x2XzZbbyOyBs9xQARoGveU2AsgLj6D2A==}
+    engines: {node: ^14 || ^16 || >=18}
+    dev: true
+
+  /@csstools/media-query-list-parser/2.0.1_ppok7cytzjc65mcyxmtit3wdyi:
+    resolution: {integrity: sha512-X2/OuzEbjaxhzm97UJ+95GrMeT29d1Ib+Pu+paGLuRWZnWRK9sI9r3ikmKXPWGA1C4y4JEdBEFpp9jEqCvLeRA==}
+>>>>>>> 2298fb2 (monorepo 構成をより厳密なものにする (#5))
     engines: {node: ^14 || ^16 || >=18}
     peerDependencies:
       '@csstools/css-parser-algorithms': ^2.1.1
       '@csstools/css-tokenizer': ^2.1.1
     dependencies:
+<<<<<<< HEAD
       '@csstools/css-parser-algorithms': 2.1.1_gdfqdfecdiaxr4x3xd7wxrvuhq
       '@csstools/css-tokenizer': 2.1.1
+=======
+      '@csstools/css-parser-algorithms': 2.0.1_5vzy4lghjvuzkedkkk4tqwjftm
+      '@csstools/css-tokenizer': 2.1.0
+>>>>>>> 2298fb2 (monorepo 構成をより厳密なものにする (#5))
     dev: true
 
   /@csstools/selector-specificity/2.2.0_laljekdltgzr3kfi7r4exvsr5a:
@@ -2072,6 +2307,75 @@ packages:
       postcss-selector-parser: 6.0.11
     dev: true
 
+<<<<<<< HEAD
+=======
+  /@design-systems/utils/2.12.0_5ndqzdd6t4rivxsukjv3i3ak2q:
+    resolution: {integrity: sha512-Y/d2Zzr+JJfN6u1gbuBUb1ufBuLMJJRZQk+dRmw8GaTpqKx5uf7cGUYGTwN02dIb3I+Tf+cW8jcGBTRiFxdYFg==}
+    peerDependencies:
+      '@types/react': '*'
+      react: '>= 16.8.6'
+      react-dom: '>= 16.8.6'
+    dependencies:
+      '@babel/runtime': 7.21.0
+      '@types/react': 18.0.27
+      clsx: 1.1.0
+      focus-lock: 0.8.1
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
+      react-merge-refs: 1.1.0
+    dev: true
+
+  /@devtools-ds/object-inspector/1.2.1_5ndqzdd6t4rivxsukjv3i3ak2q:
+    resolution: {integrity: sha512-nrAVVj4c4Iv9958oE4HA7Mk6T+4Mn/4xBRlFDeX4Ps6SMzsqO8bKhw/y6+bOfNyb/TYHmC0/pnPS68GDVZcg5Q==}
+    peerDependencies:
+      react: '>= 16.8.6'
+    dependencies:
+      '@babel/runtime': 7.7.2
+      '@devtools-ds/object-parser': 1.2.1
+      '@devtools-ds/themes': 1.2.1_5ndqzdd6t4rivxsukjv3i3ak2q
+      '@devtools-ds/tree': 1.2.1_5ndqzdd6t4rivxsukjv3i3ak2q
+      clsx: 1.1.0
+      react: 18.2.0
+    transitivePeerDependencies:
+      - '@types/react'
+      - react-dom
+    dev: true
+
+  /@devtools-ds/object-parser/1.2.1:
+    resolution: {integrity: sha512-6qB+THhQfJqXyHn8wpJ1KFxXcbpLTlRyCVmkelhr0c1+MPLZcC+0XJxpVZ1AOEXPa6CWVZThBYSCvnYQEvfCqw==}
+    dependencies:
+      '@babel/runtime': 7.5.5
+    dev: true
+
+  /@devtools-ds/themes/1.2.1_5ndqzdd6t4rivxsukjv3i3ak2q:
+    resolution: {integrity: sha512-4/KFsHnokGxUq8CSCchINcVBb6fQ74HtEfNtMuitGtGg3VCRV0kaVSOsz6wzShzhLEaVLd5coSRQKaZj7yx72w==}
+    peerDependencies:
+      react: '>= 16.8.6'
+    dependencies:
+      '@babel/runtime': 7.5.5
+      '@design-systems/utils': 2.12.0_5ndqzdd6t4rivxsukjv3i3ak2q
+      clsx: 1.1.0
+      react: 18.2.0
+    transitivePeerDependencies:
+      - '@types/react'
+      - react-dom
+    dev: true
+
+  /@devtools-ds/tree/1.2.1_5ndqzdd6t4rivxsukjv3i3ak2q:
+    resolution: {integrity: sha512-2ZHG28oWJno0gD+20EoSJO0yffm6JS5r7YzYhGMkrnLGvcCRZuwXSxMmIshSPLIR0cjidiAfGCqsrigHIR4ZQA==}
+    peerDependencies:
+      react: '>= 16.8.6'
+    dependencies:
+      '@babel/runtime': 7.7.2
+      '@devtools-ds/themes': 1.2.1_5ndqzdd6t4rivxsukjv3i3ak2q
+      clsx: 1.1.0
+      react: 18.2.0
+    transitivePeerDependencies:
+      - '@types/react'
+      - react-dom
+    dev: true
+
+>>>>>>> 2298fb2 (monorepo 構成をより厳密なものにする (#5))
   /@discoveryjs/json-ext/0.5.7:
     resolution: {integrity: sha512-dBVuXR082gk3jsFp7Rd/JI4kytwGHecnCoTtXFb7DB6CNHp4rg5k1bhg0nWdLGLnOV71lmDzGQaLMy8iPLY0pw==}
     engines: {node: '>=10.0.0'}
@@ -2313,7 +2617,11 @@ packages:
     dependencies:
       ajv: 6.12.6
       debug: 4.3.4
+<<<<<<< HEAD
       espree: 9.5.1
+=======
+      espree: 9.5.0
+>>>>>>> 2298fb2 (monorepo 構成をより厳密なものにする (#5))
       globals: 13.20.0
       ignore: 5.2.4
       import-fresh: 3.3.0
@@ -2388,9 +2696,15 @@ packages:
       convert-source-map: 2.0.0
       fast-json-stable-stringify: 2.1.0
       graceful-fs: 4.2.11
+<<<<<<< HEAD
       jest-haste-map: 29.5.0
       jest-regex-util: 29.4.3
       jest-util: 29.5.0
+=======
+      jest-haste-map: 26.6.2
+      jest-regex-util: 26.0.0
+      jest-util: 26.6.2
+>>>>>>> 2298fb2 (monorepo 構成をより厳密なものにする (#5))
       micromatch: 4.0.5
       pirates: 4.0.5
       slash: 3.0.0
@@ -2691,8 +3005,13 @@ packages:
       ts-dedent: 2.2.0
     dev: true
 
+<<<<<<< HEAD
   /@storybook/addon-controls/7.0.4_biqbaboplfbrettd7655fr4n2y:
     resolution: {integrity: sha512-Q3AHEo+eWs+FfJPZ2p6KEUoB7oi6YeTdTR6jNiq1tkLCNebkKz7bv/EalOuR2aPdOuQclplC0awQMAl0ZOBXnA==}
+=======
+  /@storybook/addon-controls/6.5.16_ygqkwb4gg3aean7xjfdauovyqq:
+    resolution: {integrity: sha512-kShSGjq1MjmmyL3l8i+uPz6yddtf82mzys0l82VKtcuyjrr5944wYFJ5NTXMfZxrO/U6FeFsfuFZE/k6ex3EMg==}
+>>>>>>> 2298fb2 (monorepo 構成をより厳密なものにする (#5))
     peerDependencies:
       react: ^16.8.0 || ^17.0.0 || ^18.0.0
       react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
@@ -2702,6 +3021,7 @@ packages:
       react-dom:
         optional: true
     dependencies:
+<<<<<<< HEAD
       '@storybook/blocks': 7.0.4_biqbaboplfbrettd7655fr4n2y
       '@storybook/client-logger': 7.0.4
       '@storybook/components': 7.0.4_biqbaboplfbrettd7655fr4n2y
@@ -2711,6 +3031,18 @@ packages:
       '@storybook/preview-api': 7.0.4
       '@storybook/theming': 7.0.4_biqbaboplfbrettd7655fr4n2y
       '@storybook/types': 7.0.4
+=======
+      '@storybook/addons': 6.5.16_biqbaboplfbrettd7655fr4n2y
+      '@storybook/api': 6.5.16_biqbaboplfbrettd7655fr4n2y
+      '@storybook/client-logger': 6.5.16
+      '@storybook/components': 6.5.16_biqbaboplfbrettd7655fr4n2y
+      '@storybook/core-common': 6.5.16_ygqkwb4gg3aean7xjfdauovyqq
+      '@storybook/csf': 0.0.2--canary.4566f4d.1
+      '@storybook/node-logger': 6.5.16
+      '@storybook/store': 6.5.16_biqbaboplfbrettd7655fr4n2y
+      '@storybook/theming': 6.5.16_biqbaboplfbrettd7655fr4n2y
+      core-js: 3.27.2
+>>>>>>> 2298fb2 (monorepo 構成をより厳密なものにする (#5))
       lodash: 4.17.21
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
@@ -2719,12 +3051,18 @@ packages:
       - supports-color
     dev: true
 
+<<<<<<< HEAD
   /@storybook/addon-docs/7.0.4_biqbaboplfbrettd7655fr4n2y:
     resolution: {integrity: sha512-wiRWabOJXytiVxwqkWcHloUyUV7o+pDs6VPvlszc2/UQNu4aSGBZ1rARYtlXEASoOgDuBdhpnWK8LeCxUcmRZg==}
+=======
+  /@storybook/addon-docs/6.5.16_e6aj2hxgolbiz4kawpnk6rlfpi:
+    resolution: {integrity: sha512-QM9WDZG9P02UvbzLu947a8ZngOrQeAKAT8jCibQFM/+RJ39xBlfm8rm+cQy3dm94wgtjmVkA3mKGOV/yrrsddg==}
+>>>>>>> 2298fb2 (monorepo 構成をより厳密なものにする (#5))
     peerDependencies:
       react: ^16.8.0 || ^17.0.0 || ^18.0.0
       react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
     dependencies:
+<<<<<<< HEAD
       '@babel/core': 7.21.4
       '@babel/plugin-transform-react-jsx': 7.20.13_@babel+core@7.21.4
       '@jest/transform': 29.5.0
@@ -2743,6 +3081,31 @@ packages:
       '@storybook/theming': 7.0.4_biqbaboplfbrettd7655fr4n2y
       '@storybook/types': 7.0.4
       fs-extra: 11.1.1
+=======
+      '@babel/plugin-transform-react-jsx': 7.20.13_@babel+core@7.20.12
+      '@babel/preset-env': 7.20.2_@babel+core@7.20.12
+      '@jest/transform': 26.6.2
+      '@mdx-js/react': 1.6.22_react@18.2.0
+      '@storybook/addons': 6.5.16_biqbaboplfbrettd7655fr4n2y
+      '@storybook/api': 6.5.16_biqbaboplfbrettd7655fr4n2y
+      '@storybook/components': 6.5.16_biqbaboplfbrettd7655fr4n2y
+      '@storybook/core-common': 6.5.16_ygqkwb4gg3aean7xjfdauovyqq
+      '@storybook/core-events': 6.5.16
+      '@storybook/csf': 0.0.2--canary.4566f4d.1
+      '@storybook/docs-tools': 6.5.16_biqbaboplfbrettd7655fr4n2y
+      '@storybook/mdx1-csf': 0.0.1_@babel+core@7.20.12
+      '@storybook/node-logger': 6.5.16
+      '@storybook/postinstall': 6.5.16
+      '@storybook/preview-web': 6.5.16_biqbaboplfbrettd7655fr4n2y
+      '@storybook/source-loader': 6.5.16_biqbaboplfbrettd7655fr4n2y
+      '@storybook/store': 6.5.16_biqbaboplfbrettd7655fr4n2y
+      '@storybook/theming': 6.5.16_biqbaboplfbrettd7655fr4n2y
+      babel-loader: 8.3.0_la66t7xldg4uecmyawueag5wkm
+      core-js: 3.27.2
+      fast-deep-equal: 3.1.3
+      global: 4.4.0
+      lodash: 4.17.21
+>>>>>>> 2298fb2 (monorepo 構成をより厳密なものにする (#5))
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
       remark-external-links: 8.0.0
@@ -2752,12 +3115,18 @@ packages:
       - supports-color
     dev: true
 
+<<<<<<< HEAD
   /@storybook/addon-essentials/7.0.4_biqbaboplfbrettd7655fr4n2y:
     resolution: {integrity: sha512-Iy3DihiiNUvvI3viVhAEzwCnMJTMp3oJaJOEk8i2j1eAFjXU+ED+N4lY3DwmPeVJ2UoqKyUAPTfnovvuSlJXsQ==}
+=======
+  /@storybook/addon-essentials/6.5.16_a3xbfthmamfaqvomusohxsetti:
+    resolution: {integrity: sha512-TeoMr6tEit4Pe91GH6f8g/oar1P4M0JL9S6oMcFxxrhhtOGO7XkWD5EnfyCx272Ok2VYfE58FNBTGPNBVIqYKQ==}
+>>>>>>> 2298fb2 (monorepo 構成をより厳密なものにする (#5))
     peerDependencies:
       react: ^16.8.0 || ^17.0.0 || ^18.0.0
       react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
     dependencies:
+<<<<<<< HEAD
       '@storybook/addon-actions': 7.0.4_biqbaboplfbrettd7655fr4n2y
       '@storybook/addon-backgrounds': 7.0.4_biqbaboplfbrettd7655fr4n2y
       '@storybook/addon-controls': 7.0.4_biqbaboplfbrettd7655fr4n2y
@@ -2771,13 +3140,32 @@ packages:
       '@storybook/manager-api': 7.0.4_biqbaboplfbrettd7655fr4n2y
       '@storybook/node-logger': 7.0.4
       '@storybook/preview-api': 7.0.4
+=======
+      '@babel/core': 7.20.12
+      '@storybook/addon-actions': 6.5.16_biqbaboplfbrettd7655fr4n2y
+      '@storybook/addon-backgrounds': 6.5.16_biqbaboplfbrettd7655fr4n2y
+      '@storybook/addon-controls': 6.5.16_ygqkwb4gg3aean7xjfdauovyqq
+      '@storybook/addon-docs': 6.5.16_e6aj2hxgolbiz4kawpnk6rlfpi
+      '@storybook/addon-measure': 6.5.16_biqbaboplfbrettd7655fr4n2y
+      '@storybook/addon-outline': 6.5.16_biqbaboplfbrettd7655fr4n2y
+      '@storybook/addon-toolbars': 6.5.16_biqbaboplfbrettd7655fr4n2y
+      '@storybook/addon-viewport': 6.5.16_biqbaboplfbrettd7655fr4n2y
+      '@storybook/addons': 6.5.16_biqbaboplfbrettd7655fr4n2y
+      '@storybook/api': 6.5.16_biqbaboplfbrettd7655fr4n2y
+      '@storybook/builder-webpack5': 6.5.16_ygqkwb4gg3aean7xjfdauovyqq
+      '@storybook/core-common': 6.5.16_ygqkwb4gg3aean7xjfdauovyqq
+      '@storybook/node-logger': 6.5.16
+      core-js: 3.27.2
+>>>>>>> 2298fb2 (monorepo 構成をより厳密なものにする (#5))
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
       ts-dedent: 2.2.0
+      webpack: 5.75.0
     transitivePeerDependencies:
       - supports-color
     dev: true
 
+<<<<<<< HEAD
   /@storybook/addon-highlight/7.0.4:
     resolution: {integrity: sha512-yRNF6JozLpkMGQCtT+yXwB0jj3X97LNpJAQn2BmsmeOYX0dfLz4HT0J1OQH9UHD+aRmJnTsFXp+Cmdq7ncHFRg==}
     dependencies:
@@ -2788,6 +3176,10 @@ packages:
 
   /@storybook/addon-interactions/7.0.4_biqbaboplfbrettd7655fr4n2y:
     resolution: {integrity: sha512-8FyLi4cwmdUWipfPyJ1+EXK7dWqOeotz6Pcg00jp2W0Vx2eOX0LlE2ezJ0P0fCBJfM8CNd6ijvBWRwKE/MlCDw==}
+=======
+  /@storybook/addon-interactions/6.5.16_zdfmf3kv7eecifu6pmfv4p4pf4:
+    resolution: {integrity: sha512-DdTtyp3DgB/SpbM1GQgMnuSEBCkadxmj1mUcPk+Wp2iY+fDwsuoRDkr1H9Oe7IvlBKe7ciR79LEjoaABXNdw4w==}
+>>>>>>> 2298fb2 (monorepo 構成をより厳密なものにする (#5))
     peerDependencies:
       react: ^16.8.0 || ^17.0.0 || ^18.0.0
       react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
@@ -2797,6 +3189,7 @@ packages:
       react-dom:
         optional: true
     dependencies:
+<<<<<<< HEAD
       '@storybook/client-logger': 7.0.4
       '@storybook/components': 7.0.4_biqbaboplfbrettd7655fr4n2y
       '@storybook/core-common': 7.0.4
@@ -2807,6 +3200,20 @@ packages:
       '@storybook/preview-api': 7.0.4
       '@storybook/theming': 7.0.4_biqbaboplfbrettd7655fr4n2y
       '@storybook/types': 7.0.4
+=======
+      '@devtools-ds/object-inspector': 1.2.1_5ndqzdd6t4rivxsukjv3i3ak2q
+      '@storybook/addons': 6.5.16_biqbaboplfbrettd7655fr4n2y
+      '@storybook/api': 6.5.16_biqbaboplfbrettd7655fr4n2y
+      '@storybook/client-logger': 6.5.16
+      '@storybook/components': 6.5.16_biqbaboplfbrettd7655fr4n2y
+      '@storybook/core-common': 6.5.16_ygqkwb4gg3aean7xjfdauovyqq
+      '@storybook/core-events': 6.5.16
+      '@storybook/csf': 0.0.2--canary.4566f4d.1
+      '@storybook/instrumenter': 6.5.16_biqbaboplfbrettd7655fr4n2y
+      '@storybook/theming': 6.5.16_biqbaboplfbrettd7655fr4n2y
+      core-js: 3.27.2
+      global: 4.4.0
+>>>>>>> 2298fb2 (monorepo 構成をより厳密なものにする (#5))
       jest-mock: 27.5.1
       polished: 4.2.2
       react: 18.2.0
@@ -2960,10 +3367,76 @@ packages:
       telejson: 7.1.0
       ts-dedent: 2.2.0
       util-deprecate: 1.0.2
+<<<<<<< HEAD
+=======
+    dev: true
+
+  /@storybook/builder-webpack4/6.5.16_ygqkwb4gg3aean7xjfdauovyqq:
+    resolution: {integrity: sha512-YqDIrVNsUo8r9xc6AxsYDLxVYtMgl5Bxk+8/h1adsOko+jAFhdg6hOcAVxEmoSI0TMASOOVMFlT2hr23ppN2rQ==}
+    peerDependencies:
+      react: ^16.8.0 || ^17.0.0 || ^18.0.0
+      react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
+      typescript: '*'
+    peerDependenciesMeta:
+      typescript:
+        optional: true
+    dependencies:
+      '@babel/core': 7.20.12
+      '@storybook/addons': 6.5.16_biqbaboplfbrettd7655fr4n2y
+      '@storybook/api': 6.5.16_biqbaboplfbrettd7655fr4n2y
+      '@storybook/channel-postmessage': 6.5.16
+      '@storybook/channels': 6.5.16
+      '@storybook/client-api': 6.5.16_biqbaboplfbrettd7655fr4n2y
+      '@storybook/client-logger': 6.5.16
+      '@storybook/components': 6.5.16_biqbaboplfbrettd7655fr4n2y
+      '@storybook/core-common': 6.5.16_ygqkwb4gg3aean7xjfdauovyqq
+      '@storybook/core-events': 6.5.16
+      '@storybook/node-logger': 6.5.16
+      '@storybook/preview-web': 6.5.16_biqbaboplfbrettd7655fr4n2y
+      '@storybook/router': 6.5.16_biqbaboplfbrettd7655fr4n2y
+      '@storybook/semver': 7.3.2
+      '@storybook/store': 6.5.16_biqbaboplfbrettd7655fr4n2y
+      '@storybook/theming': 6.5.16_biqbaboplfbrettd7655fr4n2y
+      '@storybook/ui': 6.5.16_biqbaboplfbrettd7655fr4n2y
+      '@types/node': 16.18.12
+      '@types/webpack': 4.41.33
+      autoprefixer: 9.8.8
+      babel-loader: 8.3.0_nwtvwtk5tmh22l2urnqucz7kqu
+      case-sensitive-paths-webpack-plugin: 2.4.0
+      core-js: 3.27.2
+      css-loader: 3.6.0_webpack@4.46.0
+      file-loader: 6.2.0_webpack@4.46.0
+      find-up: 5.0.0
+      fork-ts-checker-webpack-plugin: 4.1.6_evijigonbo4skk2vlqtwtdqibu
+      glob: 7.2.3
+      glob-promise: 3.4.0_glob@7.2.3
+      global: 4.4.0
+      html-webpack-plugin: 4.5.2_webpack@4.46.0
+      pnp-webpack-plugin: 1.6.4_typescript@4.9.5
+      postcss: 7.0.39
+      postcss-flexbugs-fixes: 4.2.1
+      postcss-loader: 4.3.0_gzaxsinx64nntyd3vmdqwl7coe
+      raw-loader: 4.0.2_webpack@4.46.0
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
+      stable: 0.1.8
+      style-loader: 1.3.0_webpack@4.46.0
+      terser-webpack-plugin: 4.2.3_webpack@4.46.0
+      ts-dedent: 2.2.0
+      typescript: 4.9.5
+      url-loader: 4.1.1_lit45vopotvaqup7lrvlnvtxwy
+      util-deprecate: 1.0.2
+      webpack: 4.46.0
+      webpack-dev-middleware: 3.7.3_webpack@4.46.0
+      webpack-filter-warnings-plugin: 1.2.1_webpack@4.46.0
+      webpack-hot-middleware: 2.25.3
+      webpack-virtual-modules: 0.2.2
+>>>>>>> 2298fb2 (monorepo 構成をより厳密なものにする (#5))
     transitivePeerDependencies:
       - supports-color
     dev: true
 
+<<<<<<< HEAD
   /@storybook/builder-manager/7.0.4:
     resolution: {integrity: sha512-WR2EmShSp7gJHCv5yhv2jZ41upmbD3cCjfq0QkZZRO5sPESr4Lr7PX9ViKQ/MLBnYAvh+V/sD6CEEN+mY2gC0Q==}
     dependencies:
@@ -2983,6 +3456,59 @@ packages:
       fs-extra: 11.1.1
       process: 0.11.10
       util: 0.12.5
+=======
+  /@storybook/builder-webpack5/6.5.16_ygqkwb4gg3aean7xjfdauovyqq:
+    resolution: {integrity: sha512-kh8Sofm1sbijaHDWtm0sXabqACHVFjikU/fIkkW786kpjoPIPIec1a+hrLgDsZxMU3I7XapSOaCFzWt6FjVXjg==}
+    peerDependencies:
+      react: ^16.8.0 || ^17.0.0 || ^18.0.0
+      react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
+      typescript: '*'
+    peerDependenciesMeta:
+      typescript:
+        optional: true
+    dependencies:
+      '@babel/core': 7.20.12
+      '@storybook/addons': 6.5.16_biqbaboplfbrettd7655fr4n2y
+      '@storybook/api': 6.5.16_biqbaboplfbrettd7655fr4n2y
+      '@storybook/channel-postmessage': 6.5.16
+      '@storybook/channels': 6.5.16
+      '@storybook/client-api': 6.5.16_biqbaboplfbrettd7655fr4n2y
+      '@storybook/client-logger': 6.5.16
+      '@storybook/components': 6.5.16_biqbaboplfbrettd7655fr4n2y
+      '@storybook/core-common': 6.5.16_ygqkwb4gg3aean7xjfdauovyqq
+      '@storybook/core-events': 6.5.16
+      '@storybook/node-logger': 6.5.16
+      '@storybook/preview-web': 6.5.16_biqbaboplfbrettd7655fr4n2y
+      '@storybook/router': 6.5.16_biqbaboplfbrettd7655fr4n2y
+      '@storybook/semver': 7.3.2
+      '@storybook/store': 6.5.16_biqbaboplfbrettd7655fr4n2y
+      '@storybook/theming': 6.5.16_biqbaboplfbrettd7655fr4n2y
+      '@types/node': 16.18.12
+      babel-loader: 8.3.0_la66t7xldg4uecmyawueag5wkm
+      babel-plugin-named-exports-order: 0.0.2
+      browser-assert: 1.2.1
+      case-sensitive-paths-webpack-plugin: 2.4.0
+      core-js: 3.27.2
+      css-loader: 5.2.7_webpack@5.75.0
+      fork-ts-checker-webpack-plugin: 6.5.2_hhrrucqyg4eysmfpujvov2ym5u
+      glob: 7.2.3
+      glob-promise: 3.4.0_glob@7.2.3
+      html-webpack-plugin: 5.5.0_webpack@5.75.0
+      path-browserify: 1.0.1
+      process: 0.11.10
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
+      stable: 0.1.8
+      style-loader: 2.0.0_webpack@5.75.0
+      terser-webpack-plugin: 5.3.6_webpack@5.75.0
+      ts-dedent: 2.2.0
+      typescript: 4.9.5
+      util-deprecate: 1.0.2
+      webpack: 5.75.0
+      webpack-dev-middleware: 4.3.0_webpack@5.75.0
+      webpack-hot-middleware: 2.25.3
+      webpack-virtual-modules: 0.4.6
+>>>>>>> 2298fb2 (monorepo 構成をより厳密なものにする (#5))
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -3155,8 +3681,131 @@ packages:
   /@storybook/core-common/7.0.4:
     resolution: {integrity: sha512-3+U8LmMXjHDb2dO7x7rCsYIWVYekr1MxQ+fiUH5fNqLAeE+Fs9VzUTRlNbzo875bQRKkgeLraIyIM/XhhUzVnQ==}
     dependencies:
+<<<<<<< HEAD
       '@storybook/node-logger': 7.0.4
       '@storybook/types': 7.0.4
+=======
+      '@storybook/client-logger': 6.5.16
+      '@storybook/csf': 0.0.2--canary.4566f4d.1
+      '@storybook/theming': 6.5.16_biqbaboplfbrettd7655fr4n2y
+      core-js: 3.27.2
+      memoizerific: 1.11.3
+      qs: 6.11.0
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
+      regenerator-runtime: 0.13.11
+      util-deprecate: 1.0.2
+    dev: true
+
+  /@storybook/core-client/6.5.16_7cwjmjvoo2q6bjzwgpqtqos7pu:
+    resolution: {integrity: sha512-14IRaDrVtKrQ+gNWC0wPwkCNfkZOKghYV/swCUnQX3rP99defsZK8Hc7xHIYoAiOP5+sc3sweRAxgmFiJeQ1Ig==}
+    peerDependencies:
+      react: ^16.8.0 || ^17.0.0 || ^18.0.0
+      react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
+      typescript: '*'
+      webpack: '*'
+    peerDependenciesMeta:
+      typescript:
+        optional: true
+    dependencies:
+      '@storybook/addons': 6.5.16_biqbaboplfbrettd7655fr4n2y
+      '@storybook/channel-postmessage': 6.5.16
+      '@storybook/channel-websocket': 6.5.16
+      '@storybook/client-api': 6.5.16_biqbaboplfbrettd7655fr4n2y
+      '@storybook/client-logger': 6.5.16
+      '@storybook/core-events': 6.5.16
+      '@storybook/csf': 0.0.2--canary.4566f4d.1
+      '@storybook/preview-web': 6.5.16_biqbaboplfbrettd7655fr4n2y
+      '@storybook/store': 6.5.16_biqbaboplfbrettd7655fr4n2y
+      '@storybook/ui': 6.5.16_biqbaboplfbrettd7655fr4n2y
+      airbnb-js-shims: 2.2.1
+      ansi-to-html: 0.6.15
+      core-js: 3.27.2
+      global: 4.4.0
+      lodash: 4.17.21
+      qs: 6.11.0
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
+      regenerator-runtime: 0.13.11
+      ts-dedent: 2.2.0
+      typescript: 4.9.5
+      unfetch: 4.2.0
+      util-deprecate: 1.0.2
+      webpack: 5.75.0
+    dev: true
+
+  /@storybook/core-client/6.5.16_yx6v2mahc4rgaakyal2wzgtgta:
+    resolution: {integrity: sha512-14IRaDrVtKrQ+gNWC0wPwkCNfkZOKghYV/swCUnQX3rP99defsZK8Hc7xHIYoAiOP5+sc3sweRAxgmFiJeQ1Ig==}
+    peerDependencies:
+      react: ^16.8.0 || ^17.0.0 || ^18.0.0
+      react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
+      typescript: '*'
+      webpack: '*'
+    peerDependenciesMeta:
+      typescript:
+        optional: true
+    dependencies:
+      '@storybook/addons': 6.5.16_biqbaboplfbrettd7655fr4n2y
+      '@storybook/channel-postmessage': 6.5.16
+      '@storybook/channel-websocket': 6.5.16
+      '@storybook/client-api': 6.5.16_biqbaboplfbrettd7655fr4n2y
+      '@storybook/client-logger': 6.5.16
+      '@storybook/core-events': 6.5.16
+      '@storybook/csf': 0.0.2--canary.4566f4d.1
+      '@storybook/preview-web': 6.5.16_biqbaboplfbrettd7655fr4n2y
+      '@storybook/store': 6.5.16_biqbaboplfbrettd7655fr4n2y
+      '@storybook/ui': 6.5.16_biqbaboplfbrettd7655fr4n2y
+      airbnb-js-shims: 2.2.1
+      ansi-to-html: 0.6.15
+      core-js: 3.27.2
+      global: 4.4.0
+      lodash: 4.17.21
+      qs: 6.11.0
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
+      regenerator-runtime: 0.13.11
+      ts-dedent: 2.2.0
+      typescript: 4.9.5
+      unfetch: 4.2.0
+      util-deprecate: 1.0.2
+      webpack: 4.46.0
+    dev: true
+
+  /@storybook/core-common/6.5.16_ygqkwb4gg3aean7xjfdauovyqq:
+    resolution: {integrity: sha512-2qtnKP3TTOzt2cp6LXKRTh7XrI9z5VanMnMTgeoFcA5ebnndD4V6BExQUdYPClE/QooLx6blUWNgS9dFEpjSqQ==}
+    peerDependencies:
+      react: ^16.8.0 || ^17.0.0 || ^18.0.0
+      react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
+      typescript: '*'
+    peerDependenciesMeta:
+      typescript:
+        optional: true
+    dependencies:
+      '@babel/core': 7.20.12
+      '@babel/plugin-proposal-class-properties': 7.18.6_@babel+core@7.20.12
+      '@babel/plugin-proposal-decorators': 7.20.13_@babel+core@7.20.12
+      '@babel/plugin-proposal-export-default-from': 7.18.10_@babel+core@7.20.12
+      '@babel/plugin-proposal-nullish-coalescing-operator': 7.18.6_@babel+core@7.20.12
+      '@babel/plugin-proposal-object-rest-spread': 7.20.7_@babel+core@7.20.12
+      '@babel/plugin-proposal-optional-chaining': 7.20.7_@babel+core@7.20.12
+      '@babel/plugin-proposal-private-methods': 7.18.6_@babel+core@7.20.12
+      '@babel/plugin-proposal-private-property-in-object': 7.20.5_@babel+core@7.20.12
+      '@babel/plugin-syntax-dynamic-import': 7.8.3_@babel+core@7.20.12
+      '@babel/plugin-transform-arrow-functions': 7.20.7_@babel+core@7.20.12
+      '@babel/plugin-transform-block-scoping': 7.20.15_@babel+core@7.20.12
+      '@babel/plugin-transform-classes': 7.20.7_@babel+core@7.20.12
+      '@babel/plugin-transform-destructuring': 7.20.7_@babel+core@7.20.12
+      '@babel/plugin-transform-for-of': 7.18.8_@babel+core@7.20.12
+      '@babel/plugin-transform-parameters': 7.20.7_@babel+core@7.20.12
+      '@babel/plugin-transform-shorthand-properties': 7.18.6_@babel+core@7.20.12
+      '@babel/plugin-transform-spread': 7.20.7_@babel+core@7.20.12
+      '@babel/preset-env': 7.20.2_@babel+core@7.20.12
+      '@babel/preset-react': 7.18.6_@babel+core@7.20.12
+      '@babel/preset-typescript': 7.18.6_@babel+core@7.20.12
+      '@babel/register': 7.18.9_@babel+core@7.20.12
+      '@storybook/node-logger': 6.5.16
+      '@storybook/semver': 7.3.2
+>>>>>>> 2298fb2 (monorepo 構成をより厳密なものにする (#5))
       '@types/node': 16.18.12
       '@types/pretty-hrtime': 1.0.1
       chalk: 4.1.2
@@ -3164,9 +3813,15 @@ packages:
       esbuild-register: 3.4.2_esbuild@0.17.16
       file-system-cache: 2.0.2
       find-up: 5.0.0
+<<<<<<< HEAD
       fs-extra: 11.1.1
       glob: 8.1.0
       glob-promise: 6.0.2_glob@8.1.0
+=======
+      fork-ts-checker-webpack-plugin: 6.5.2_evijigonbo4skk2vlqtwtdqibu
+      fs-extra: 9.1.0
+      glob: 7.2.3
+>>>>>>> 2298fb2 (monorepo 構成をより厳密なものにする (#5))
       handlebars: 4.7.7
       lazy-universal-dotenv: 4.0.0
       picomatch: 2.3.1
@@ -3174,6 +3829,12 @@ packages:
       pretty-hrtime: 1.0.3
       resolve-from: 5.0.0
       ts-dedent: 2.2.0
+<<<<<<< HEAD
+=======
+      typescript: 4.9.5
+      util-deprecate: 1.0.2
+      webpack: 4.46.0
+>>>>>>> 2298fb2 (monorepo 構成をより厳密なものにする (#5))
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -3182,11 +3843,30 @@ packages:
     resolution: {integrity: sha512-3gYyJZdHrf69tGueN7SQCgPxnLYYow8n5BeBcBlehYAutfLOafpd36HPIXSHIvJaLDNUzGqLcFiGub04ts1pJA==}
     dev: true
 
+<<<<<<< HEAD
   /@storybook/core-server/7.0.4:
     resolution: {integrity: sha512-4yYvrUoLrrNg10IjGCEnsZYRo8NNgpzb28qSAerbJCz1lcGGemzkKayDGLj+k2B2Jif/cc18nwuWnux9Q7R/ow==}
+=======
+  /@storybook/core-server/6.5.16_qmmwwzoo44lsd3y6jmua5ic44e:
+    resolution: {integrity: sha512-/3NPfmNyply395Dm0zaVZ8P9aruwO+tPx4D6/jpw8aqrRSwvAMndPMpoMCm0NXcpSm5rdX+Je4S3JW6JcggFkA==}
+    peerDependencies:
+      '@storybook/builder-webpack5': '*'
+      '@storybook/manager-webpack5': '*'
+      react: ^16.8.0 || ^17.0.0 || ^18.0.0
+      react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
+      typescript: '*'
+    peerDependenciesMeta:
+      '@storybook/builder-webpack5':
+        optional: true
+      '@storybook/manager-webpack5':
+        optional: true
+      typescript:
+        optional: true
+>>>>>>> 2298fb2 (monorepo 構成をより厳密なものにする (#5))
     dependencies:
       '@aw-web-design/x-default-browser': 1.4.88
       '@discoveryjs/json-ext': 0.5.7
+<<<<<<< HEAD
       '@storybook/builder-manager': 7.0.4
       '@storybook/core-common': 7.0.4
       '@storybook/core-events': 7.0.4
@@ -3200,6 +3880,21 @@ packages:
       '@storybook/telemetry': 7.0.4
       '@storybook/types': 7.0.4
       '@types/detect-port': 1.3.2
+=======
+      '@storybook/builder-webpack4': 6.5.16_ygqkwb4gg3aean7xjfdauovyqq
+      '@storybook/builder-webpack5': 6.5.16_ygqkwb4gg3aean7xjfdauovyqq
+      '@storybook/core-client': 6.5.16_yx6v2mahc4rgaakyal2wzgtgta
+      '@storybook/core-common': 6.5.16_ygqkwb4gg3aean7xjfdauovyqq
+      '@storybook/core-events': 6.5.16
+      '@storybook/csf': 0.0.2--canary.4566f4d.1
+      '@storybook/csf-tools': 6.5.16
+      '@storybook/manager-webpack4': 6.5.16_ygqkwb4gg3aean7xjfdauovyqq
+      '@storybook/manager-webpack5': 6.5.16_ygqkwb4gg3aean7xjfdauovyqq
+      '@storybook/node-logger': 6.5.16
+      '@storybook/semver': 7.3.2
+      '@storybook/store': 6.5.16_biqbaboplfbrettd7655fr4n2y
+      '@storybook/telemetry': 6.5.16_ygqkwb4gg3aean7xjfdauovyqq
+>>>>>>> 2298fb2 (monorepo 構成をより厳密なものにする (#5))
       '@types/node': 16.18.12
       '@types/node-fetch': 2.6.3
       '@types/pretty-hrtime': 1.0.1
@@ -3224,6 +3919,7 @@ packages:
       serve-favicon: 2.5.0
       telejson: 7.1.0
       ts-dedent: 2.2.0
+      typescript: 4.9.5
       util-deprecate: 1.0.2
       watchpack: 2.4.0
       ws: 8.13.0
@@ -3234,11 +3930,39 @@ packages:
       - utf-8-validate
     dev: true
 
+<<<<<<< HEAD
   /@storybook/csf-plugin/7.0.4:
     resolution: {integrity: sha512-munQ9lC8dYRXsQlEIeAfUGOyv/alihEzunIHJR8VVKxfVVEuoeuwIUHomytRSyX9OWGtqfwjkDqHb271l9QqTA==}
     dependencies:
       '@storybook/csf-tools': 7.0.4
       unplugin: 0.10.2
+=======
+  /@storybook/core/6.5.16_ftr7grjsseg6xuw3qbbx5x4quq:
+    resolution: {integrity: sha512-CEF3QFTsm/VMnMKtRNr4rRdLeIkIG0g1t26WcmxTdSThNPBd8CsWzQJ7Jqu7CKiut+MU4A1LMOwbwCE5F2gmyA==}
+    peerDependencies:
+      '@storybook/builder-webpack5': '*'
+      '@storybook/manager-webpack5': '*'
+      react: ^16.8.0 || ^17.0.0 || ^18.0.0
+      react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
+      typescript: '*'
+      webpack: '*'
+    peerDependenciesMeta:
+      '@storybook/builder-webpack5':
+        optional: true
+      '@storybook/manager-webpack5':
+        optional: true
+      typescript:
+        optional: true
+    dependencies:
+      '@storybook/builder-webpack5': 6.5.16_ygqkwb4gg3aean7xjfdauovyqq
+      '@storybook/core-client': 6.5.16_7cwjmjvoo2q6bjzwgpqtqos7pu
+      '@storybook/core-server': 6.5.16_qmmwwzoo44lsd3y6jmua5ic44e
+      '@storybook/manager-webpack5': 6.5.16_ygqkwb4gg3aean7xjfdauovyqq
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
+      typescript: 4.9.5
+      webpack: 5.75.0
+>>>>>>> 2298fb2 (monorepo 構成をより厳密なものにする (#5))
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -3287,6 +4011,7 @@ packages:
     resolution: {integrity: sha512-FcOqPAXACP0I3oJ/ws6/rrPT9WGhu915Cg8D02a9YxLo0DE9zI+a9A5gRGvmQ09fiWPukqI8ZAEoQEdWUKMQdQ==}
     dev: true
 
+<<<<<<< HEAD
   /@storybook/instrumenter/7.0.4:
     resolution: {integrity: sha512-HU+hVvym/KYiFhvpPSk5ugI0WjYQw8h/AJn/EY+oAb9vQzF2+ioS+IG5cK8usRQRwNqKFvdcKq1PNdYBj1rmGg==}
     dependencies:
@@ -3299,10 +4024,15 @@ packages:
 
   /@storybook/manager-api/7.0.4_biqbaboplfbrettd7655fr4n2y:
     resolution: {integrity: sha512-kydmycU7EdlngXRL+9rmNQ6WE4VsbW9TvSeuzfmZ1RVbbl1yF3jpwU/9xK23I4ci4jWk6xilAJgs7FkPBVCeJQ==}
+=======
+  /@storybook/manager-webpack4/6.5.16_ygqkwb4gg3aean7xjfdauovyqq:
+    resolution: {integrity: sha512-5VJZwmQU6AgdsBPsYdu886UKBHQ9SJEnFMaeUxKEclXk+iRsmbzlL4GHKyVd6oGX/ZaecZtcHPR6xrzmA4Ziew==}
+>>>>>>> 2298fb2 (monorepo 構成をより厳密なものにする (#5))
     peerDependencies:
       react: ^16.8.0 || ^17.0.0 || ^18.0.0
       react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
     dependencies:
+<<<<<<< HEAD
       '@storybook/channels': 7.0.4
       '@storybook/client-logger': 7.0.4
       '@storybook/core-events': 7.0.4
@@ -3312,6 +4042,124 @@ packages:
       '@storybook/theming': 7.0.4_biqbaboplfbrettd7655fr4n2y
       '@storybook/types': 7.0.4
       dequal: 2.0.3
+=======
+      '@babel/core': 7.20.12
+      '@babel/plugin-transform-template-literals': 7.18.9_@babel+core@7.20.12
+      '@babel/preset-react': 7.18.6_@babel+core@7.20.12
+      '@storybook/addons': 6.5.16_biqbaboplfbrettd7655fr4n2y
+      '@storybook/core-client': 6.5.16_yx6v2mahc4rgaakyal2wzgtgta
+      '@storybook/core-common': 6.5.16_ygqkwb4gg3aean7xjfdauovyqq
+      '@storybook/node-logger': 6.5.16
+      '@storybook/theming': 6.5.16_biqbaboplfbrettd7655fr4n2y
+      '@storybook/ui': 6.5.16_biqbaboplfbrettd7655fr4n2y
+      '@types/node': 16.18.12
+      '@types/webpack': 4.41.33
+      babel-loader: 8.3.0_nwtvwtk5tmh22l2urnqucz7kqu
+      case-sensitive-paths-webpack-plugin: 2.4.0
+      chalk: 4.1.2
+      core-js: 3.27.2
+      css-loader: 3.6.0_webpack@4.46.0
+      express: 4.18.2
+      file-loader: 6.2.0_webpack@4.46.0
+      find-up: 5.0.0
+      fs-extra: 9.1.0
+      html-webpack-plugin: 4.5.2_webpack@4.46.0
+      node-fetch: 2.6.9
+      pnp-webpack-plugin: 1.6.4_typescript@4.9.5
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
+      read-pkg-up: 7.0.1
+      regenerator-runtime: 0.13.11
+      resolve-from: 5.0.0
+      style-loader: 1.3.0_webpack@4.46.0
+      telejson: 6.0.8
+      terser-webpack-plugin: 4.2.3_webpack@4.46.0
+      ts-dedent: 2.2.0
+      typescript: 4.9.5
+      url-loader: 4.1.1_lit45vopotvaqup7lrvlnvtxwy
+      util-deprecate: 1.0.2
+      webpack: 4.46.0
+      webpack-dev-middleware: 3.7.3_webpack@4.46.0
+      webpack-virtual-modules: 0.2.2
+    transitivePeerDependencies:
+      - bluebird
+      - encoding
+      - eslint
+      - supports-color
+      - vue-template-compiler
+      - webpack-cli
+      - webpack-command
+    dev: true
+
+  /@storybook/manager-webpack5/6.5.16_ygqkwb4gg3aean7xjfdauovyqq:
+    resolution: {integrity: sha512-OtxXv8JCe0r/0rE5HxaFicsNsXA+fqZxzokxquFFgrYf/1Jg4d7QX6/pG5wINF+5qInJfVkRG6xhPzv1s5bk9Q==}
+    peerDependencies:
+      react: ^16.8.0 || ^17.0.0 || ^18.0.0
+      react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
+      typescript: '*'
+    peerDependenciesMeta:
+      typescript:
+        optional: true
+    dependencies:
+      '@babel/core': 7.20.12
+      '@babel/plugin-transform-template-literals': 7.18.9_@babel+core@7.20.12
+      '@babel/preset-react': 7.18.6_@babel+core@7.20.12
+      '@storybook/addons': 6.5.16_biqbaboplfbrettd7655fr4n2y
+      '@storybook/core-client': 6.5.16_7cwjmjvoo2q6bjzwgpqtqos7pu
+      '@storybook/core-common': 6.5.16_ygqkwb4gg3aean7xjfdauovyqq
+      '@storybook/node-logger': 6.5.16
+      '@storybook/theming': 6.5.16_biqbaboplfbrettd7655fr4n2y
+      '@storybook/ui': 6.5.16_biqbaboplfbrettd7655fr4n2y
+      '@types/node': 16.18.12
+      babel-loader: 8.3.0_la66t7xldg4uecmyawueag5wkm
+      case-sensitive-paths-webpack-plugin: 2.4.0
+      chalk: 4.1.2
+      core-js: 3.27.2
+      css-loader: 5.2.7_webpack@5.75.0
+      express: 4.18.2
+      find-up: 5.0.0
+      fs-extra: 9.1.0
+      html-webpack-plugin: 5.5.0_webpack@5.75.0
+      node-fetch: 2.6.9
+      process: 0.11.10
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
+      read-pkg-up: 7.0.1
+      regenerator-runtime: 0.13.11
+      resolve-from: 5.0.0
+      style-loader: 2.0.0_webpack@5.75.0
+      telejson: 6.0.8
+      terser-webpack-plugin: 5.3.6_webpack@5.75.0
+      ts-dedent: 2.2.0
+      typescript: 4.9.5
+      util-deprecate: 1.0.2
+      webpack: 5.75.0
+      webpack-dev-middleware: 4.3.0_webpack@5.75.0
+      webpack-virtual-modules: 0.4.6
+    transitivePeerDependencies:
+      - '@swc/core'
+      - encoding
+      - esbuild
+      - eslint
+      - supports-color
+      - uglify-js
+      - vue-template-compiler
+      - webpack-cli
+      - webpack-command
+    dev: true
+
+  /@storybook/mdx1-csf/0.0.1_@babel+core@7.20.12:
+    resolution: {integrity: sha512-4biZIWWzoWlCarMZmTpqcJNgo/RBesYZwGFbQeXiGYsswuvfWARZnW9RE9aUEMZ4XPn7B1N3EKkWcdcWe/K2tg==}
+    dependencies:
+      '@babel/generator': 7.20.14
+      '@babel/parser': 7.20.15
+      '@babel/preset-env': 7.20.2_@babel+core@7.20.12
+      '@babel/types': 7.20.7
+      '@mdx-js/mdx': 1.6.22
+      '@types/lodash': 4.14.191
+      js-string-escape: 1.0.1
+      loader-utils: 2.0.4
+>>>>>>> 2298fb2 (monorepo 構成をより厳密なものにする (#5))
       lodash: 4.17.21
       memoizerific: 1.11.3
       react: 18.2.0
@@ -3363,6 +4211,7 @@ packages:
       util-deprecate: 1.0.2
     dev: true
 
+<<<<<<< HEAD
   /@storybook/preview/7.0.4:
     resolution: {integrity: sha512-4KQudrOxX7wylMLv0fDMI8RzPI6oSxbFsiR2ilufjyziMCkjxo48Pe1NBCPWeEedY6pUdfh8+iJ7P2Bcvi1nTQ==}
     dev: true
@@ -3406,6 +4255,31 @@ packages:
   /@storybook/react/7.0.4_tvrvbu6r5w7oyqiu4bvze3slou:
     resolution: {integrity: sha512-jKDlCLbJ3iABbXJYS5KUfBrlkAw7CmCcrGcq0oKn/iN3Hrl6+CobISMWcub2RTb/HuAhKabGHEa2J1qvDLNKSg==}
     engines: {node: '>=16.0.0'}
+=======
+  /@storybook/react-docgen-typescript-plugin/1.0.2-canary.6.9d540b91e815f8fc2f8829189deb00553559ff63.0_hhrrucqyg4eysmfpujvov2ym5u:
+    resolution: {integrity: sha512-eVg3BxlOm2P+chijHBTByr90IZVUtgRW56qEOLX7xlww2NBuKrcavBlcmn+HH7GIUktquWkMPtvy6e0W0NgA5w==}
+    peerDependencies:
+      typescript: '>= 3.x'
+      webpack: '>= 4'
+    dependencies:
+      debug: 4.3.4
+      endent: 2.1.0
+      find-cache-dir: 3.3.2
+      flat-cache: 3.0.4
+      micromatch: 4.0.5
+      react-docgen-typescript: 2.2.2_typescript@4.9.5
+      tslib: 2.5.0
+      typescript: 4.9.5
+      webpack: 5.75.0
+    transitivePeerDependencies:
+      - supports-color
+    dev: true
+
+  /@storybook/react/6.5.16_dyefdi4m5prsj2jzuua6oyowx4:
+    resolution: {integrity: sha512-cBtNlOzf/MySpNLBK22lJ8wFU22HnfTB2xJyBk7W7Zi71Lm7Uxkhv1Pz8HdiQndJ0SlsAAQOWjQYsSZsGkZIaA==}
+    engines: {node: '>=10.13.0'}
+    hasBin: true
+>>>>>>> 2298fb2 (monorepo 構成をより厳密なものにする (#5))
     peerDependencies:
       react: ^16.8.0 || ^17.0.0 || ^18.0.0
       react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
@@ -3414,6 +4288,7 @@ packages:
       typescript:
         optional: true
     dependencies:
+<<<<<<< HEAD
       '@storybook/client-logger': 7.0.4
       '@storybook/core-client': 7.0.4
       '@storybook/docs-tools': 7.0.4
@@ -3422,6 +4297,24 @@ packages:
       '@storybook/react-dom-shim': 7.0.4_biqbaboplfbrettd7655fr4n2y
       '@storybook/types': 7.0.4
       '@types/escodegen': 0.0.6
+=======
+      '@babel/core': 7.20.12
+      '@babel/preset-flow': 7.18.6_@babel+core@7.20.12
+      '@babel/preset-react': 7.18.6_@babel+core@7.20.12
+      '@pmmmwh/react-refresh-webpack-plugin': 0.5.10_ohj47mxwagpoxvu7nhhwxzphqm
+      '@storybook/addons': 6.5.16_biqbaboplfbrettd7655fr4n2y
+      '@storybook/builder-webpack5': 6.5.16_ygqkwb4gg3aean7xjfdauovyqq
+      '@storybook/client-logger': 6.5.16
+      '@storybook/core': 6.5.16_ftr7grjsseg6xuw3qbbx5x4quq
+      '@storybook/core-common': 6.5.16_ygqkwb4gg3aean7xjfdauovyqq
+      '@storybook/csf': 0.0.2--canary.4566f4d.1
+      '@storybook/docs-tools': 6.5.16_biqbaboplfbrettd7655fr4n2y
+      '@storybook/manager-webpack5': 6.5.16_ygqkwb4gg3aean7xjfdauovyqq
+      '@storybook/node-logger': 6.5.16
+      '@storybook/react-docgen-typescript-plugin': 1.0.2-canary.6.9d540b91e815f8fc2f8829189deb00553559ff63.0_hhrrucqyg4eysmfpujvov2ym5u
+      '@storybook/semver': 7.3.2
+      '@storybook/store': 6.5.16_biqbaboplfbrettd7655fr4n2y
+>>>>>>> 2298fb2 (monorepo 構成をより厳密なものにする (#5))
       '@types/estree': 0.0.51
       '@types/node': 16.18.12
       acorn: 7.4.1
@@ -3433,10 +4326,20 @@ packages:
       prop-types: 15.8.1
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
+<<<<<<< HEAD
       react-element-to-jsx-string: 15.0.0_biqbaboplfbrettd7655fr4n2y
       ts-dedent: 2.2.0
       type-fest: 2.19.0
       typescript: 5.0.4
+=======
+      react-element-to-jsx-string: 14.3.4_biqbaboplfbrettd7655fr4n2y
+      react-refresh: 0.11.0
+      read-pkg-up: 7.0.1
+      regenerator-runtime: 0.13.11
+      require-from-string: 2.0.2
+      ts-dedent: 2.2.0
+      typescript: 4.9.5
+>>>>>>> 2298fb2 (monorepo 構成をより厳密なものにする (#5))
       util-deprecate: 1.0.2
     transitivePeerDependencies:
       - supports-color
@@ -3458,8 +4361,65 @@ packages:
   /@storybook/telemetry/7.0.4:
     resolution: {integrity: sha512-J05HkLsRTgHyXlOKqlxiAdr1VWNvvWBGOpemSWPDk9IJEHTCBEQeJT3ewRMfy3IVHp6jt++oCPeO5gRZjbir8Q==}
     dependencies:
+<<<<<<< HEAD
       '@storybook/client-logger': 7.0.4
       '@storybook/core-common': 7.0.4
+=======
+      core-js: 3.27.2
+      find-up: 4.1.0
+    dev: true
+
+  /@storybook/source-loader/6.5.16_biqbaboplfbrettd7655fr4n2y:
+    resolution: {integrity: sha512-fyVl4jrM/5JLrb48aqXPu7sTsmySQaVGFp1zfeqvPPlJRFMastDrePm5XGPN7Qjv1wsKmpuBvuweFKOT1pru3g==}
+    peerDependencies:
+      react: ^16.8.0 || ^17.0.0 || ^18.0.0
+      react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
+    dependencies:
+      '@storybook/addons': 6.5.16_biqbaboplfbrettd7655fr4n2y
+      '@storybook/client-logger': 6.5.16
+      '@storybook/csf': 0.0.2--canary.4566f4d.1
+      core-js: 3.27.2
+      estraverse: 5.3.0
+      global: 4.4.0
+      loader-utils: 2.0.4
+      lodash: 4.17.21
+      prettier: 2.3.0
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
+      regenerator-runtime: 0.13.11
+    dev: true
+
+  /@storybook/store/6.5.16_biqbaboplfbrettd7655fr4n2y:
+    resolution: {integrity: sha512-g+bVL5hmMq/9cM51K04e37OviUPHT0rHHrRm5wj/hrf18Kd9120b3sxdQ5Dc+HZ292yuME0n+cyrQPTYx9Epmw==}
+    peerDependencies:
+      react: ^16.8.0 || ^17.0.0 || ^18.0.0
+      react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
+    dependencies:
+      '@storybook/addons': 6.5.16_biqbaboplfbrettd7655fr4n2y
+      '@storybook/client-logger': 6.5.16
+      '@storybook/core-events': 6.5.16
+      '@storybook/csf': 0.0.2--canary.4566f4d.1
+      core-js: 3.27.2
+      fast-deep-equal: 3.1.3
+      global: 4.4.0
+      lodash: 4.17.21
+      memoizerific: 1.11.3
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
+      regenerator-runtime: 0.13.11
+      slash: 3.0.0
+      stable: 0.1.8
+      synchronous-promise: 2.0.17
+      ts-dedent: 2.2.0
+      util-deprecate: 1.0.2
+    dev: true
+
+  /@storybook/telemetry/6.5.16_ygqkwb4gg3aean7xjfdauovyqq:
+    resolution: {integrity: sha512-CWr5Uko1l9jJW88yTXsZTj/3GTabPvw0o7pDPOXPp8JRZiJTxv1JFaFCafhK9UzYbgcRuGfCC8kEWPZims7iKA==}
+    dependencies:
+      '@storybook/client-logger': 6.5.16
+      '@storybook/core-common': 6.5.16_ygqkwb4gg3aean7xjfdauovyqq
+>>>>>>> 2298fb2 (monorepo 構成をより厳密なものにする (#5))
       chalk: 4.1.2
       detect-package-manager: 2.0.1
       fetch-retry: 5.0.4
@@ -3964,6 +4924,67 @@ packages:
       indent-string: 4.0.0
     dev: true
 
+<<<<<<< HEAD
+=======
+  /airbnb-js-shims/2.2.1:
+    resolution: {integrity: sha512-wJNXPH66U2xjgo1Zwyjf9EydvJ2Si94+vSdk6EERcBfB2VZkeltpqIats0cqIZMLCXP3zcyaUKGYQeIBT6XjsQ==}
+    dependencies:
+      array-includes: 3.1.6
+      array.prototype.flat: 1.3.1
+      array.prototype.flatmap: 1.3.1
+      es5-shim: 4.6.7
+      es6-shim: 0.35.7
+      function.prototype.name: 1.1.5
+      globalthis: 1.0.3
+      object.entries: 1.1.6
+      object.fromentries: 2.0.6
+      object.getownpropertydescriptors: 2.1.5
+      object.values: 1.1.6
+      promise.allsettled: 1.0.6
+      promise.prototype.finally: 3.1.4
+      string.prototype.matchall: 4.0.8
+      string.prototype.padend: 3.1.4
+      string.prototype.padstart: 3.1.4
+      symbol.prototype.description: 1.0.5
+    dev: true
+
+  /ajv-errors/1.0.1_ajv@6.12.6:
+    resolution: {integrity: sha512-DCRfO/4nQ+89p/RK43i8Ezd41EqdGIU4ld7nGF8OQ14oc/we5rEntLCUa7+jrn3nn83BosfwZA0wb4pon2o8iQ==}
+    peerDependencies:
+      ajv: '>=5.0.0'
+    dependencies:
+      ajv: 6.12.6
+    dev: true
+
+  /ajv-formats/2.1.1_ajv@8.12.0:
+    resolution: {integrity: sha512-Wx0Kx52hxE7C18hkMEggYlEifqWZtYaRgouJor+WMdPnQyEK13vgEWyVNup7SoeeoLMsr4kf5h6dOW11I15MUA==}
+    peerDependencies:
+      ajv: ^8.0.0
+    peerDependenciesMeta:
+      ajv:
+        optional: true
+    dependencies:
+      ajv: 8.12.0
+    dev: true
+
+  /ajv-keywords/3.5.2_ajv@6.12.6:
+    resolution: {integrity: sha512-5p6WTN0DdTGVQk6VjcEju19IgaHudalcfabD7yhDGeA6bcQnmL+CpveLJq/3hvfwd1aof6L386Ougkx6RfyMIQ==}
+    peerDependencies:
+      ajv: ^6.9.1
+    dependencies:
+      ajv: 6.12.6
+    dev: true
+
+  /ajv-keywords/5.1.0_ajv@8.12.0:
+    resolution: {integrity: sha512-YCS/JNFAUyr5vAuhk1DWm1CBxRHW9LbJ2ozWeemrIqpbsqKjHVxYPyi5GC0rjZIT5JxJ3virVTS8wk4i/Z+krw==}
+    peerDependencies:
+      ajv: ^8.8.2
+    dependencies:
+      ajv: 8.12.0
+      fast-deep-equal: 3.1.3
+    dev: true
+
+>>>>>>> 2298fb2 (monorepo 構成をより厳密なものにする (#5))
   /ajv/6.12.6:
     resolution: {integrity: sha512-j3fVLgvTo527anyYyJOGTYJbG+vnnQYvE0m5mmkc1TK+nxAppkCLMIL0aZ4dblVCNoGShhm+kzE4ZUykBoMg4g==}
     dependencies:
@@ -4080,6 +5101,32 @@ packages:
       is-array-buffer: 3.0.2
     dev: true
 
+<<<<<<< HEAD
+=======
+  /arr-flatten/1.1.0:
+    resolution: {integrity: sha512-L3hKV5R/p5o81R7O02IGnwpDmkp6E982XhtbuwSe3O4qOtMMMtodicASA1Cny2U+aCXcNpml+m4dPsvsJ3jatg==}
+    engines: {node: '>=0.10.0'}
+    dev: true
+
+  /arr-union/3.1.0:
+    resolution: {integrity: sha512-sKpyeERZ02v1FeCZT8lrfJq5u6goHCtpTAzPwJYe7c8SPFOboNjNg1vz2L4VTn9T4PQxEx13TbXLmYUcS6Ug7Q==}
+    engines: {node: '>=0.10.0'}
+    dev: true
+
+  /array-buffer-byte-length/1.0.0:
+    resolution: {integrity: sha512-LPuwb2P+NrQw3XhxGc36+XSvuBPopovXYTR9Ew++Du9Yb/bx5AzBfrIsBoj0EZUifjQU+sHL21sseZ3jerWO/A==}
+    dependencies:
+      call-bind: 1.0.2
+      is-array-buffer: 3.0.2
+    dev: true
+
+  /array-find-index/1.0.2:
+    resolution: {integrity: sha512-M1HQyIXcBGtVywBt8WVdim+lrNaK7VHp99Qt5pSNziXznKHViIBbXWtfRTpEFpF/c4FdfxNAsCCwPp5phBYJtw==}
+    engines: {node: '>=0.10.0'}
+    dev: true
+    optional: true
+
+>>>>>>> 2298fb2 (monorepo 構成をより厳密なものにする (#5))
   /array-flatten/1.1.1:
     resolution: {integrity: sha512-PCVAQswWemu6UdxsDFFX/+gVeYqKAod3D3UVm91jHwynguOwAvYPhx8nNlM++NqRcK6CxxpUafjmhIdKiHibqg==}
     dev: true
@@ -4124,6 +5171,31 @@ packages:
       es-shim-unscopables: 1.0.0
     dev: true
 
+<<<<<<< HEAD
+=======
+  /array.prototype.map/1.0.5:
+    resolution: {integrity: sha512-gfaKntvwqYIuC7mLLyv2wzZIJqrRhn5PZ9EfFejSx6a78sV7iDsGpG9P+3oUPtm1Rerqm6nrKS4FYuTIvWfo3g==}
+    engines: {node: '>= 0.4'}
+    dependencies:
+      call-bind: 1.0.2
+      define-properties: 1.2.0
+      es-abstract: 1.21.2
+      es-array-method-boxes-properly: 1.0.0
+      is-string: 1.0.7
+    dev: true
+
+  /array.prototype.reduce/1.0.5:
+    resolution: {integrity: sha512-kDdugMl7id9COE8R7MHF5jWk7Dqt/fs4Pv+JXoICnYwqpjjjbUurz6w5fT5IG6brLdJhv6/VoHB0H7oyIBXd+Q==}
+    engines: {node: '>= 0.4'}
+    dependencies:
+      call-bind: 1.0.2
+      define-properties: 1.2.0
+      es-abstract: 1.21.2
+      es-array-method-boxes-properly: 1.0.0
+      is-string: 1.0.7
+    dev: true
+
+>>>>>>> 2298fb2 (monorepo 構成をより厳密なものにする (#5))
   /array.prototype.tosorted/1.1.1:
     resolution: {integrity: sha512-pZYPXPRl2PqWcsUs6LOMn+1f1532nEoPTYowBtqLwAW+W8vSVhkIGnmOX1t/UQjD6YGI0vcD2B1U7ZFGQH9jnQ==}
     dependencies:
@@ -4206,12 +5278,76 @@ packages:
       deep-equal: 2.2.0
     dev: true
 
+<<<<<<< HEAD
   /babel-core/7.0.0-bridge.0_@babel+core@7.21.4:
     resolution: {integrity: sha512-poPX9mZH/5CSanm50Q+1toVci6pv5KSRv/5TWCwtzQS5XEwn40BcCrgIeMFWP9CKKIniKXNxoIOnOq4VVlGXhg==}
     peerDependencies:
       '@babel/core': ^7.0.0-0
     dependencies:
       '@babel/core': 7.21.4
+=======
+  /babel-loader/8.3.0_la66t7xldg4uecmyawueag5wkm:
+    resolution: {integrity: sha512-H8SvsMF+m9t15HNLMipppzkC+Y2Yq+v3SonZyU70RBL/h1gxPkH08Ot8pEE9Z4Kd+czyWJClmFS8qzIP9OZ04Q==}
+    engines: {node: '>= 8.9'}
+    peerDependencies:
+      '@babel/core': ^7.0.0
+      webpack: '>=2'
+    dependencies:
+      '@babel/core': 7.20.12
+      find-cache-dir: 3.3.2
+      loader-utils: 2.0.4
+      make-dir: 3.1.0
+      schema-utils: 2.7.1
+      webpack: 5.75.0
+    dev: true
+
+  /babel-loader/8.3.0_nwtvwtk5tmh22l2urnqucz7kqu:
+    resolution: {integrity: sha512-H8SvsMF+m9t15HNLMipppzkC+Y2Yq+v3SonZyU70RBL/h1gxPkH08Ot8pEE9Z4Kd+czyWJClmFS8qzIP9OZ04Q==}
+    engines: {node: '>= 8.9'}
+    peerDependencies:
+      '@babel/core': ^7.0.0
+      webpack: '>=2'
+    dependencies:
+      '@babel/core': 7.20.12
+      find-cache-dir: 3.3.2
+      loader-utils: 2.0.4
+      make-dir: 3.1.0
+      schema-utils: 2.7.1
+      webpack: 4.46.0
+    dev: true
+
+  /babel-loader/9.1.2_la66t7xldg4uecmyawueag5wkm:
+    resolution: {integrity: sha512-mN14niXW43tddohGl8HPu5yfQq70iUThvFL/4QzESA7GcZoC0eVOhvWdQ8+3UlSjaDE9MVtsW9mxDY07W7VpVA==}
+    engines: {node: '>= 14.15.0'}
+    peerDependencies:
+      '@babel/core': ^7.12.0
+      webpack: '>=5'
+    dependencies:
+      '@babel/core': 7.20.12
+      find-cache-dir: 3.3.2
+      schema-utils: 4.0.0
+      webpack: 5.75.0
+    dev: true
+
+  /babel-plugin-add-react-displayname/0.0.5:
+    resolution: {integrity: sha512-LY3+Y0XVDYcShHHorshrDbt4KFWL4bSeniCtl4SYZbask+Syngk1uMPCeN9+nSiZo6zX5s0RTq/J9Pnaaf/KHw==}
+    dev: true
+
+  /babel-plugin-apply-mdx-type-prop/1.6.22_@babel+core@7.12.9:
+    resolution: {integrity: sha512-VefL+8o+F/DfK24lPZMtJctrCVOfgbqLAGZSkxwhazQv4VxPg3Za/i40fu22KR2m8eEda+IfSOlPLUSIiLcnCQ==}
+    peerDependencies:
+      '@babel/core': ^7.11.6
+    dependencies:
+      '@babel/core': 7.12.9
+      '@babel/helper-plugin-utils': 7.10.4
+      '@mdx-js/util': 1.6.22
+    dev: true
+
+  /babel-plugin-extract-import-names/1.6.22:
+    resolution: {integrity: sha512-yJ9BsJaISua7d8zNT7oRG1ZLBJCIdZ4PZqmH8qa9N5AK01ifk3fnkc98AXhtzE7UkfCsEumvoQWgoYLhOnJ7jQ==}
+    dependencies:
+      '@babel/helper-plugin-utils': 7.10.4
+>>>>>>> 2298fb2 (monorepo 構成をより厳密なものにする (#5))
     dev: true
 
   /babel-plugin-istanbul/6.1.1:
@@ -4227,7 +5363,24 @@ packages:
       - supports-color
     dev: true
 
+<<<<<<< HEAD
   /babel-plugin-polyfill-corejs2/0.3.3_@babel+core@7.21.4:
+=======
+  /babel-plugin-macros/3.1.0:
+    resolution: {integrity: sha512-Cg7TFGpIr01vOQNODXOOaGz2NpCU5gl8x1qJFbb6hbZxR7XrcE2vtbAsTAbJ7/xwJtUuJEw8K8Zr/AE0LHlesg==}
+    engines: {node: '>=10', npm: '>=6'}
+    dependencies:
+      '@babel/runtime': 7.21.0
+      cosmiconfig: 7.1.0
+      resolve: 1.22.1
+    dev: true
+
+  /babel-plugin-named-exports-order/0.0.2:
+    resolution: {integrity: sha512-OgOYHOLoRK+/mvXU9imKHlG6GkPLYrUCvFXG/CM93R/aNNO8pOOF4aS+S8CCHMDQoNSeiOYEZb/G6RwL95Jktw==}
+    dev: true
+
+  /babel-plugin-polyfill-corejs2/0.3.3_@babel+core@7.20.12:
+>>>>>>> 2298fb2 (monorepo 構成をより厳密なものにする (#5))
     resolution: {integrity: sha512-8hOdmFYFSZhqg2C/JgLUQ+t52o5nirNwaWM2B9LWteozwIvM14VSwdsCAUET10qT+kmySAlseadmfeeSWFCy+Q==}
     peerDependencies:
       '@babel/core': ^7.0.0-0
@@ -4447,6 +5600,70 @@ packages:
       yargs-parser: 20.2.9
     dev: true
 
+<<<<<<< HEAD
+=======
+  /cacache/12.0.4:
+    resolution: {integrity: sha512-a0tMB40oefvuInr4Cwb3GerbL9xTj1D5yg0T5xrjGCGyfvbxseIXX7BAO/u/hIXdafzOI5JC3wDwHyf24buOAQ==}
+    dependencies:
+      bluebird: 3.7.2
+      chownr: 1.1.4
+      figgy-pudding: 3.5.2
+      glob: 7.2.3
+      graceful-fs: 4.2.11
+      infer-owner: 1.0.4
+      lru-cache: 5.1.1
+      mississippi: 3.0.0
+      mkdirp: 0.5.6
+      move-concurrently: 1.0.1
+      promise-inflight: 1.0.1_bluebird@3.7.2
+      rimraf: 2.7.1
+      ssri: 6.0.2
+      unique-filename: 1.1.1
+      y18n: 4.0.3
+    dev: true
+
+  /cacache/15.3.0:
+    resolution: {integrity: sha512-VVdYzXEn+cnbXpFgWs5hTT7OScegHVmLhJIR8Ufqk3iFD6A6j5iSX1KuBTfNEv4tdJWE2PzA6IVFtcLC7fN9wQ==}
+    engines: {node: '>= 10'}
+    dependencies:
+      '@npmcli/fs': 1.1.1
+      '@npmcli/move-file': 1.1.2
+      chownr: 2.0.0
+      fs-minipass: 2.1.0
+      glob: 7.2.3
+      infer-owner: 1.0.4
+      lru-cache: 6.0.0
+      minipass: 3.3.6
+      minipass-collect: 1.0.2
+      minipass-flush: 1.0.5
+      minipass-pipeline: 1.2.4
+      mkdirp: 1.0.4
+      p-map: 4.0.0
+      promise-inflight: 1.0.1
+      rimraf: 3.0.2
+      ssri: 8.0.1
+      tar: 6.1.13
+      unique-filename: 1.1.1
+    transitivePeerDependencies:
+      - bluebird
+    dev: true
+
+  /cache-base/1.0.1:
+    resolution: {integrity: sha512-AKcdTnFSWATd5/GCPRxr2ChwIJ85CeyrEyjRHlKxQ56d4XJMGym0uAiKn0xbLOGOl3+yRpOTi484dVCEc5AUzQ==}
+    engines: {node: '>=0.10.0'}
+    dependencies:
+      collection-visit: 1.0.0
+      component-emitter: 1.3.0
+      get-value: 2.0.6
+      has-value: 1.0.0
+      isobject: 3.0.1
+      set-value: 2.0.1
+      to-object-path: 0.3.0
+      union-value: 1.0.1
+      unset-value: 1.0.0
+    dev: true
+
+>>>>>>> 2298fb2 (monorepo 構成をより厳密なものにする (#5))
   /call-bind/1.0.2:
     resolution: {integrity: sha512-7O+FbCihrB5WGbFYesctwmTKae6rOiIzmz1icreWJ+0aA7LJfuqhEso2T9ncpcFtzMQtzXf2QGGueWJGTYsqrA==}
     dependencies:
@@ -4827,8 +6044,35 @@ packages:
     resolution: {integrity: sha512-ZQBvi1DcpJ4GDqanjucZ2Hj3wEO5pZDS89BWbkcrvdxksJorwUDDZamX9ldFkp9aw2lmBDLgkObEA4DWNJ9FYQ==}
     dev: true
 
+<<<<<<< HEAD
   /cosmiconfig/8.0.0:
     resolution: {integrity: sha512-da1EafcpH6b/TD8vDRaWV7xFINlHlF6zKsGwS1TsuVJTZRkquaS5HTMq7uq6h31619QjbsYl21gVDOm32KM1vQ==}
+=======
+  /cosmiconfig/6.0.0:
+    resolution: {integrity: sha512-xb3ZL6+L8b9JLLCx3ZdoZy4+2ECphCMo2PwqgP1tlfVq6M6YReyzBJtvWWtbDSpNr9hn96pkCiZqUcFEc+54Qg==}
+    engines: {node: '>=8'}
+    dependencies:
+      '@types/parse-json': 4.0.0
+      import-fresh: 3.3.0
+      parse-json: 5.2.0
+      path-type: 4.0.0
+      yaml: 1.10.2
+    dev: true
+
+  /cosmiconfig/7.1.0:
+    resolution: {integrity: sha512-AdmX6xUzdNASswsFtmwSt7Vj8po9IuqXm0UXz7QKPuEUmPB4XyjGfaAr2PSuELMwkRMVH1EpIkX5bTZGRB3eCA==}
+    engines: {node: '>=10'}
+    dependencies:
+      '@types/parse-json': 4.0.0
+      import-fresh: 3.3.0
+      parse-json: 5.2.0
+      path-type: 4.0.0
+      yaml: 1.10.2
+    dev: true
+
+  /cosmiconfig/8.1.3:
+    resolution: {integrity: sha512-/UkO2JKI18b5jVMJUp0lvKFMpa/Gye+ZgZjKD+DGEN9y7NRcf/nK1A0sp67ONmKtnDCNMS44E6jrk0Yc3bDuUw==}
+>>>>>>> 2298fb2 (monorepo 構成をより厳密なものにする (#5))
     engines: {node: '>=14'}
     dependencies:
       import-fresh: 3.3.0
@@ -4841,10 +6085,62 @@ packages:
     resolution: {integrity: sha512-/UkO2JKI18b5jVMJUp0lvKFMpa/Gye+ZgZjKD+DGEN9y7NRcf/nK1A0sp67ONmKtnDCNMS44E6jrk0Yc3bDuUw==}
     engines: {node: '>=14'}
     dependencies:
+<<<<<<< HEAD
       import-fresh: 3.3.0
       js-yaml: 4.1.0
       parse-json: 5.2.0
       path-type: 4.0.0
+=======
+      graceful-fs: 4.2.11
+      make-dir: 3.1.0
+      nested-error-stacks: 2.1.1
+      p-event: 4.2.0
+    dev: true
+
+  /cpy/8.1.2:
+    resolution: {integrity: sha512-dmC4mUesv0OYH2kNFEidtf/skUwv4zePmGeepjyyJ0qTo5+8KhA1o99oIAwVVLzQMAeDJml74d6wPPKb6EZUTg==}
+    engines: {node: '>=8'}
+    dependencies:
+      arrify: 2.0.1
+      cp-file: 7.0.0
+      globby: 9.2.0
+      has-glob: 1.0.0
+      junk: 3.1.0
+      nested-error-stacks: 2.1.1
+      p-all: 2.1.0
+      p-filter: 2.1.0
+      p-map: 3.0.0
+    transitivePeerDependencies:
+      - supports-color
+    dev: true
+
+  /create-ecdh/4.0.4:
+    resolution: {integrity: sha512-mf+TCx8wWc9VpuxfP2ht0iSISLZnt0JgWlrOKZiNqyUZWnjIaCIVNQArMHnCZKfEYRg6IM7A+NeJoN8gf/Ws0A==}
+    dependencies:
+      bn.js: 4.12.0
+      elliptic: 6.5.4
+    dev: true
+
+  /create-hash/1.2.0:
+    resolution: {integrity: sha512-z00bCGNHDG8mHAkP7CtT1qVu+bFQUPjYq/4Iv3C3kWjTFV10zIjfSoeqXo9Asws8gwSHDGj/hl2u4OGIjapeCg==}
+    dependencies:
+      cipher-base: 1.0.4
+      inherits: 2.0.4
+      md5.js: 1.3.5
+      ripemd160: 2.0.2
+      sha.js: 2.4.11
+    dev: true
+
+  /create-hmac/1.1.7:
+    resolution: {integrity: sha512-MJG9liiZ+ogc4TzUwuvbER1JRdgvUFSB5+VR/g5h82fGaIRWMWddtKBHi7/sVhfjQZ6SehlyhvQYrcYkaUIpLg==}
+    dependencies:
+      cipher-base: 1.0.4
+      create-hash: 1.2.0
+      inherits: 2.0.4
+      ripemd160: 2.0.2
+      safe-buffer: 5.2.1
+      sha.js: 2.4.11
+>>>>>>> 2298fb2 (monorepo 構成をより厳密なものにする (#5))
     dev: true
 
   /cross-spawn/6.0.5:
@@ -4929,12 +6225,21 @@ packages:
       clear-module: 4.1.2
       comment-json: 4.2.3
       configstore: 5.0.1
+<<<<<<< HEAD
       cosmiconfig: 8.0.0
       cspell-dictionary: 6.31.1
       cspell-glob: 6.31.1
       cspell-grammar: 6.31.1
       cspell-io: 6.31.1
       cspell-trie-lib: 6.31.1
+=======
+      cosmiconfig: 8.1.3
+      cspell-dictionary: 6.22.0
+      cspell-glob: 6.22.0
+      cspell-grammar: 6.22.0
+      cspell-io: 6.22.0
+      cspell-trie-lib: 6.22.0
+>>>>>>> 2298fb2 (monorepo 構成をより厳密なものにする (#5))
       fast-equals: 4.0.3
       find-up: 5.0.0
       gensequence: 5.0.2
@@ -4986,6 +6291,67 @@ packages:
     engines: {node: '>=12.22'}
     dev: true
 
+<<<<<<< HEAD
+=======
+  /css-loader/3.6.0_webpack@4.46.0:
+    resolution: {integrity: sha512-M5lSukoWi1If8dhQAUCvj4H8vUt3vOnwbQBH9DdTm/s4Ym2B/3dPMtYZeJmq7Q3S3Pa+I94DcZ7pc9bP14cWIQ==}
+    engines: {node: '>= 8.9.0'}
+    peerDependencies:
+      webpack: ^4.0.0 || ^5.0.0
+    dependencies:
+      camelcase: 5.3.1
+      cssesc: 3.0.0
+      icss-utils: 4.1.1
+      loader-utils: 1.4.2
+      normalize-path: 3.0.0
+      postcss: 7.0.39
+      postcss-modules-extract-imports: 2.0.0
+      postcss-modules-local-by-default: 3.0.3
+      postcss-modules-scope: 2.2.0
+      postcss-modules-values: 3.0.0
+      postcss-value-parser: 4.2.0
+      schema-utils: 2.7.1
+      semver: 6.3.0
+      webpack: 4.46.0
+    dev: true
+
+  /css-loader/5.2.7_webpack@5.75.0:
+    resolution: {integrity: sha512-Q7mOvpBNBG7YrVGMxRxcBJZFL75o+cH2abNASdibkj/fffYD8qWbInZrD0S9ccI6vZclF3DsHE7njGlLtaHbhg==}
+    engines: {node: '>= 10.13.0'}
+    peerDependencies:
+      webpack: ^4.27.0 || ^5.0.0
+    dependencies:
+      icss-utils: 5.1.0_postcss@8.4.21
+      loader-utils: 2.0.4
+      postcss: 8.4.21
+      postcss-modules-extract-imports: 3.0.0_postcss@8.4.21
+      postcss-modules-local-by-default: 4.0.0_postcss@8.4.21
+      postcss-modules-scope: 3.0.0_postcss@8.4.21
+      postcss-modules-values: 4.0.0_postcss@8.4.21
+      postcss-value-parser: 4.2.0
+      schema-utils: 3.1.1
+      semver: 7.3.8
+      webpack: 5.75.0
+    dev: true
+
+  /css-loader/6.7.3_webpack@5.75.0:
+    resolution: {integrity: sha512-qhOH1KlBMnZP8FzRO6YCH9UHXQhVMcEGLyNdb7Hv2cpcmJbW0YrddO+tG1ab5nT41KpHIYGsbeHqxB9xPu1pKQ==}
+    engines: {node: '>= 12.13.0'}
+    peerDependencies:
+      webpack: ^5.0.0
+    dependencies:
+      icss-utils: 5.1.0_postcss@8.4.21
+      postcss: 8.4.21
+      postcss-modules-extract-imports: 3.0.0_postcss@8.4.21
+      postcss-modules-local-by-default: 4.0.0_postcss@8.4.21
+      postcss-modules-scope: 3.0.0_postcss@8.4.21
+      postcss-modules-values: 4.0.0_postcss@8.4.21
+      postcss-value-parser: 4.2.0
+      semver: 7.3.8
+      webpack: 5.75.0
+    dev: true
+
+>>>>>>> 2298fb2 (monorepo 構成をより厳密なものにする (#5))
   /css-modules-loader-core/1.1.0:
     resolution: {integrity: sha512-XWOBwgy5nwBn76aA+6ybUGL/3JBnCtBX9Ay9/OWIpzKYWlVHMazvJ+WtHumfi+xxdPF440cWK7JCYtt8xDifew==}
     dependencies:
@@ -5281,9 +6647,43 @@ packages:
       once: 1.4.0
     dev: true
 
+<<<<<<< HEAD
   /envinfo/7.8.1:
     resolution: {integrity: sha512-/o+BXHmB7ocbHEAs6F2EnG0ogybVVUdkRunTT2glZU9XAaGmhqskrvKwqXuDfNjEO0LZKWdejEEpnq8aM0tOaw==}
     engines: {node: '>=4'}
+=======
+  /endent/2.1.0:
+    resolution: {integrity: sha512-r8VyPX7XL8U01Xgnb1CjZ3XV+z90cXIJ9JPE/R9SEC9vpw2P6CfsRPJmp20DppC5N7ZAMCmjYkJIa744Iyg96w==}
+    dependencies:
+      dedent: 0.7.0
+      fast-json-parse: 1.0.3
+      objectorarray: 1.0.5
+    dev: true
+
+  /enhanced-resolve/4.5.0:
+    resolution: {integrity: sha512-Nv9m36S/vxpsI+Hc4/ZGRs0n9mXqSWGGq49zxb/cJfPAQMbUtttJAlNPS4AQzaBdw/pKskw5bMbekT/Y7W/Wlg==}
+    engines: {node: '>=6.9.0'}
+    dependencies:
+      graceful-fs: 4.2.11
+      memory-fs: 0.5.0
+      tapable: 1.1.3
+    dev: true
+
+  /enhanced-resolve/5.12.0:
+    resolution: {integrity: sha512-QHTXI/sZQmko1cbDoNAa3mJ5qhWUUNAq3vR0/YiD379fWQrcfuoX1+HW2S0MTt7XmoPLapdaDKUtelUSPic7hQ==}
+    engines: {node: '>=10.13.0'}
+    dependencies:
+      graceful-fs: 4.2.11
+      tapable: 2.2.1
+    dev: true
+
+  /entities/2.2.0:
+    resolution: {integrity: sha512-p92if5Nz619I0w+akJrLZH0MX0Pb5DX39XOwQTtXSdQQOaYH03S1uIQp4mhOZtAXrxq4ViO67YTiLBo2638o9A==}
+    dev: true
+
+  /errno/0.1.8:
+    resolution: {integrity: sha512-dJ6oBr5SQ1VSd9qkk7ByRgb/1SH4JZjCHSW/mr63/QcXO9zLVxvJ6Oy13nio03rxpSnVDDjFor75SjVeZWPW/A==}
+>>>>>>> 2298fb2 (monorepo 構成をより厳密なものにする (#5))
     hasBin: true
     dev: true
 
@@ -5293,6 +6693,15 @@ packages:
       is-arrayish: 0.2.1
     dev: true
 
+<<<<<<< HEAD
+=======
+  /error-stack-parser/2.1.4:
+    resolution: {integrity: sha512-Sk5V6wVazPhq5MhpO+AUxJn5x7XSXGl1R93Vn7i+zS15KDVxQijejNCrz8340/2bgLBjR9GtEG8ZVKONDjcqGQ==}
+    dependencies:
+      stackframe: 1.3.4
+    dev: true
+
+>>>>>>> 2298fb2 (monorepo 構成をより厳密なものにする (#5))
   /es-abstract/1.21.2:
     resolution: {integrity: sha512-y/B5POM2iBnIxCiernH1G7rC9qQoM77lLIMQLuob0zhp8C56Po81+2Nj0WFKnd0pNReDTnkYryc+zhOzpEIROg==}
     engines: {node: '>= 0.4'}
@@ -5878,9 +7287,16 @@ packages:
       debug: 4.3.4
       doctrine: 3.0.0
       escape-string-regexp: 4.0.0
+<<<<<<< HEAD
       eslint-scope: 7.2.0
       eslint-visitor-keys: 3.4.0
       espree: 9.5.1
+=======
+      eslint-scope: 7.1.1
+      eslint-utils: 3.0.0_eslint@8.33.0
+      eslint-visitor-keys: 3.3.0
+      espree: 9.5.0
+>>>>>>> 2298fb2 (monorepo 構成をより厳密なものにする (#5))
       esquery: 1.5.0
       esutils: 2.0.3
       fast-deep-equal: 3.1.3
@@ -5909,8 +7325,13 @@ packages:
       - supports-color
     dev: true
 
+<<<<<<< HEAD
   /espree/9.5.1:
     resolution: {integrity: sha512-5yxtHSZXRSW5pvv3hAlXM5+/Oswi1AUFqBmbibKb5s6bp3rGIDkyXU6xCoyuuLhijr4SFwPrXRoZjz0AZDN9tg==}
+=======
+  /espree/9.5.0:
+    resolution: {integrity: sha512-JPbJGhKc47++oo4JkEoTe2wjy4fmMwvFpgJT9cQzmfXKp22Dr6Hf1tdCteLz1h0P3t+mGvWZ+4Uankvh8+c6zw==}
+>>>>>>> 2298fb2 (monorepo 構成をより厳密なものにする (#5))
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     dependencies:
       acorn: 8.8.2
@@ -6229,6 +7650,98 @@ packages:
       signal-exit: 3.0.7
     dev: true
 
+<<<<<<< HEAD
+=======
+  /fork-ts-checker-webpack-plugin/4.1.6_evijigonbo4skk2vlqtwtdqibu:
+    resolution: {integrity: sha512-DUxuQaKoqfNne8iikd14SAkh5uw4+8vNifp6gmA73yYNS6ywLIWSLD/n/mBzHQRpW3J7rbATEakmiA8JvkTyZw==}
+    engines: {node: '>=6.11.5', yarn: '>=1.0.0'}
+    peerDependencies:
+      eslint: '>= 6'
+      typescript: '>= 2.7'
+      vue-template-compiler: '*'
+      webpack: '>= 4'
+    peerDependenciesMeta:
+      eslint:
+        optional: true
+      vue-template-compiler:
+        optional: true
+    dependencies:
+      '@babel/code-frame': 7.18.6
+      chalk: 2.4.2
+      micromatch: 3.1.10
+      minimatch: 3.1.2
+      semver: 5.7.1
+      tapable: 1.1.3
+      typescript: 4.9.5
+      webpack: 4.46.0
+      worker-rpc: 0.1.1
+    transitivePeerDependencies:
+      - supports-color
+    dev: true
+
+  /fork-ts-checker-webpack-plugin/6.5.2_evijigonbo4skk2vlqtwtdqibu:
+    resolution: {integrity: sha512-m5cUmF30xkZ7h4tWUgTAcEaKmUW7tfyUyTqNNOz7OxWJ0v1VWKTcOvH8FWHUwSjlW/356Ijc9vi3XfcPstpQKA==}
+    engines: {node: '>=10', yarn: '>=1.0.0'}
+    peerDependencies:
+      eslint: '>= 6'
+      typescript: '>= 2.7'
+      vue-template-compiler: '*'
+      webpack: '>= 4'
+    peerDependenciesMeta:
+      eslint:
+        optional: true
+      vue-template-compiler:
+        optional: true
+    dependencies:
+      '@babel/code-frame': 7.18.6
+      '@types/json-schema': 7.0.11
+      chalk: 4.1.2
+      chokidar: 3.5.3
+      cosmiconfig: 6.0.0
+      deepmerge: 4.3.0
+      fs-extra: 9.1.0
+      glob: 7.2.3
+      memfs: 3.4.13
+      minimatch: 3.1.2
+      schema-utils: 2.7.0
+      semver: 7.3.8
+      tapable: 1.1.3
+      typescript: 4.9.5
+      webpack: 4.46.0
+    dev: true
+
+  /fork-ts-checker-webpack-plugin/6.5.2_hhrrucqyg4eysmfpujvov2ym5u:
+    resolution: {integrity: sha512-m5cUmF30xkZ7h4tWUgTAcEaKmUW7tfyUyTqNNOz7OxWJ0v1VWKTcOvH8FWHUwSjlW/356Ijc9vi3XfcPstpQKA==}
+    engines: {node: '>=10', yarn: '>=1.0.0'}
+    peerDependencies:
+      eslint: '>= 6'
+      typescript: '>= 2.7'
+      vue-template-compiler: '*'
+      webpack: '>= 4'
+    peerDependenciesMeta:
+      eslint:
+        optional: true
+      vue-template-compiler:
+        optional: true
+    dependencies:
+      '@babel/code-frame': 7.18.6
+      '@types/json-schema': 7.0.11
+      chalk: 4.1.2
+      chokidar: 3.5.3
+      cosmiconfig: 6.0.0
+      deepmerge: 4.3.0
+      fs-extra: 9.1.0
+      glob: 7.2.3
+      memfs: 3.4.13
+      minimatch: 3.1.2
+      schema-utils: 2.7.0
+      semver: 7.3.8
+      tapable: 1.1.3
+      typescript: 4.9.5
+      webpack: 5.75.0
+    dev: true
+
+>>>>>>> 2298fb2 (monorepo 構成をより厳密なものにする (#5))
   /form-data/3.0.1:
     resolution: {integrity: sha512-RHkBKtLWUVwd7SqRIvCZMEvAMoGUp0XU+seQiZejj0COz3RI3hWP4sCv3gZWWLjJTd7rGwcsF5eKZGii0r/hbg==}
     engines: {node: '>= 6'}
@@ -6257,6 +7770,19 @@ packages:
     engines: {node: '>=14.14'}
     dependencies:
       graceful-fs: 4.2.11
+<<<<<<< HEAD
+=======
+      jsonfile: 6.1.0
+      universalify: 2.0.0
+    dev: true
+
+  /fs-extra/9.1.0:
+    resolution: {integrity: sha512-hcg3ZmepS30/7BSFqRvoo3DOMQu7IjqxO5nCDt+zM9XWjb33Wg7ziNT+Qvqbuc3+gWpzO02JubVyk2G4Zvo1OQ==}
+    engines: {node: '>=10'}
+    dependencies:
+      at-least-node: 1.0.0
+      graceful-fs: 4.2.11
+>>>>>>> 2298fb2 (monorepo 構成をより厳密なものにする (#5))
       jsonfile: 6.1.0
       universalify: 2.0.0
     dev: true
@@ -6268,6 +7794,22 @@ packages:
       minipass: 3.3.6
     dev: true
 
+<<<<<<< HEAD
+=======
+  /fs-monkey/1.0.3:
+    resolution: {integrity: sha512-cybjIfiiE+pTWicSCLFHSrXZ6EilF30oh91FDP9S2B051prEa7QWfrVTQm10/dDpswBDXZugPa1Ogu8Yh+HV0Q==}
+    dev: true
+
+  /fs-write-stream-atomic/1.0.10:
+    resolution: {integrity: sha512-gehEzmPn2nAwr39eay+x3X34Ra+M2QlVUTLhkXPjWdeO8RF9kszk116avgBJM3ZyNHgHXBNx+VmPaFC36k0PzA==}
+    dependencies:
+      graceful-fs: 4.2.11
+      iferr: 0.1.5
+      imurmurhash: 0.1.4
+      readable-stream: 2.3.7
+    dev: true
+
+>>>>>>> 2298fb2 (monorepo 構成をより厳密なものにする (#5))
   /fs.realpath/1.0.0:
     resolution: {integrity: sha512-OO0pH2lK6a0hZnAdau5ItzHPI6pUlvI7jMVnxUQRtw4owF2wk8lOSabtGDCTP4Ggrg2MbGnWO9X8K1t4+fGMDw==}
     dev: true
@@ -6763,6 +8305,13 @@ packages:
     resolution: {integrity: sha512-JV/yugV2uzW5iMRSiZAyDtQd+nxtUnjeLt0acNdw98kKLrvuRVyB80tsREOE7yvGVgalhZ6RNXCmEHkUKBKxew==}
     dev: true
 
+<<<<<<< HEAD
+=======
+  /inline-style-parser/0.1.1:
+    resolution: {integrity: sha512-7NXolsK4CAS5+xvdj5OMMbI962hU/wvwoxk+LWR9Ek9bVtyuuYScDN6eS0rUm6TxApFpw7CX1o4uJzcd4AyD3Q==}
+    dev: true
+
+>>>>>>> 2298fb2 (monorepo 構成をより厳密なものにする (#5))
   /internal-slot/1.0.5:
     resolution: {integrity: sha512-Y+R5hJrzs52QCG2laLn4udYVnxsfny9CpOhNhUvk/SSSVyF6T27FzRbF0sroPidSu3X8oEAkOn2K804mjpt6UQ==}
     engines: {node: '>= 0.4'}
@@ -7114,9 +8663,16 @@ packages:
       anymatch: 3.1.3
       fb-watchman: 2.0.2
       graceful-fs: 4.2.11
+<<<<<<< HEAD
       jest-regex-util: 29.4.3
       jest-util: 29.5.0
       jest-worker: 29.5.0
+=======
+      jest-regex-util: 26.0.0
+      jest-serializer: 26.6.2
+      jest-util: 26.6.2
+      jest-worker: 26.6.2
+>>>>>>> 2298fb2 (monorepo 構成をより厳密なものにする (#5))
       micromatch: 4.0.5
       walker: 1.0.8
     optionalDependencies:
@@ -7140,12 +8696,29 @@ packages:
     resolution: {integrity: sha512-RYMgG/MTadOr5t8KdhejfvUU82MxsCu5MF6KuDUHl+NuwzUt+Sm6jJWxTJVrDR1j5M/gJVCPKQEpWXY+yIQ6lQ==}
     engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
     dependencies:
+<<<<<<< HEAD
       '@jest/types': 29.5.0
       '@types/node': 18.15.11
       chalk: 4.1.2
       ci-info: 3.8.0
       graceful-fs: 4.2.11
       picomatch: 2.3.1
+=======
+      '@types/node': 18.13.0
+      graceful-fs: 4.2.11
+    dev: true
+
+  /jest-util/26.6.2:
+    resolution: {integrity: sha512-MDW0fKfsn0OI7MS7Euz6h8HNDXVQ0gaM9uW6RjfDmd1DAFcaxX9OqIakHIqhbnmF08Cf2DLDG+ulq8YQQ0Lp0Q==}
+    engines: {node: '>= 10.14.2'}
+    dependencies:
+      '@jest/types': 26.6.2
+      '@types/node': 18.13.0
+      chalk: 4.1.2
+      graceful-fs: 4.2.11
+      is-ci: 2.0.0
+      micromatch: 4.0.5
+>>>>>>> 2298fb2 (monorepo 構成をより厳密なものにする (#5))
     dev: true
 
   /jest-worker/29.5.0:
@@ -7165,6 +8738,14 @@ packages:
 
   /js-sdsl/4.4.0:
     resolution: {integrity: sha512-FfVSdx6pJ41Oa+CF7RDaFmTnCaFhua+SNYQX74riGOpl96x+2jQCqEfQ2bnXu/5DPCqlRuiqyvTJM0Qjz26IVg==}
+<<<<<<< HEAD
+=======
+    dev: true
+
+  /js-string-escape/1.0.1:
+    resolution: {integrity: sha512-Smw4xcfIQ5LVjAOuJCvN/zIodzA/BBSsluuoSykP+lUvScIi4U6RJLfwHet5cxFnCswUjISV8oAXaqaJDY3chg==}
+    engines: {node: '>= 0.8'}
+>>>>>>> 2298fb2 (monorepo 構成をより厳密なものにする (#5))
     dev: true
 
   /js-tokens/4.0.0:
@@ -7333,6 +8914,10 @@ packages:
     resolution: {integrity: sha512-aXpZJRnTkpK6gQ/z4nk+ZBLd/Qdp118cvPruLSIQzQNRhKwEcdXCOzXuF55VDqIiuAaY3UGZ10DJtvZzDcvsxg==}
     engines: {node: '>=14.0.0'}
     dependencies:
+<<<<<<< HEAD
+=======
+      '@babel/runtime': 7.21.0
+>>>>>>> 2298fb2 (monorepo 構成をより厳密なものにする (#5))
       app-root-dir: 1.0.2
       dotenv: 16.0.3
       dotenv-expand: 10.0.0
@@ -7377,8 +8962,13 @@ packages:
       cli-truncate: 3.1.0
       commander: 10.0.1
       debug: 4.3.4
+<<<<<<< HEAD
       execa: 7.1.1
       lilconfig: 2.1.0
+=======
+      execa: 6.1.0
+      lilconfig: 2.0.6
+>>>>>>> 2298fb2 (monorepo 構成をより厳密なものにする (#5))
       listr2: 5.0.8
       micromatch: 4.0.5
       normalize-path: 3.0.0
@@ -7410,6 +9000,21 @@ packages:
       wrap-ansi: 7.0.0
     dev: true
 
+<<<<<<< HEAD
+=======
+  /load-json-file/1.1.0:
+    resolution: {integrity: sha512-cy7ZdNRXdablkXYNI049pthVeXFurRyb9+hA/dZzerZ0pGTx42z+y+ssxBaVV2l70t1muq5IdKhn4UtcoGUY9A==}
+    engines: {node: '>=0.10.0'}
+    dependencies:
+      graceful-fs: 4.2.11
+      parse-json: 2.2.0
+      pify: 2.3.0
+      pinkie-promise: 2.0.1
+      strip-bom: 2.0.0
+    dev: true
+    optional: true
+
+>>>>>>> 2298fb2 (monorepo 構成をより厳密なものにする (#5))
   /load-json-file/4.0.0:
     resolution: {integrity: sha512-Kx8hMakjX03tiGTLAIdJ+lL0htKnXjEZN6hk/tozf/WOuYGdZBJrZ+rCJRbVCugsjB3jMLn9746NsQIf5VjBMw==}
     engines: {node: '>=4'}
@@ -7583,6 +9188,26 @@ packages:
     engines: {node: '>= 0.10.0'}
     dev: true
 
+<<<<<<< HEAD
+=======
+  /meow/3.7.0:
+    resolution: {integrity: sha512-TNdwZs0skRlpPpCUK25StC4VH+tP5GgeY1HQOOGP+lQ2xtdkN2VtT/5tiX9k3IWpkBPV9b3LsAWXn4GGi/PrSA==}
+    engines: {node: '>=0.10.0'}
+    dependencies:
+      camelcase-keys: 2.1.0
+      decamelize: 1.2.0
+      loud-rejection: 1.6.0
+      map-obj: 1.0.1
+      minimist: 1.2.8
+      normalize-package-data: 2.5.0
+      object-assign: 4.1.1
+      read-pkg-up: 1.0.1
+      redent: 1.0.0
+      trim-newlines: 1.0.0
+    dev: true
+    optional: true
+
+>>>>>>> 2298fb2 (monorepo 構成をより厳密なものにする (#5))
   /meow/9.0.0:
     resolution: {integrity: sha512-+obSblOQmRhcyBt62furQqRAQpNyWXo8BuQ5bN7dG8wmwQ+vwHKp/rCFD4CrTP8CsDQD1sjoZ94K417XEUk8IQ==}
     engines: {node: '>=10'}
@@ -7690,6 +9315,30 @@ packages:
 
   /minimist/1.2.8:
     resolution: {integrity: sha512-2yyAR8qBkN3YuheJanUpWC5U3bb5osDywNB8RzDVlDwDHbocAJveqqj1u8+SVD7jkWT4yvsHCpWqqWqAxb0zCA==}
+<<<<<<< HEAD
+=======
+    dev: true
+
+  /minipass-collect/1.0.2:
+    resolution: {integrity: sha512-6T6lH0H8OG9kITm/Jm6tdooIbogG9e0tLgpY6mphXSm/A9u8Nq1ryBG+Qspiub9LjWlBPsPS3tWQ/Botq4FdxA==}
+    engines: {node: '>= 8'}
+    dependencies:
+      minipass: 3.3.6
+    dev: true
+
+  /minipass-flush/1.0.5:
+    resolution: {integrity: sha512-JmQSYYpPUqX5Jyn1mXaRwOda1uQ8HP5KAT/oDSLCzt1BYRhQU0/hDtsB1ufZfEEzMZ9aAVmsBw8+FWsIXlClWw==}
+    engines: {node: '>= 8'}
+    dependencies:
+      minipass: 3.3.6
+    dev: true
+
+  /minipass-pipeline/1.2.4:
+    resolution: {integrity: sha512-xuIq7cIOt09RPRJ19gdi4b+RiNvDFYe5JH+ggNvBqGqpQXcru3PcRmOZuHBKWK1Txf9+cQ+HMVN4d6z46LZP7A==}
+    engines: {node: '>=8'}
+    dependencies:
+      minipass: 3.3.6
+>>>>>>> 2298fb2 (monorepo 構成をより厳密なものにする (#5))
     dev: true
 
   /minipass/3.3.6:
@@ -7969,6 +9618,19 @@ packages:
       call-bind: 1.0.2
       define-properties: 1.2.0
       es-abstract: 1.21.2
+<<<<<<< HEAD
+=======
+    dev: true
+
+  /object.getownpropertydescriptors/2.1.5:
+    resolution: {integrity: sha512-yDNzckpM6ntyQiGTik1fKV1DcVDRS+w8bvpWNCBanvH5LfRX9O8WTHqQzG4RZwRAM4I0oU7TV11Lj5v0g20ibw==}
+    engines: {node: '>= 0.8'}
+    dependencies:
+      array.prototype.reduce: 1.0.5
+      call-bind: 1.0.2
+      define-properties: 1.2.0
+      es-abstract: 1.21.2
+>>>>>>> 2298fb2 (monorepo 構成をより厳密なものにする (#5))
     dev: true
 
   /object.hasown/1.1.2:
@@ -7976,6 +9638,16 @@ packages:
     dependencies:
       define-properties: 1.2.0
       es-abstract: 1.21.2
+<<<<<<< HEAD
+=======
+    dev: true
+
+  /object.pick/1.3.0:
+    resolution: {integrity: sha512-tqa/UMy/CCoYmj+H5qc07qvSL9dqcs/WZENZ1JbtWBlATP+iVOe778gE6MSijnyCnORzDuX6hU+LA4SZ09YjFQ==}
+    engines: {node: '>=0.10.0'}
+    dependencies:
+      isobject: 3.0.1
+>>>>>>> 2298fb2 (monorepo 構成をより厳密なものにする (#5))
     dev: true
 
   /object.values/1.1.6:
@@ -7985,6 +9657,13 @@ packages:
       call-bind: 1.0.2
       define-properties: 1.2.0
       es-abstract: 1.21.2
+<<<<<<< HEAD
+=======
+    dev: true
+
+  /objectorarray/1.0.5:
+    resolution: {integrity: sha512-eJJDYkhJFFbBBAxeh8xW+weHlkI28n2ZdQV/J/DNfWfSKlGEf2xcfAbZTv3riEXHAhL9SVOTs2pRmXiSTf78xg==}
+>>>>>>> 2298fb2 (monorepo 構成をより厳密なものにする (#5))
     dev: true
 
   /on-finished/2.4.1:
@@ -8207,6 +9886,19 @@ packages:
     resolution: {integrity: sha512-5DFkuoqlv1uYQKxy8omFBeJPQcdoE07Kv2sferDCrAq1ohOU+MSDswDIbnx3YAM60qIOnYa53wBhXW0EbMonrQ==}
     dev: true
 
+<<<<<<< HEAD
+=======
+  /path-type/1.1.0:
+    resolution: {integrity: sha512-S4eENJz1pkiQn9Znv33Q+deTOKmbl+jj1Fl+qiP/vYezj+S8x+J3Uo0ISrx/QoEvIlOaDWJhPaRd1flJ9HXZqg==}
+    engines: {node: '>=0.10.0'}
+    dependencies:
+      graceful-fs: 4.2.11
+      pify: 2.3.0
+      pinkie-promise: 2.0.1
+    dev: true
+    optional: true
+
+>>>>>>> 2298fb2 (monorepo 構成をより厳密なものにする (#5))
   /path-type/3.0.0:
     resolution: {integrity: sha512-T2ZUsdZFHgA3u4e5PfPbjd7HDDpxPnQb5jN0SrDsjNSuVXHJqtwTnWqG0B1jZrgmJ/7lj1EmVIByWt1gxGkWvg==}
     engines: {node: '>=4'}
@@ -8290,11 +9982,53 @@ packages:
       find-up: 5.0.0
     dev: true
 
+<<<<<<< HEAD
+=======
+  /pnp-webpack-plugin/1.6.4_typescript@4.9.5:
+    resolution: {integrity: sha512-7Wjy+9E3WwLOEL30D+m8TSTF7qJJUJLONBnwQp0518siuMxUQUbgZwssaFX+QKlZkjHZcw/IpZCt/H0srrntSg==}
+    engines: {node: '>=6'}
+    dependencies:
+      ts-pnp: 1.2.0_typescript@4.9.5
+    transitivePeerDependencies:
+      - typescript
+    dev: true
+
+>>>>>>> 2298fb2 (monorepo 構成をより厳密なものにする (#5))
   /polished/4.2.2:
     resolution: {integrity: sha512-Sz2Lkdxz6F2Pgnpi9U5Ng/WdWAUZxmHrNPoVlm3aAemxoy2Qy7LGjQg4uf8qKelDAUW94F4np3iH2YPf2qefcQ==}
     engines: {node: '>=10'}
     dependencies:
       '@babel/runtime': 7.21.0
+<<<<<<< HEAD
+=======
+    dev: true
+
+  /posix-character-classes/0.1.1:
+    resolution: {integrity: sha512-xTgYBc3fuo7Yt7JbiuFxSYGToMoz8fLoE6TC9Wx1P/u+LfeThMOAqmuyECnlBaaJb+u1m9hHiXUEtwW4OzfUJg==}
+    engines: {node: '>=0.10.0'}
+    dev: true
+
+  /postcss-flexbugs-fixes/4.2.1:
+    resolution: {integrity: sha512-9SiofaZ9CWpQWxOwRh1b/r85KD5y7GgvsNt1056k6OYLvWUun0czCvogfJgylC22uJTwW1KzY3Gz65NZRlvoiQ==}
+    dependencies:
+      postcss: 7.0.39
+    dev: true
+
+  /postcss-loader/4.3.0_gzaxsinx64nntyd3vmdqwl7coe:
+    resolution: {integrity: sha512-M/dSoIiNDOo8Rk0mUqoj4kpGq91gcxCfb9PoyZVdZ76/AuhxylHDYZblNE8o+EQ9AMSASeMFEKxZf5aU6wlx1Q==}
+    engines: {node: '>= 10.13.0'}
+    peerDependencies:
+      postcss: ^7.0.0 || ^8.0.1
+      webpack: ^4.0.0 || ^5.0.0
+    dependencies:
+      cosmiconfig: 7.1.0
+      klona: 2.0.6
+      loader-utils: 2.0.4
+      postcss: 7.0.39
+      schema-utils: 3.1.1
+      semver: 7.3.8
+      webpack: 4.46.0
+>>>>>>> 2298fb2 (monorepo 構成をより厳密なものにする (#5))
     dev: true
 
   /postcss-media-query-parser/0.2.3:
@@ -8444,9 +10178,51 @@ packages:
     engines: {node: '>= 0.6.0'}
     dev: true
 
+<<<<<<< HEAD
   /progress/2.0.3:
     resolution: {integrity: sha512-7PiHtLll5LdnKIMw100I+8xJXR5gW2QwWYkT6iJva0bXitZKa/XMrSbdmg3r2Xnaidz9Qumd0VPaMrZlF9V9sA==}
     engines: {node: '>=0.4.0'}
+=======
+  /promise-inflight/1.0.1:
+    resolution: {integrity: sha512-6zWPyEOFaQBJYcGMHBKTKJ3u6TBsnMFOIZSa6ce1e/ZrrsOlnHRHbabMjLiBYKp+n44X9eUI6VUPaukCXHuG4g==}
+    peerDependencies:
+      bluebird: '*'
+    peerDependenciesMeta:
+      bluebird:
+        optional: true
+    dev: true
+
+  /promise-inflight/1.0.1_bluebird@3.7.2:
+    resolution: {integrity: sha512-6zWPyEOFaQBJYcGMHBKTKJ3u6TBsnMFOIZSa6ce1e/ZrrsOlnHRHbabMjLiBYKp+n44X9eUI6VUPaukCXHuG4g==}
+    peerDependencies:
+      bluebird: '*'
+    peerDependenciesMeta:
+      bluebird:
+        optional: true
+    dependencies:
+      bluebird: 3.7.2
+    dev: true
+
+  /promise.allsettled/1.0.6:
+    resolution: {integrity: sha512-22wJUOD3zswWFqgwjNHa1965LvqTX87WPu/lreY2KSd7SVcERfuZ4GfUaOnJNnvtoIv2yXT/W00YIGMetXtFXg==}
+    engines: {node: '>= 0.4'}
+    dependencies:
+      array.prototype.map: 1.0.5
+      call-bind: 1.0.2
+      define-properties: 1.2.0
+      es-abstract: 1.21.2
+      get-intrinsic: 1.2.0
+      iterate-value: 1.0.2
+    dev: true
+
+  /promise.prototype.finally/3.1.4:
+    resolution: {integrity: sha512-nNc3YbgMfLzqtqvO/q5DP6RR0SiHI9pUPGzyDf1q+usTwCN2kjvAnJkBb7bHe3o+fFSBPpsGMoYtaSi+LTNqng==}
+    engines: {node: '>= 0.4'}
+    dependencies:
+      call-bind: 1.0.2
+      define-properties: 1.2.0
+      es-abstract: 1.21.2
+>>>>>>> 2298fb2 (monorepo 構成をより厳密なものにする (#5))
     dev: true
 
   /prompts/2.4.2:
@@ -8569,12 +10345,20 @@ packages:
       react-dom: 18.2.0_react@18.2.0
     dev: true
 
+<<<<<<< HEAD
   /react-docgen-typescript/2.2.2_typescript@5.0.4:
+=======
+  /react-docgen-typescript/2.2.2_typescript@4.9.5:
+>>>>>>> 2298fb2 (monorepo 構成をより厳密なものにする (#5))
     resolution: {integrity: sha512-tvg2ZtOpOi6QDwsb3GZhOjDkkX0h8Z2gipvTg6OVMUyoYoURhEiRNePT8NZItTVCDh39JJHnLdfCOkzoLbFnTg==}
     peerDependencies:
       typescript: '>= 4.3.x'
     dependencies:
+<<<<<<< HEAD
       typescript: 5.0.4
+=======
+      typescript: 4.9.5
+>>>>>>> 2298fb2 (monorepo 構成をより厳密なものにする (#5))
     dev: true
 
   /react-docgen/6.0.0-alpha.3:
@@ -8582,8 +10366,14 @@ packages:
     engines: {node: '>=12.0.0'}
     hasBin: true
     dependencies:
+<<<<<<< HEAD
       '@babel/core': 7.21.4
       '@babel/generator': 7.21.4
+=======
+      '@babel/core': 7.20.12
+      '@babel/generator': 7.20.14
+      '@babel/runtime': 7.21.0
+>>>>>>> 2298fb2 (monorepo 構成をより厳密なものにする (#5))
       ast-types: 0.14.2
       commander: 2.20.3
       doctrine: 3.0.0
@@ -8623,6 +10413,12 @@ packages:
     peerDependencies:
       react: ^16.8.4 || ^17.0.0 || ^18.0.0
     dependencies:
+<<<<<<< HEAD
+=======
+      '@babel/runtime': 7.21.0
+      is-dom: 1.1.0
+      prop-types: 15.8.1
+>>>>>>> 2298fb2 (monorepo 構成をより厳密なものにする (#5))
       react: 18.2.0
     dev: true
 
@@ -8694,6 +10490,21 @@ packages:
       util-deprecate: 1.0.2
     dev: true
 
+<<<<<<< HEAD
+=======
+  /readdirp/2.2.1:
+    resolution: {integrity: sha512-1JU/8q+VgFZyxwrJ+SVIOsh+KywWGpds3NTqikiKpDMZWScmAYyKIgqkO+ARvNWJfXeXR1zxz7aHF4u4CyH6vQ==}
+    engines: {node: '>=0.10'}
+    dependencies:
+      graceful-fs: 4.2.11
+      micromatch: 3.1.10
+      readable-stream: 2.3.7
+    transitivePeerDependencies:
+      - supports-color
+    dev: true
+    optional: true
+
+>>>>>>> 2298fb2 (monorepo 構成をより厳密なものにする (#5))
   /readdirp/3.6.0:
     resolution: {integrity: sha512-hOS089on8RduqdbhvQ5Z37A0ESjsqz6qnRcffsMU3495FuTdqSm+7bhJ29JvIOsBDEEnan5DPu9t3To9VRlMzA==}
     engines: {node: '>=8.10.0'}
@@ -8755,6 +10566,17 @@ packages:
     resolution: {integrity: sha512-knzmNAcuyxV+gQCufkYcvOqX/qIIfHLv0u5x79kRxuGojfYVky1f15TzZEu2Avte8QGepvUNTnLskf8E6X6Vyg==}
     dependencies:
       '@babel/runtime': 7.21.0
+<<<<<<< HEAD
+=======
+    dev: true
+
+  /regex-not/1.0.2:
+    resolution: {integrity: sha512-J6SDjUgDxQj5NusnOtdFxDwN/+HWykR8GELwctJ7mdqhcyy1xEc4SRFHUXvxTp661YaVKAjfRLZ9cCqS6tn32A==}
+    engines: {node: '>=0.10.0'}
+    dependencies:
+      extend-shallow: 3.0.2
+      safe-regex: 1.1.0
+>>>>>>> 2298fb2 (monorepo 構成をより厳密なものにする (#5))
     dev: true
 
   /regexp.prototype.flags/1.4.3:
@@ -8943,9 +10765,59 @@ packages:
     resolution: {integrity: sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==}
     dev: true
 
+<<<<<<< HEAD
   /sass/1.62.0:
     resolution: {integrity: sha512-Q4USplo4pLYgCi+XlipZCWUQz5pkg/ruSSgJ0WRDSb/+3z9tXUOkQ7QPYn4XrhZKYAK4HlpaQecRwKLJX6+DBg==}
     engines: {node: '>=14.0.0'}
+=======
+  /sane/4.1.0:
+    resolution: {integrity: sha512-hhbzAgTIX8O7SHfp2c8/kREfEn4qO/9q8C9beyY6+tvZ87EpoZ3i1RIEvp27YBswnNbY9mWd6paKVmKbAgLfZA==}
+    engines: {node: 6.* || 8.* || >= 10.*}
+    deprecated: some dependency vulnerabilities fixed, support for node < 10 dropped, and newer ECMAScript syntax/features added
+    hasBin: true
+    dependencies:
+      '@cnakazawa/watch': 1.0.4
+      anymatch: 2.0.0
+      capture-exit: 2.0.0
+      exec-sh: 0.3.6
+      execa: 1.0.0
+      fb-watchman: 2.0.2
+      micromatch: 3.1.10
+      minimist: 1.2.8
+      walker: 1.0.8
+    transitivePeerDependencies:
+      - supports-color
+    dev: true
+
+  /sass-loader/13.2.0_sass@1.58.0+webpack@5.75.0:
+    resolution: {integrity: sha512-JWEp48djQA4nbZxmgC02/Wh0eroSUutulROUusYJO9P9zltRbNN80JCBHqRGzjd4cmZCa/r88xgfkjGD0TXsHg==}
+    engines: {node: '>= 14.15.0'}
+    peerDependencies:
+      fibers: '>= 3.1.0'
+      node-sass: ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0
+      sass: ^1.3.0
+      sass-embedded: '*'
+      webpack: ^5.0.0
+    peerDependenciesMeta:
+      fibers:
+        optional: true
+      node-sass:
+        optional: true
+      sass:
+        optional: true
+      sass-embedded:
+        optional: true
+    dependencies:
+      klona: 2.0.6
+      neo-async: 2.6.2
+      sass: 1.58.0
+      webpack: 5.75.0
+    dev: true
+
+  /sass/1.58.0:
+    resolution: {integrity: sha512-PiMJcP33DdKtZ/1jSjjqVIKihoDc6yWmYr9K/4r3fVVIEDAluD0q7XZiRKrNJcPK3qkLRF/79DND1H5q1LBjgg==}
+    engines: {node: '>=12.0.0'}
+>>>>>>> 2298fb2 (monorepo 構成をより厳密なものにする (#5))
     hasBin: true
     dependencies:
       chokidar: 3.5.3
@@ -8957,6 +10829,55 @@ packages:
     dependencies:
       loose-envify: 1.4.0
 
+<<<<<<< HEAD
+=======
+  /schema-utils/1.0.0:
+    resolution: {integrity: sha512-i27Mic4KovM/lnGsy8whRCHhc7VicJajAjTrYg11K9zfZXnYIt4k5F+kZkwjnrhKzLic/HLU4j11mjsz2G/75g==}
+    engines: {node: '>= 4'}
+    dependencies:
+      ajv: 6.12.6
+      ajv-errors: 1.0.1_ajv@6.12.6
+      ajv-keywords: 3.5.2_ajv@6.12.6
+    dev: true
+
+  /schema-utils/2.7.0:
+    resolution: {integrity: sha512-0ilKFI6QQF5nxDZLFn2dMjvc4hjg/Wkg7rHd3jK6/A4a1Hl9VFdQWvgB1UMGoU94pad1P/8N7fMcEnLnSiju8A==}
+    engines: {node: '>= 8.9.0'}
+    dependencies:
+      '@types/json-schema': 7.0.11
+      ajv: 6.12.6
+      ajv-keywords: 3.5.2_ajv@6.12.6
+    dev: true
+
+  /schema-utils/2.7.1:
+    resolution: {integrity: sha512-SHiNtMOUGWBQJwzISiVYKu82GiV4QYGePp3odlY1tuKO7gPtphAT5R/py0fA6xtbgLL/RvtJZnU9b8s0F1q0Xg==}
+    engines: {node: '>= 8.9.0'}
+    dependencies:
+      '@types/json-schema': 7.0.11
+      ajv: 6.12.6
+      ajv-keywords: 3.5.2_ajv@6.12.6
+    dev: true
+
+  /schema-utils/3.1.1:
+    resolution: {integrity: sha512-Y5PQxS4ITlC+EahLuXaY86TXfR7Dc5lw294alXOq86JAHCihAIZfqv8nNCWvaEJvaC51uN9hbLGeV0cFBdH+Fw==}
+    engines: {node: '>= 10.13.0'}
+    dependencies:
+      '@types/json-schema': 7.0.11
+      ajv: 6.12.6
+      ajv-keywords: 3.5.2_ajv@6.12.6
+    dev: true
+
+  /schema-utils/4.0.0:
+    resolution: {integrity: sha512-1edyXKgh6XnJsJSQ8mKWXnN/BVaIbFMLpouRUrXgVq7WYne5kw3MW7UPhO44uRXQSIpTSXoJbmrR2X0w9kUTyg==}
+    engines: {node: '>= 12.13.0'}
+    dependencies:
+      '@types/json-schema': 7.0.11
+      ajv: 8.12.0
+      ajv-formats: 2.1.1_ajv@8.12.0
+      ajv-keywords: 5.1.0_ajv@8.12.0
+    dev: true
+
+>>>>>>> 2298fb2 (monorepo 構成をより厳密なものにする (#5))
   /semver/5.7.1:
     resolution: {integrity: sha512-sauaDf/PZdVgrLTNYHRtpXa1iRiKcaebiKQ1BJdpQlWH2lCvexQdX55snPFyK7QzpudqbCI0qXFfOasHdyNDGQ==}
     hasBin: true
@@ -9191,6 +11112,16 @@ packages:
 
   /spdx-license-ids/3.0.13:
     resolution: {integrity: sha512-XkD+zwiqXHikFZm4AX/7JSCXA98U5Db4AFd5XUg/+9UNtnH75+Z9KxtpYiJZx36mUDVOwH83pl7yvCer6ewM3w==}
+<<<<<<< HEAD
+=======
+    dev: true
+
+  /split-string/3.1.0:
+    resolution: {integrity: sha512-NzNVhJDYpwceVVii8/Hu6DKfD2G+NrQHlS/V/qgv763EYudVwEcMQNxd2lh+0VrUByXN/oJkl5grOhYWvQUYiw==}
+    engines: {node: '>=0.10.0'}
+    dependencies:
+      extend-shallow: 3.0.2
+>>>>>>> 2298fb2 (monorepo 構成をより厳密なものにする (#5))
     dev: true
 
   /sprintf-js/1.0.3:
@@ -9286,6 +11217,18 @@ packages:
       call-bind: 1.0.2
       define-properties: 1.2.0
       es-abstract: 1.21.2
+<<<<<<< HEAD
+=======
+    dev: true
+
+  /string.prototype.trim/1.2.7:
+    resolution: {integrity: sha512-p6TmeT1T3411M8Cgg9wBTMRtY2q9+PNy9EV1i2lIXUN/btt763oIfxwN3RR8VU6wHX8j/1CFy0L+YuThm6bgOg==}
+    engines: {node: '>= 0.4'}
+    dependencies:
+      call-bind: 1.0.2
+      define-properties: 1.2.0
+      es-abstract: 1.21.2
+>>>>>>> 2298fb2 (monorepo 構成をより厳密なものにする (#5))
     dev: true
 
   /string.prototype.trimend/1.0.6:
@@ -9364,6 +11307,40 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
+<<<<<<< HEAD
+=======
+  /style-loader/1.3.0_webpack@4.46.0:
+    resolution: {integrity: sha512-V7TCORko8rs9rIqkSrlMfkqA63DfoGBBJmK1kKGCcSi+BWb4cqz0SRsnp4l6rU5iwOEd0/2ePv68SV22VXon4Q==}
+    engines: {node: '>= 8.9.0'}
+    peerDependencies:
+      webpack: ^4.0.0 || ^5.0.0
+    dependencies:
+      loader-utils: 2.0.4
+      schema-utils: 2.7.1
+      webpack: 4.46.0
+    dev: true
+
+  /style-loader/2.0.0_webpack@5.75.0:
+    resolution: {integrity: sha512-Z0gYUJmzZ6ZdRUqpg1r8GsaFKypE+3xAzuFeMuoHgjc9KZv3wMyCRjQIWEbhoFSq7+7yoHXySDJyyWQaPajeiQ==}
+    engines: {node: '>= 10.13.0'}
+    peerDependencies:
+      webpack: ^4.0.0 || ^5.0.0
+    dependencies:
+      loader-utils: 2.0.4
+      schema-utils: 3.1.1
+      webpack: 5.75.0
+    dev: true
+
+  /style-loader/3.3.1_webpack@5.75.0:
+    resolution: {integrity: sha512-GPcQ+LDJbrcxHORTRes6Jy2sfvK2kS6hpSfI/fXhPt+spVzxF6LJ1dHLN9zIGmVaaP044YKaIatFaufENRiDoQ==}
+    engines: {node: '>= 12.13.0'}
+    peerDependencies:
+      webpack: ^5.0.0
+    dependencies:
+      webpack: 5.75.0
+    dev: true
+
+>>>>>>> 2298fb2 (monorepo 構成をより厳密なものにする (#5))
   /style-search/0.1.0:
     resolution: {integrity: sha512-Dj1Okke1C3uKKwQcetra4jSuk0DqbzbYtXipzFlFMZtowbF1x7BKJwB9AayVMyFARvU8EDrZdcax4At/452cAg==}
     dev: true
@@ -9390,8 +11367,13 @@ packages:
     peerDependencies:
       stylelint: '>=15'
     dependencies:
+<<<<<<< HEAD
       stylelint: 15.4.0
       stylelint-order: 6.0.3_stylelint@15.4.0
+=======
+      stylelint: 15.1.0
+      stylelint-order: 6.0.3_stylelint@15.1.0
+>>>>>>> 2298fb2 (monorepo 構成をより厳密なものにする (#5))
     dev: true
 
   /stylelint-config-recommended-scss/10.0.0_tph4hkwzrsfj3ry7iisngq3nvi:
@@ -9405,9 +11387,15 @@ packages:
     dependencies:
       postcss: 8.4.21
       postcss-scss: 4.0.6_postcss@8.4.21
+<<<<<<< HEAD
       stylelint: 15.4.0
       stylelint-config-recommended: 11.0.0_stylelint@15.4.0
       stylelint-scss: 4.6.0_stylelint@15.4.0
+=======
+      stylelint: 15.1.0
+      stylelint-config-recommended: 10.0.1_stylelint@15.1.0
+      stylelint-scss: 4.5.0_stylelint@15.1.0
+>>>>>>> 2298fb2 (monorepo 構成をより厳密なものにする (#5))
     dev: true
 
   /stylelint-config-recommended/11.0.0_stylelint@15.4.0:
@@ -9442,18 +11430,30 @@ packages:
       stylelint-config-recommended: 11.0.0_stylelint@15.4.0
     dev: true
 
+<<<<<<< HEAD
   /stylelint-order/6.0.3_stylelint@15.4.0:
+=======
+  /stylelint-order/6.0.3_stylelint@15.1.0:
+>>>>>>> 2298fb2 (monorepo 構成をより厳密なものにする (#5))
     resolution: {integrity: sha512-1j1lOb4EU/6w49qZeT2SQVJXm0Ht+Qnq9GMfUa3pMwoyojIWfuA+JUDmoR97Bht1RLn4ei0xtLGy87M7d29B1w==}
     peerDependencies:
       stylelint: ^14.0.0 || ^15.0.0
     dependencies:
       postcss: 8.4.21
       postcss-sorting: 8.0.2_postcss@8.4.21
+<<<<<<< HEAD
       stylelint: 15.4.0
     dev: true
 
   /stylelint-scss/4.6.0_stylelint@15.4.0:
     resolution: {integrity: sha512-M+E0BQim6G4XEkaceEhfVjP/41C9Klg5/tTPTCQVlgw/jm2tvB+OXJGaU0TDP5rnTCB62aX6w+rT+gqJW/uwjA==}
+=======
+      stylelint: 15.1.0
+    dev: true
+
+  /stylelint-scss/4.5.0_stylelint@15.1.0:
+    resolution: {integrity: sha512-/+rQ8FePOiwT5xblOHkujYzRYfSjmE6HYhLpqJShL+9wH6/HaAVj4mWpXlpEsM3ZgIpOblG9Y+/BycSJzWgjNw==}
+>>>>>>> 2298fb2 (monorepo 構成をより厳密なものにする (#5))
     peerDependencies:
       stylelint: ^14.5.1 || ^15.0.0
     dependencies:
@@ -9470,9 +11470,15 @@ packages:
     engines: {node: ^14.13.1 || >=16.0.0}
     hasBin: true
     dependencies:
+<<<<<<< HEAD
       '@csstools/css-parser-algorithms': 2.1.1_gdfqdfecdiaxr4x3xd7wxrvuhq
       '@csstools/css-tokenizer': 2.1.1
       '@csstools/media-query-list-parser': 2.0.4_rffw2jz5u7v47thsjhdr4x67vi
+=======
+      '@csstools/css-parser-algorithms': 2.0.1_5vzy4lghjvuzkedkkk4tqwjftm
+      '@csstools/css-tokenizer': 2.1.0
+      '@csstools/media-query-list-parser': 2.0.1_ppok7cytzjc65mcyxmtit3wdyi
+>>>>>>> 2298fb2 (monorepo 構成をより厳密なものにする (#5))
       '@csstools/selector-specificity': 2.2.0_laljekdltgzr3kfi7r4exvsr5a
       balanced-match: 2.0.0
       colord: 2.9.3
@@ -9700,10 +11706,29 @@ packages:
     engines: {node: '>=6.10'}
     dev: true
 
+<<<<<<< HEAD
   /ts-xor/1.1.0:
     resolution: {integrity: sha512-9vtspo9gVrmJR0XQyuNySpr6DhZztCDWS8LT5CO4gSeifILDRi4e8QZ0ixnvCyob9hMYRaOeo+OyW3ovhngjuA==}
     dev: true
 
+=======
+  /ts-pnp/1.2.0_typescript@4.9.5:
+    resolution: {integrity: sha512-csd+vJOb/gkzvcCHgTGSChYpy5f1/XKNsmvBGO4JXS+z1v2HobugDz4s1IeFXM3wZB44uczs+eazB5Q/ccdhQw==}
+    engines: {node: '>=6'}
+    peerDependencies:
+      typescript: '*'
+    peerDependenciesMeta:
+      typescript:
+        optional: true
+    dependencies:
+      typescript: 4.9.5
+    dev: true
+
+  /ts-xor/1.0.8:
+    resolution: {integrity: sha512-0u70/SDLSCaX23UddnwAb2GvZZ2N0Rbjnmemn5pHoR40D32Xcva5KRGWV9SdJOKHCjJUlmctmCTvT0z+2yT8aw==}
+    dev: true
+
+>>>>>>> 2298fb2 (monorepo 構成をより厳密なものにする (#5))
   /tsconfig-paths/3.14.2:
     resolution: {integrity: sha512-o/9iXgCYc5L/JxCHPe3Hvh8Q/2xm5Z+p18PESBU6Ff33695QnCHBEjcytY2q19ua7Mbl/DavtBOLq+oG0RCL+g==}
     dependencies:
@@ -9795,7 +11820,11 @@ packages:
       is-typed-array: 1.1.10
     dev: true
 
+<<<<<<< HEAD
   /typed-scss-modules/7.1.0_sass@1.62.0:
+=======
+  /typed-scss-modules/7.1.0_sass@1.58.0:
+>>>>>>> 2298fb2 (monorepo 構成をより厳密なものにする (#5))
     resolution: {integrity: sha512-Z0Y2CHXE+5rG0Bd0kE/oN8+GlgQYjzvFxTbx+Ck91rdT+3b8dKNg8c1JHTUbPH4tSW9GFcAFAkw+fpBfSJkXjQ==}
     hasBin: true
     peerDependencies:
@@ -9978,11 +12007,32 @@ packages:
   /util/0.12.5:
     resolution: {integrity: sha512-kZf/K6hEIrWHI6XqOFUiiMa+79wE/D8Q+NCNAWclkyg3b4d2k7s0QGepNjiABc+aR3N1PAyHL7p6UcLY6LmrnA==}
     dependencies:
+<<<<<<< HEAD
       inherits: 2.0.4
       is-arguments: 1.1.1
       is-generator-function: 1.0.10
       is-typed-array: 1.1.10
       which-typed-array: 1.1.9
+=======
+      define-properties: 1.2.0
+      object.getownpropertydescriptors: 2.1.5
+    dev: true
+
+  /util/0.10.3:
+    resolution: {integrity: sha512-5KiHfsmkqacuKjkRkdV7SsfDJ2EGiPsK92s2MhNSY0craxjTdKTtqKsJaCWp4LW33ZZ0OPUv1WO/TFvNQRiQxQ==}
+    dependencies:
+      inherits: 2.0.1
+    dev: true
+
+  /util/0.11.1:
+    resolution: {integrity: sha512-HShAsny+zS2TZfaXxD9tYj4HQGlBezXZMZuM/S5PKLLoZkShZiGk9o5CzukI1LVHZvjdvZ2Sj1aW/Ndn2NB/HQ==}
+    dependencies:
+      inherits: 2.0.3
+    dev: true
+
+  /utila/0.4.0:
+    resolution: {integrity: sha512-Z0DbgELS9/L/75wZbro8xAnT50pBVFQZ+hUEueGDU5FN51YSCYM+jdxsfCiHjwNP/4LCDD0i/graKpeBnOXKRA==}
+>>>>>>> 2298fb2 (monorepo 構成をより厳密なものにする (#5))
     dev: true
 
   /utils-merge/1.0.1:
@@ -10101,12 +12151,44 @@ packages:
       makeerror: 1.0.12
     dev: true
 
+<<<<<<< HEAD
+=======
+  /watchpack-chokidar2/2.0.1:
+    resolution: {integrity: sha512-nCFfBIPKr5Sh61s4LPpy1Wtfi0HE8isJ3d2Yb5/Ppw2P2B/3eVSEBjKfN0fmHJSK14+31KwMKmcrzs2GM4P0Ww==}
+    requiresBuild: true
+    dependencies:
+      chokidar: 2.1.8
+    transitivePeerDependencies:
+      - supports-color
+    dev: true
+    optional: true
+
+  /watchpack/1.7.5:
+    resolution: {integrity: sha512-9P3MWk6SrKjHsGkLT2KHXdQ/9SNkyoJbabxnKOoJepsvJjJG8uYTR3yTPxPQvNDI3w4Nz1xnE0TLHK4RIVe/MQ==}
+    dependencies:
+      graceful-fs: 4.2.11
+      neo-async: 2.6.2
+    optionalDependencies:
+      chokidar: 3.5.3
+      watchpack-chokidar2: 2.0.1
+    transitivePeerDependencies:
+      - supports-color
+    dev: true
+
+>>>>>>> 2298fb2 (monorepo 構成をより厳密なものにする (#5))
   /watchpack/2.4.0:
     resolution: {integrity: sha512-Lcvm7MGST/4fup+ifyKi2hjyIAwcdI4HRgtvTpIUxBRhB+RFtUh8XtDOxUfctVCnhVi+QQj49i91OyvzkJl6cg==}
     engines: {node: '>=10.13.0'}
     dependencies:
       glob-to-regexp: 0.4.1
       graceful-fs: 4.2.11
+<<<<<<< HEAD
+=======
+    dev: true
+
+  /web-namespaces/1.1.4:
+    resolution: {integrity: sha512-wYxSGajtmoP4WxfejAPIr4l0fVh+jeMXZb08wNc0tMg6xsfZXj3cECqIK0G7ZAqUq0PP8WlMDtaOGVBTAWztNw==}
+>>>>>>> 2298fb2 (monorepo 構成をより厳密なものにする (#5))
     dev: true
 
   /webidl-conversions/3.0.1:
@@ -10122,6 +12204,89 @@ packages:
     resolution: {integrity: sha512-5tyDlKLqPfMqjT3Q9TAqf2YqjwmnUleZwzJi1A5qXnlBCdj2AtOJ6wAWdglTIDOPgOiOrXeBeFcsQ8+aGQ6QbA==}
     dev: true
 
+<<<<<<< HEAD
+=======
+  /webpack/4.46.0:
+    resolution: {integrity: sha512-6jJuJjg8znb/xRItk7bkT0+Q7AHCYjjFnvKIWQPkNIOyRqoCGvkOs0ipeQzrqz4l5FtN5ZI/ukEHroeX/o1/5Q==}
+    engines: {node: '>=6.11.5'}
+    hasBin: true
+    peerDependencies:
+      webpack-cli: '*'
+      webpack-command: '*'
+    peerDependenciesMeta:
+      webpack-cli:
+        optional: true
+      webpack-command:
+        optional: true
+    dependencies:
+      '@webassemblyjs/ast': 1.9.0
+      '@webassemblyjs/helper-module-context': 1.9.0
+      '@webassemblyjs/wasm-edit': 1.9.0
+      '@webassemblyjs/wasm-parser': 1.9.0
+      acorn: 6.4.2
+      ajv: 6.12.6
+      ajv-keywords: 3.5.2_ajv@6.12.6
+      chrome-trace-event: 1.0.3
+      enhanced-resolve: 4.5.0
+      eslint-scope: 4.0.3
+      json-parse-better-errors: 1.0.2
+      loader-runner: 2.4.0
+      loader-utils: 1.4.2
+      memory-fs: 0.4.1
+      micromatch: 3.1.10
+      mkdirp: 0.5.6
+      neo-async: 2.6.2
+      node-libs-browser: 2.2.1
+      schema-utils: 1.0.0
+      tapable: 1.1.3
+      terser-webpack-plugin: 1.4.5_webpack@4.46.0
+      watchpack: 1.7.5
+      webpack-sources: 1.4.3
+    transitivePeerDependencies:
+      - supports-color
+    dev: true
+
+  /webpack/5.75.0:
+    resolution: {integrity: sha512-piaIaoVJlqMsPtX/+3KTTO6jfvrSYgauFVdt8cr9LTHKmcq/AMd4mhzsiP7ZF/PGRNPGA8336jldh9l2Kt2ogQ==}
+    engines: {node: '>=10.13.0'}
+    hasBin: true
+    peerDependencies:
+      webpack-cli: '*'
+    peerDependenciesMeta:
+      webpack-cli:
+        optional: true
+    dependencies:
+      '@types/eslint-scope': 3.7.4
+      '@types/estree': 0.0.51
+      '@webassemblyjs/ast': 1.11.1
+      '@webassemblyjs/wasm-edit': 1.11.1
+      '@webassemblyjs/wasm-parser': 1.11.1
+      acorn: 8.8.2
+      acorn-import-assertions: 1.8.0_acorn@8.8.2
+      browserslist: 4.21.5
+      chrome-trace-event: 1.0.3
+      enhanced-resolve: 5.12.0
+      es-module-lexer: 0.9.3
+      eslint-scope: 5.1.1
+      events: 3.3.0
+      glob-to-regexp: 0.4.1
+      graceful-fs: 4.2.11
+      json-parse-even-better-errors: 2.3.1
+      loader-runner: 4.3.0
+      mime-types: 2.1.35
+      neo-async: 2.6.2
+      schema-utils: 3.1.1
+      tapable: 2.2.1
+      terser-webpack-plugin: 5.3.6_webpack@5.75.0
+      watchpack: 2.4.0
+      webpack-sources: 3.2.3
+    transitivePeerDependencies:
+      - '@swc/core'
+      - esbuild
+      - uglify-js
+    dev: true
+
+>>>>>>> 2298fb2 (monorepo 構成をより厳密なものにする (#5))
   /whatwg-url/5.0.0:
     resolution: {integrity: sha512-saE57nupxk6v3HY35+jzBwYa0rKSy0XR8JSxZPwgLr7ys0IBzhGviA1/TUGJLmSVqs8pb9AnvICXEuOHLprYTw==}
     dependencies:

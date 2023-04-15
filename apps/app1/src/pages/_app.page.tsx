@@ -1,4 +1,4 @@
-import '@learn-monorepo-pnpm/core/styles/app.scss';
+import '@learn-monorepo-pnpm/core/src/styles/app.scss';
 import { type AppProps } from 'next/app';
 
 const App = ({ Component, pageProps }: AppProps) => (

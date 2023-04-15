@@ -1,10 +1,6 @@
 {
   "extends": "@learn-monorepo-pnpm/tsconfig/tsconfig.base",
   "compilerOptions": {
-    "baseUrl": "./",
-    "paths": {
-      "@learn-monorepo-pnpm/core/*": ["../../packages/core/src/*"]
-    },
     "plugins": [
       {
         "name": "next"

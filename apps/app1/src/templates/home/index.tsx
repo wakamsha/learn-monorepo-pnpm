@@ -1,5 +1,5 @@
-import { FormLabel } from '@learn-monorepo-pnpm/core/components/inputs/FormLabel';
-import { useDebouncedState } from '@learn-monorepo-pnpm/core/hooks/useDebouncedState';
+import { FormLabel } from '@learn-monorepo-pnpm/core/src/components/inputs/FormLabel';
+import { useDebouncedState } from '@learn-monorepo-pnpm/core/src/hooks/useDebouncedState';
 import { useState } from 'react';
 import styles from './index.module.scss';
 

@@ -24,11 +24,6 @@ module.exports = {
     autodocs: true,
   },
   webpackFinal: async (config) => {
-    // 各サブパッケージ配下のコードにある path alias を Storybook に認識させる。
-    config.resolve.alias = {
-      ...config.resolve.alias,
-      '@learn-monorepo-pnpm/core': resolve(__dirname, '../../../packages/core/src'),
-    };
     // 各サブパッケージ配下のコードにある CSS Modules (Sass) を Storybook に認識させる。
     config.module.rules.push({
       test: /\.scss$/,

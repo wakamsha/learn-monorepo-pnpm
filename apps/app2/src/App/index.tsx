@@ -1,4 +1,4 @@
-import { LabeledSlider } from '@learn-monorepo-pnpm/core/components/inputs/LabeledSlider';
+import { LabeledSlider } from '@learn-monorepo-pnpm/core/src/components/inputs/LabeledSlider';
 import { useMemo, useState } from 'react';
 import styles from './index.module.scss';
 

@@ -1,5 +1,3 @@
-const { resolve } = require('path');
-
 module.exports = {
   stories: [
     {
@@ -16,31 +14,11 @@ module.exports = {
     },
   ],
   addons: ['@storybook/addon-links', '@storybook/addon-essentials', '@storybook/addon-interactions'],
-  framework: '@storybook/react',
-  core: {
-    builder: 'webpack5',
+  framework: {
+    name: '@storybook/react-vite',
+    options: {},
   },
   docs: {
     autodocs: true,
-  },
-  webpackFinal: async (config) => {
-    // 各サブパッケージ配下のコードにある CSS Modules (Sass) を Storybook に認識させる。
-    config.module.rules.push({
-      test: /\.scss$/,
-      use: [
-        'style-loader',
-        {
-          loader: 'css-loader',
-          options: {
-            modules: {
-              auto: true,
-            },
-          },
-        },
-        'sass-loader',
-      ],
-      include: resolve(__dirname, '../../../'),
-    });
-    return config;
   },
 };

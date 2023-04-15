@@ -62,14 +62,6 @@ module.exports = {
   features: {
     storyStoreV7: true,
   },
-  async viteFinal(config) {
-    // 各サブパッケージ配下のコードにある path alias を Storybook に認識させる。
-    config.resolve.alias = {
-      ...config.resolve.alias,
-      '@learn-monorepo-pnpm/core': resolve(__dirname, '../../../packages/core/src'),
-    };
-    return config;
-  },
 };
 ```
 

@@ -1,12 +1,8 @@
 {
   "extends": "@learn-monorepo-pnpm/tsconfig/tsconfig.base",
   "compilerOptions": {
-    "types": ["vite/client"],
-    "baseUrl": "./",
-    "paths": {
-      "@learn-monorepo-pnpm/core/*": ["../../packages/core/src/*"]
-    }
+    "types": ["vite/client"]
   },
-  "include": ["./src/**/*", "../../packages/core/src/*.d.ts", "vite.config.ts"],
+  "include": ["./src/**/*", "vite.config.ts"],
   "exclude": ["node_modules"]
 }

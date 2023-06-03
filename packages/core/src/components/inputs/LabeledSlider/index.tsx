@@ -7,12 +7,12 @@ type Props = {
   min: number;
   max: number;
   value: number;
-  onValueChange: (value: number) => void;
+  onChange: (value: number) => void;
 };
 
-export const LabeledSlider = ({ label, unit, min, max, value, onValueChange }: Props) => {
+export const LabeledSlider = ({ label, unit, min, max, value, onChange }: Props) => {
   const handleChange = (e: ChangeEvent<HTMLInputElement>) => {
-    onValueChange(Number(e.target.value));
+    onChange(Number(e.target.value));
   };
 
   return (

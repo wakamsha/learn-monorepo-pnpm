@@ -7,6 +7,7 @@
   },
   "devDependencies": {
     "@learn-monorepo-pnpm/tsconfig": "workspace:1.0.0",
+    "@storybook/react": "7.0.4",
     "@types/react": "18.0.35",
     "@types/react-dom": "18.0.11",
     "react": "18.2.0",

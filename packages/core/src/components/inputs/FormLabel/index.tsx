@@ -2,6 +2,9 @@ import { useId, type ReactNode } from 'react';
 import styles from './index.module.scss';
 
 type Props = {
+  /**
+   * ラベルとして表示する文字列
+   */
   label: string;
 } & XOR<
   {

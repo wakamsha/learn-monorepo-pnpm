@@ -2,17 +2,40 @@ import { type ChangeEvent } from 'react';
 import styles from './index.module.scss';
 
 type Props = {
+  /**
+   * スライダーのキャプション
+   */
   label: string;
+  /**
+   * 値の単位
+   */
   unit: string;
+  /**
+   * 最小値
+   */
   min: number;
+  /**
+   * 最大値
+   */
   max: number;
+  /**
+   * コントロールの値
+   */
   value: number;
-  onValueChange: (value: number) => void;
+  /**
+   * 値が変更されたときにコールバックが発生します。
+   *
+   * @param value 変更された値
+   */
+  onChange: (value: number) => void;
 };
 
-export const LabeledSlider = ({ label, unit, min, max, value, onValueChange }: Props) => {
+/**
+ * ラベルとスライダーの2つの要素で構成され、ラベルには常にスライダーの現在の動的値が表示されます。
+ */
+export const LabeledSlider = ({ label, unit, min, max, value, onChange }: Props) => {
   const handleChange = (e: ChangeEvent<HTMLInputElement>) => {
-    onValueChange(Number(e.target.value));
+    onChange(Number(e.target.value));
   };
 
   return (

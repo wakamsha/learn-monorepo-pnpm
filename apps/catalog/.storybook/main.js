@@ -18,4 +18,11 @@ module.exports = {
   docs: {
     autodocs: true,
   },
+  typescript: {
+    reactDocgenTypescriptOptions: {
+      // この設定は monorepo 配下にある各種コンポーネントの JSDoc を認識させるために必要。
+      // cf. https://github.com/storybookjs/storybook/issues/21399#issuecomment-1473800791
+      include: ['../../../**/*.tsx'],
+    },
+  },
 };

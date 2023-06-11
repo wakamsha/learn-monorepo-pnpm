@@ -159,6 +159,7 @@ module.exports = {
       files: ['./**/*.stories.tsx'],
       rules: {
         'import/no-default-export': ['off'],
+        'react-hooks/rules-of-hooks': ['off'], // StoryObj.render に渡す FC 内で hooks を使えなくなるため無効化する。
       },
     },
     {

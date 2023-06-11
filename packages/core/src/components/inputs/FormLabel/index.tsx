@@ -8,13 +8,25 @@ type Props = {
   label: string;
 } & XOR<
   {
+    /**
+     * 紐付ける input 要素の `id` を指定します。
+     */
     htmlFor: string;
   },
   {
+    /**
+     * 紐付ける input 要素を指定します。
+     */
     children: ReactNode;
   }
 >;
 
+/**
+ * 主にフォームなどに用いられるユーザーインターフェイスの項目のキャプションを表します。
+ *
+ * @remarks
+ * `htmlFor` と `children` はどちらか一方のみを指定します。両方同時に指定することはできません。
+ */
 export const FormLabel = ({ label, htmlFor, children }: Props) => {
   const tooltipId = useId();
 

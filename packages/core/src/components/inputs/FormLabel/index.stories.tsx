@@ -5,13 +5,19 @@ export default {
   component: FormLabel,
 } as Meta<typeof FormLabel>;
 
+/**
+ * `children` に input 要素を渡すと縦方向に並びます。
+ */
 export const Nested: StoryObj<typeof FormLabel> = {
   args: {
     label: 'メールアドレス',
-    children: <input type="email" placeholder="taro.ringo@example.com" />,
+    children: <input type="email" placeholder="taro@example.com" />,
   },
 };
 
+/**
+ * ラベルと input 要素を横一列に並べるには `htmlFor` を使います。
+ */
 export const Horizontal: StoryObj<typeof FormLabel> = {
   args: {
     label: 'メールアドレス',

@@ -112,14 +112,12 @@ importers:
 
   apps/catalog:
     specifiers:
-      '@babel/core': 7.20.12
       '@storybook/addon-essentials': 6.5.16
       '@storybook/addon-interactions': 6.5.16
       '@storybook/addon-links': 6.5.16
       '@storybook/builder-webpack5': 6.5.16
       '@storybook/manager-webpack5': 6.5.16
       '@storybook/react': 6.5.16
-      babel-loader: 9.1.2
       css-loader: 6.7.3
       react: 18.2.0
       react-dom: 18.2.0
@@ -127,14 +125,12 @@ importers:
       sass-loader: 13.2.0
       style-loader: 3.3.1
     devDependencies:
-      '@babel/core': 7.20.12
       '@storybook/addon-essentials': 6.5.16_a3xbfthmamfaqvomusohxsetti
       '@storybook/addon-interactions': 6.5.16_zdfmf3kv7eecifu6pmfv4p4pf4
       '@storybook/addon-links': 6.5.16_biqbaboplfbrettd7655fr4n2y
       '@storybook/builder-webpack5': 6.5.16_ygqkwb4gg3aean7xjfdauovyqq
       '@storybook/manager-webpack5': 6.5.16_ygqkwb4gg3aean7xjfdauovyqq
       '@storybook/react': 6.5.16_dyefdi4m5prsj2jzuua6oyowx4
-      babel-loader: 9.1.2_la66t7xldg4uecmyawueag5wkm
       css-loader: 6.7.3_webpack@5.75.0
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
@@ -4756,32 +4752,12 @@ packages:
       ajv: 6.12.6
     dev: true
 
-  /ajv-formats/2.1.1_ajv@8.12.0:
-    resolution: {integrity: sha512-Wx0Kx52hxE7C18hkMEggYlEifqWZtYaRgouJor+WMdPnQyEK13vgEWyVNup7SoeeoLMsr4kf5h6dOW11I15MUA==}
-    peerDependencies:
-      ajv: ^8.0.0
-    peerDependenciesMeta:
-      ajv:
-        optional: true
-    dependencies:
-      ajv: 8.12.0
-    dev: true
-
   /ajv-keywords/3.5.2_ajv@6.12.6:
     resolution: {integrity: sha512-5p6WTN0DdTGVQk6VjcEju19IgaHudalcfabD7yhDGeA6bcQnmL+CpveLJq/3hvfwd1aof6L386Ougkx6RfyMIQ==}
     peerDependencies:
       ajv: ^6.9.1
     dependencies:
       ajv: 6.12.6
-    dev: true
-
-  /ajv-keywords/5.1.0_ajv@8.12.0:
-    resolution: {integrity: sha512-YCS/JNFAUyr5vAuhk1DWm1CBxRHW9LbJ2ozWeemrIqpbsqKjHVxYPyi5GC0rjZIT5JxJ3virVTS8wk4i/Z+krw==}
-    peerDependencies:
-      ajv: ^8.8.2
-    dependencies:
-      ajv: 8.12.0
-      fast-deep-equal: 3.1.3
     dev: true
 
   /ajv/6.12.6:
@@ -5170,19 +5146,6 @@ packages:
       make-dir: 3.1.0
       schema-utils: 2.7.1
       webpack: 4.46.0
-    dev: true
-
-  /babel-loader/9.1.2_la66t7xldg4uecmyawueag5wkm:
-    resolution: {integrity: sha512-mN14niXW43tddohGl8HPu5yfQq70iUThvFL/4QzESA7GcZoC0eVOhvWdQ8+3UlSjaDE9MVtsW9mxDY07W7VpVA==}
-    engines: {node: '>= 14.15.0'}
-    peerDependencies:
-      '@babel/core': ^7.12.0
-      webpack: '>=5'
-    dependencies:
-      '@babel/core': 7.20.12
-      find-cache-dir: 3.3.2
-      schema-utils: 4.0.0
-      webpack: 5.75.0
     dev: true
 
   /babel-plugin-add-react-displayname/0.0.5:
@@ -8196,7 +8159,7 @@ packages:
     resolution: {integrity: sha512-oWb1Z6mkHIskLzEJ/XWX0srkpkTQ7vaopMQkyaEIoq0fmtFVxOthb8cCxeT+p3ynTdkk/RZwbgG4brR5BeWECw==}
     engines: {node: '>= 4.0'}
     os: [darwin]
-    deprecated: fsevents 1 will break on node v14+ and could be using insecure binaries. Upgrade to fsevents 2.
+    deprecated: The v1 package contains DANGEROUS / INSECURE binaries. Upgrade to safe fsevents v2
     requiresBuild: true
     dependencies:
       bindings: 1.5.0
@@ -12212,16 +12175,6 @@ packages:
       '@types/json-schema': 7.0.11
       ajv: 6.12.6
       ajv-keywords: 3.5.2_ajv@6.12.6
-    dev: true
-
-  /schema-utils/4.0.0:
-    resolution: {integrity: sha512-1edyXKgh6XnJsJSQ8mKWXnN/BVaIbFMLpouRUrXgVq7WYne5kw3MW7UPhO44uRXQSIpTSXoJbmrR2X0w9kUTyg==}
-    engines: {node: '>= 12.13.0'}
-    dependencies:
-      '@types/json-schema': 7.0.11
-      ajv: 8.12.0
-      ajv-formats: 2.1.1_ajv@8.12.0
-      ajv-keywords: 5.1.0_ajv@8.12.0
     dev: true
 
   /semver/5.7.1:

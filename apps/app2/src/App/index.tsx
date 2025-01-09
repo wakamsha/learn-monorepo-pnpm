@@ -17,8 +17,8 @@ export const App = () => {
       <hr />
 
       <div>
-        <LabeledSlider label="Weight" unit="kg" min={40} max={150} value={weight} onValueChange={setWeight} />
-        <LabeledSlider label="Height" unit="cm" min={140} max={220} value={height} onValueChange={setHeight} />
+        <LabeledSlider label="Weight" unit="kg" min={40} max={150} value={weight} onChange={setWeight} />
+        <LabeledSlider label="Height" unit="cm" min={140} max={220} value={height} onChange={setHeight} />
         <p>BMI: {calcBMI}</p>
       </div>
     </div>

@@ -16,13 +16,24 @@ export const Basic = {
         <div>
           <label>
             Value:
-            <input value={value} onChange={(e) => setValue(e.target.value)} />
+            <input
+              value={value}
+              onChange={(event) => {
+                setValue(event.target.value);
+              }}
+            />
           </label>
         </div>
         <div>
           <label>
             Delay:
-            <input type="number" value={delay} onChange={(e) => setDelay(Number(e.target.value))} />
+            <input
+              type="number"
+              value={delay}
+              onChange={(event) => {
+                setDelay(Number(event.target.value));
+              }}
+            />
           </label>
         </div>
         <code>

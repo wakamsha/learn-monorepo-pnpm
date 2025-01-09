@@ -34,8 +34,8 @@ type Props = {
  * ラベルとスライダーの2つの要素で構成され、ラベルには常にスライダーの現在の動的値が表示されます。
  */
 export const LabeledSlider = ({ label, unit, min, max, value, onChange }: Props) => {
-  const handleChange = (e: ChangeEvent<HTMLInputElement>) => {
-    onChange(Number(e.target.value));
+  const handleChange = (event: ChangeEvent<HTMLInputElement>) => {
+    onChange(Number(event.target.value));
   };
 
   return (

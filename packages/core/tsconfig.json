@@ -1,4 +1,4 @@
 {
   "extends": "@learn-monorepo-pnpm/tsconfig/tsconfig.base",
-  "include": ["./src/**/*"]
+  "include": ["./src/**/*", "typed-scss-modules.config.ts"]
 }

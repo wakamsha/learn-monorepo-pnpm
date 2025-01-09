@@ -1,4 +1,4 @@
-module.exports = {
+export default {
   stories: [
     {
       directory: '../../app1/src',

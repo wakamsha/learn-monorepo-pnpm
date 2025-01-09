@@ -2,28 +2,29 @@
   "name": "@learn-monorepo-pnpm/app1",
   "version": "1.0.0",
   "license": "UNLICENSED",
+  "type": "module",
   "scripts": {
     "type-check": "tsc --noEmit",
     "typegen:scss": "typed-scss-modules src",
     "reset": "rm -rf ./.next && rm -rf ./out",
     "dev": "next dev -p 3000",
-    "start": "pnpm reset && run-p \"type-check --watch\" \"typegen:scss -w\" \"dev\"",
+    "start": "pnpm reset && run-p 'type-check --watch' 'typegen:scss -w' 'dev'",
     "build": "pnpm reset && next build && next export"
   },
   "dependencies": {
     "@learn-monorepo-pnpm/core": "workspace:1.0.0",
-    "next": "13.3.0",
-    "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "next": "15.1.4",
+    "react": "19.0.0",
+    "react-dom": "19.0.0"
   },
   "devDependencies": {
     "@learn-monorepo-pnpm/tsconfig": "workspace:1.0.0",
-    "@types/node": "18.15.11",
-    "@types/react": "18.0.35",
-    "@types/react-dom": "18.0.11",
-    "npm-run-all": "4.1.5",
-    "sass": "1.62.0",
-    "typed-scss-modules": "7.1.0",
-    "typescript": "5.0.4"
+    "@types/node": "22.10.5",
+    "@types/react": "19.0.4",
+    "@types/react-dom": "19.0.2",
+    "npm-run-all2": "7.0.2",
+    "sass": "1.83.1",
+    "typed-scss-modules": "8.1.0",
+    "typescript": "5.7.3"
   }
 }

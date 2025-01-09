@@ -1,4 +1,4 @@
 {
   "extends": "@learn-monorepo-pnpm/tsconfig/tsconfig.base",
-  "include": ["./.storybook/*"]
+  "include": ["./.storybook/*", "../../../**/src/**/*.{ts,tsx}"]
 }

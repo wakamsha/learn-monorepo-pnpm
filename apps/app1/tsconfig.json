@@ -12,6 +12,6 @@
     "resolveJsonModule": true,
     "jsx": "preserve"
   },
-  "include": ["./src/**/*.ts", "./src/**/*.tsx", ".next/types/**/*.ts", "../../packages/core/src/*.d.ts"],
+  "include": ["./src/**/*", "typed-scss-modules.config.ts", ".next/types/**/*.ts", "../../packages/core/src/*.d.ts"],
   "exclude": ["node_modules"]
 }

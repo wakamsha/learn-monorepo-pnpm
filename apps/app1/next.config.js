@@ -4,7 +4,6 @@ const nextConfig = {
   trailingSlash: true,
   transpilePackages: ['@learn-monorepo-pnpm/core'],
   pageExtensions: ['page.tsx'],
-  // eslint-disable-next-line @typescript-eslint/require-await
   rewrites: async () => [
     {
       source: '/',
@@ -13,4 +12,4 @@ const nextConfig = {
   ],
 };
 
-module.exports = nextConfig;
+export default nextConfig;

@@ -4,55 +4,36 @@
   "repository": "git@github.com:wakamsha/learn-monorepo-pnpm.git",
   "author": "wakamsha <wakamsha@gmail.com>",
   "license": "UNLICENSED",
+  "type": "module",
   "engines": {
-    "node": "18.13.0",
-    "pnpm": "7.26.3",
-    "npm": "please_use_pnpm_instead"
+    "node": "22.12.0",
+    "pnpm": "9.15.1",
+    "npm": "please use pnpm instead"
   },
-  "packageManager": "pnpm@7.26.3",
+  "packageManager": "pnpm@9.15.1",
   "scripts": {
-    "app1": "    pnpm -F \"@learn-monorepo-pnpm/app1\"",
-    "app2": "    pnpm -F \"@learn-monorepo-pnpm/app2\"",
-    "catalog": " pnpm -F \"@learn-monorepo-pnpm/catalog\"",
-    "core": "    pnpm -F \"@learn-monorepo-pnpm/core\"",
-    "tsconfig": "pnpm -F \"@learn-monorepo-pnpm/tsconfig\"",
-    "lint": "  prettier -c ./{apps,packages}/**/*.{js,ts,tsx,scss}; stylelint ./{apps,packages}/**/*.scss;       eslint ./{apps,packages}/**/*.{js,ts,tsx}",
-    "format": "prettier -w ./{apps,packages}/**/*.{js,ts,tsx,scss}; stylelint ./{apps,packages}/**/*.scss --fix; eslint ./{apps,packages}/**/*.{js,ts,tsx} --fix",
-    "prepare": "husky install"
+    "app1": "    pnpm -F '@learn-monorepo-pnpm/app1'",
+    "app2": "    pnpm -F '@learn-monorepo-pnpm/app2'",
+    "catalog": " pnpm -F '@learn-monorepo-pnpm/catalog'",
+    "core": "    pnpm -F '@learn-monorepo-pnpm/core'",
+    "tsconfig": "pnpm -F '@learn-monorepo-pnpm/tsconfig'",
+    "lint": "  prettier -c './@(apps|packages)/**/*.@(js|ts|tsx|scss)'; stylelint './@(apps|packages)/**/*.scss';       eslint './@(apps|packages)/**/*.@(js|ts|tsx)'",
+    "format": "prettier -w './@(apps|packages)/**/*.@(js|ts|tsx|scss)'; stylelint './@(apps|packages)/**/*.scss' --fix; eslint './@(apps|packages)/**/*.@(js|ts|tsx)' --fix",
+    "prepare": "husky"
   },
   "devDependencies": {
-    "@cspell/cspell-types": "6.31.1",
-    "@next/eslint-plugin-next": "13.3.0",
-    "@typescript-eslint/eslint-plugin": "5.58.0",
-    "@typescript-eslint/parser": "5.58.0",
-    "cspell": "6.31.1",
-    "eslint": "8.38.0",
-    "eslint-config-airbnb": "19.0.4",
-    "eslint-config-prettier": "8.8.0",
-    "eslint-plugin-import": "2.27.5",
-    "eslint-plugin-jsx-a11y": "6.7.1",
-    "eslint-plugin-react": "7.32.2",
-    "eslint-plugin-react-hooks": "4.6.0",
-    "husky": "8.0.3",
-    "lint-staged": "13.2.1",
-    "prettier": "2.8.7",
-    "prettier-plugin-organize-imports": "3.2.2",
-    "stylelint": "15.4.0",
-    "stylelint-config-recess-order": "4.0.0",
-    "stylelint-config-recommended": "11.0.0",
-    "stylelint-config-standard": "32.0.0",
-    "stylelint-config-standard-scss": "8.0.0",
+    "@next/eslint-plugin-next": "15.1.4",
+    "@wakamsha/eslint-config": "6.0.2",
+    "@wakamsha/stylelint-config": "2.0.2",
+    "cspell": "8.17.1",
+    "eslint": "9.17.0",
+    "eslint-config-prettier": "9.1.0",
+    "husky": "9.1.7",
+    "lint-staged": "15.3.0",
+    "prettier": "3.4.2",
+    "prettier-plugin-organize-imports": "4.1.0",
+    "stylelint": "16.12.0",
+    "stylelint-config-standard-scss": "14.0.0",
     "typescript": "5.0.4"
-  },
-  "lint-staged": {
-    "{apps,packages}/**/*.ts{,x}": [
-      "cspell",
-      "prettier -c",
-      "eslint -c .eslintrc.js"
-    ],
-    "{apps,packages}/**/src/**/*.scss": [
-      "prettier -c",
-      "stylelint --cache"
-    ]
   }
 }

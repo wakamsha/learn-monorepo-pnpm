@@ -24,8 +24,8 @@ export const Home = () => {
           Value:
           <input
             value={value}
-            onChange={(e) => {
-              setValue(e.target.value);
+            onChange={(event) => {
+              setValue(event.target.value);
             }}
           />
         </label>
@@ -33,7 +33,13 @@ export const Home = () => {
       <div>
         <label>
           Delay:
-          <input type="number" value={delay} onChange={(e) => setDelay(Number(e.target.value))} />
+          <input
+            type="number"
+            value={delay}
+            onChange={(event) => {
+              setDelay(Number(event.target.value));
+            }}
+          />
         </label>
       </div>
       <code>

@@ -2,11 +2,13 @@
   "name": "@learn-monorepo-pnpm/catalog",
   "version": "1.0.0",
   "license": "UNLICENSED",
+  "type": "module",
   "scripts": {
     "start": "storybook dev -p 6006",
     "build": "storybook build"
   },
   "devDependencies": {
+    "@learn-monorepo-pnpm/tsconfig": "workspace:*",
     "@storybook/addon-essentials": "7.0.4",
     "@storybook/addon-interactions": "7.0.4",
     "@storybook/addon-links": "7.0.4",

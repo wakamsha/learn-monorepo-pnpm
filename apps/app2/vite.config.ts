@@ -1,10 +1,10 @@
 import react from '@vitejs/plugin-react';
-import { resolve } from 'path';
+import path from 'node:path';
 import { defineConfig } from 'vite';
 
-// eslint-disable-next-line import/no-default-export
 export default defineConfig({
-  root: resolve(__dirname, './'),
+  // eslint-disable-next-line @typescript-eslint/no-unsafe-argument
+  root: path.resolve(import.meta.dirname, './'),
   server: {
     port: 3001,
     open: true,
